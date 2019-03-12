@@ -1,0 +1,23 @@
+[meta title:"Particle Physics" description:"TK Something poppy to draw reader's attention and describe the article as a whole." /]
+
+[Nav fullWidth:true /]
+
+[Header
+  title:`["Particle", "Physics"]`
+  longTitle:`["Particle", "Physics"]`
+  date:"April 15, 2019"
+  dek:"TK Something poppy to draw reader's attention and describe the article as a whole."
+  fullWidth:true
+  authors:`[{
+    name: "Riccardo Maria Bianchi",
+    role: ''
+  }, {
+    name: "Fred Hohman",
+    role: ''
+  }]`
+  doi:""
+  archive:""
+  source:""
+/]
+
+TK Article Text

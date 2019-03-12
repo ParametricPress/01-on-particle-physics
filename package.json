@@ -1,0 +1,25 @@
+{
+  "name": "data-science-for-housing-equity",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "layout": "blog",
+    "css": "styles.css",
+    "theme": "node_modules/parametric-styles/issue-01-theme.css",
+    "components": [
+      "./components",
+      "./node_modules/parametric-components/dist/cjs/issue-01"
+    ],
+    "authorView": false
+  },
+  "dependencies": {
+    "d3": "^4.0.0",
+    "idyll": "^4.0.0-alpha.0",
+    "idyll-d3-component": "^2.0.0",
+    "parametric-components": "^1.0.1",
+    "parametric-styles": "^1.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
