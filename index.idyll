@@ -6,7 +6,7 @@
   title:`["Particle", "Physics"]`
   longTitle:`["Particle", "Physics"]`
   date:"April 15, 2019"
-  dek:"TK Something poppy to draw reader's attention and describe the article as a whole."
+  dek:"This article should answer these questions: What are particles, and why do we care about them? How can we research them? What practical applications in one's everyday life come from particle physics research?"
   fullWidth:true
   authors:`[{
     name: "Riccardo Maria Bianchi",
@@ -20,4 +20,166 @@
   source:""
 /]
 
-TK Article Text
+
+Everything we see and touch around us is made of the basic bricks of nature called ”particles." Particles, like electrons, protons, and neutrons, compose the atoms of the computer or phone you are touching right now. Other particles, like photons, are responsible for the light emitted from your screen. These same photons, when produced in our star, the Sun, travel towards our planet and are responsible for the light which shines in the sky above us.
+
+Particle physics is the branch of physics research that studies the nature and the behavior of such particles. It is one of the so-called "fundamental research" domains because the goal of such labeled disciplines is to explore Nature at its core. In this case, the focus of particle physics is on the mechanisms driving the behavior of Nature's most fundamental building blocks: particles.
+
+Particle physics explores the nature of particles and how they interact. It also studies the interaction of particles with matter, which led to many spinoff research domains and applications. Understanding how particles interact can also illuminate the innermost and still murky mechanisms of our Universe: we can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, or how the Universe itself evolves.
+
+Fundamental research, like particle physics, explores the structure and the behavior of our universe for the advancement of human knowledge. However, that does not mean that fundamental research does not have practical applications which affect our everyday life. On the contrary, disciplines which perform fundamental research are the base of the "knowledge pyramid": their discoveries are the foundation of practical applications developed by other disciplines. In addition, research spinoff and collaboration with industry usually sprout from the research process itself, bringing further development and new, and sometimes unexpected, world-changing applications.
+
+
+## Part 1: The Science
+
+**Particles: how do we study them?**
+
+How we study the particles' nature and behavior? Why do we need to accelerate particles to study them?
+In the beginning, physicists studied particles coming from the sky (cosmic rays) or natural radioactive sources, to see how they behaved.
+
+Then, physicists realized that particles could be accelerated, and they used accelerators to study the interaction of particles with the matter at different energies or to make them collide: from the energy created in the collision, in fact, new particles could be created and studied.
+
+
+**How do we accelerate particles?.**
+
+[Aside]
+Which particles can be accelerated? How we can accelerate them? How are
+accelerators built?
+
+We should explain why the energy attained by the accelerator is important for the research. In two words: the higher the energy, the higher the mass of the particles we can study, following the famous Einstein's formula. This explains why we are always interested in building accelerators able to collide particles at higher energy.
+[/Aside]
+
+Many particles have a property called “electric charge”. Because of that ”charge” they behave like the needle of a compass when we put a magnet close to it: it bends towards one of the magnet's poles.
+
+Charged particles, like electrons or protons, are influenced by an electromagnetic field. In particular, we can use an electrical field to accelerate it and a magnetic field to bend its trajectory and steer it.
+
+![positron discovery](static/images/positron.jpg)
+
+We can clearly show how the trajectory of a charged particle is bent. Besides being an awesome picture which shows the bending power of a magnet over a particle's trajectory, this has great historical value too, because it is the first proof of the existence of the anti-matter.
+
+The electric field pushes the charged particle, while the magnetic field attracts it towards one pole or the other, depending on the charge of the particle.
+
+*interactive visualization: We can show how we can accelerate and bend a charged particle by using an electrical field and a magnetic field. We show two plates and a magnet, and we let a particle traveling between them; users then modify the fields with sliders to see the particle energy and trajectory change. The related formulas are shown, dynamically updated from users' values.*
+[br/]
+
+Using these two principles, physicists started building different types of particles accelerators, which can be gathered in two main groups: linear and circular accelerators.
+
+*interactive visualization: We use the earlier "accelerating" and "bending" modules to build two types of particle accelerators: a "linear" and a "circular" one. Users have to change the two field to accelerate the particle correctly.*
+
+[br/]
+Circular accelerators can be further divided into two main groups: "cyclotrons", which were the first to be invented (around 1930) and which are now commonly used in hospitals, as we'll see later; and "synchrotron", which are the giant machines used today for the cutting edge research in particle physics, as the LHC at CERN.
+
+### A brief history of accelerators
+
+[Aside]
+A simple timeline with the history of particle accelerators, with the energy attained.
+We should also show the size scale somehow: the first one could be carried in the
+palm of a hand; the latest one is 27 Km long. It could be quite hard to show a sense
+of scale with images. However, we could, for example, show the first one; which
+shrinks when the next one comes in, to show how the latter is bigger compared to
+the former one.
+[/Aside]
+
+### How we conduct experiments on so tiny objects like fundamental particles? Synopsis
+Once accelerated in an accelerator, how we use particles for research?
+
+Here we briefly describe how we can study particles. Particles are invisible to the human eye; thus we cannot observe them with a microscope, even with the most powerful one. So, physicists had to develop other methods of observation to take a virtual look at them. Particles interact with matter in several ways, depending on the particle's type, the matter composition, and the energy. We can exploit that to "see" particles.
+
+### How we detect and measure particles?
+Synopsis
+How particle detectors work. At first, we can tell about the basic principles of particle-matter interaction, in simple words. These concepts will be used later, when we will talk about the use of particle beams in medicine and industry. Then, we can show the basic types of particle detectors and how they work (without details, only the basic principles). That will be used later in the section about the applications, too.
+
+## Part 2: The Science in Society
+
+### Accelerators and detectors in our life
+// Synopsis
+Even if you had not noticed, you might have stumbled on particles accelerators and
+particle detectors already. Scanners used in hospitals and the World Wide Web which supports the world's digital life are two of the many examples of derived products and spinoffs from particle physics research. They are both indirect products of fundamental research conducted by particle physicists while studying the behavior of the smallest components of our Universe we know so far.
+
+### X-Ray images
+
+Synopsis
+Almost everybody has got at least an X-ray scan in their life: because they broke an
+arm while skiing, or at the dentist. X-rays imaging is an application which comes from the very early experiments in particle/nuclear physics. We can tell (and show) how x-rays imaging works: What "x-rays" are (photons of a specific wavelength) and how they produce an image of our body?
+
+### Medical imaging, in general
+// Synopsis
+Most of the medical imaging techniques are applications of particle physics research
+
+### PET scanners - Detector
+// Synopsis
+Positron emission tomography (PET) scanners come directly from the particle and
+nuclear physics research. Here we explain the principles behind a PET scan.
+PET scan uses a radioactive isotope which binds to specific tissues in the patient's
+body and, while decaying, it emits positrons (we now know what a positron is; also,
+link to the picture of Anderson's experiment). The positron travels a very short
+distance in the body and gets caught by an atom, where it meets an electron. Being
+the positron the anti-matter buddy of the electron, when the two meet they annihilate.
+
+That means that the two "dissolve" in the interaction and a certain amount of energy
+is released in the process (following Einstein's bespoke formulas). The annihilation
+energy produces two photons, which escape the body in opposite directions. The
+detector (we now know what a "particle detector" is!) around the patient (the "big
+ring" patients see when they lay down for the exam) detects the two escaping
+photons measuring the time of arrival and the direction, and a piece of dedicated
+software reconstruct the trajectory. Decay after decay, the software can reconstruct
+the structure and the status of the tissue or the organ under exam.
+
+// [visualization idea: we could show a stylized patient in the PET scanner, the pair of
+// photons generated in the patient's body which escape and they travel towards the
+// detector ring, where a "spark" is generated, and a signal (a blob) travels along a
+// cable to a computer.]
+
+### How to produce the contrast liquid for the PET? —> small accelerator at
+Hospitals
+Synopsis
+PET scanners use artificially-produced radioactive isotopes, usually produced in
+cyclotrons operating close to the PET facility (because of the short half-life)
+
+// [visualization: we could explain the concept of "half-life" with two isotopes (depicted
+// as atoms) emitting particles; the two have different values of half-life, so a different
+// number of particles in a given time is emitted.]
+
+### New frontiers of cancer therapy: hadron therapy
+
+Here we briefly explain the principles of cancer therapy with particles. It's something
+widely used already. The commonly-used "radiotherapy" uses beams of accelerated electrons, which hit the target in the patient's body (the tumor) and interacting with that electrons release their energy to the tumor tissues, killing the cancer cells. The drawback is that because of the way electrons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the travel in the patient's body — that causes damages to the other tissues and organs close to the tumor.
+
+A new frontier in cancer therapy with particle beams is the so-called hadron therapy. It uses protons (or other particles affine to the protons, belonging to the same class called "hadrons"), which because of the way they interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the energy. Thus, fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancer cells. That technique, even if still a novelty, is already used in some advanced medical centers around the world.
+
+### Interview with Prof. Ugo Amaldi
+
+I am pretty confident I can get an interview with Prof. Ugo Amaldi, whom I know
+personally. Prof. Amaldi is one of the "fathers" of hadron therapy (and the son of
+Prof. Edoardo Amaldi).
+
+### Accelerators for industry
+
+Accelerators are used in industry, as well, to study the characteristics of materials
+under certain circumstances and to develop new materials. Facilities are often hosted at large laboratories, which provide "beam time" to industries which want to test and characterize their materials.
+
+### Interview with Dr. Emiliano Piselli
+
+One of those accelerator facilities for the industry is at CERN: ISOLDE. I know one of the manager of the facility and I could ask him a brief interview on the subject if we like the idea.
+
+## Spinoffs and derived products
+### Research spinoffs
+
+The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
+
+As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them. Marie Curie didn’t know what applications could have the new phenomenon she was studying (the natural radioactivity of certain elements), but all today’s medical imaging techniques come from her and her colleagues’ research. Again, Einstein did not develop his theory of General Relativity for calibrating GPS devices; but without his theory, GPS could not work at all. Thus, fundamental research not only advance human knowledge per se, but it also triggers a plethora of derived researches and developments. And those, in turn, produce satellite industrial and commercial activities too.
+
+### Derived products
+
+Also, while doing fundamental research, a lot of prototypes and new technologies
+are usually needed. For example, the LHC and the experiments like ATLAS are huge prototypes, for which a lot of new solutions and technologies have been conceived, designed, and produced, very often in collaboration with industry.
+
+### New superconducting materials and cryogenics techniques
+
+There was the need of carrying a considerable amount of current to the magnets, which triggered the development of new superconducting materials. Which, in turn, it brought in the development of new cryogenic techniques.
+
+### The World Wide Web
+
+The World Wide Web, which is embodied in our everyday life by the omnipresent "www" which begins all web sites' address on the Internet, celebrates this year its 30th birthday. WWW has its origin in particle physics research as well. Particle physics experiments at CERN have always been the fruit of international collaborations among research institutes and universities from around the world, which participate in building and running the experiments by providing people and funds.
+
+At the end of the '80s, there was a need to find a way to share experimental findings and data efficiently among the participating institutes. Tim Berners-Lee, at that time working in the information technology department of CERN, proposed a technical solution for a new "Information Management System." The new system merged technologies from personal computers, computer networking, and hypertext into a powerful and, most of all, easy to use global information system. That will quickly become the ubiquitous WWW. In 1993 the software was released publicly, like all other inventions and discoveries made at CERN. The World Wide Web was born, and the way we find, browse and share information changed forever.
