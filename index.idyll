@@ -115,18 +115,12 @@ We have obtained two expressions, the first giving to us the speed of the partic
 // We can show how we can accelerate and bend a charged particle by using an electrical field and a magnetic field. We show two plates and a magnet, and we let a particle traveling between them; users then modify the fields with sliders to see the particle energy and trajectory change. The related formulas are shown, dynamically updated from users' values.
 // ```
 
-[CustomComponent /]
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
-[IdyllApparatusComponent
-  _url: "static/diagrams/test.json"
-  _regionOfInterest: `{ x: [-1, 1], y: [-1, 1] }`
-  _width: 300
-  _height: 300 /]
-
-
 
 // [Center style:`{marginBottom: 60}`]
+[var name:"time" value:0 /]
+
 [Easer value:time targetValue:5 ] Start! [/easer]
 [Easer value:time targetValue:0 ] Reset [/easer]
 // [/Center]
@@ -144,11 +138,11 @@ We have obtained two expressions, the first giving to us the speed of the partic
 [var name:"a2" value:0 /]
 
 // electric field properties
-[var name:"V_1" value:0 /]                            // V
-[var name:"V_2" value:350 /]                          // V
-[var name:"length" value:1 /]                         // m
-[derived name:"Delta_V" value:`V_2-V_1` /]            // V
-[derived name:"E_field_mag" value:`Delta_V/length` /]   // V/m
+[var name:"V_1" value:0 /]                            // V1
+[var name:"V_2" value:350 /]                          // V2
+[var name:"length" value:10 /]                         // m
+[derived name:"Delta_V" value:`V_2 - V_1 ` /]            // V
+[derived name:"E_field_mag" value:`Delta_V / length ` /]   // V/m
 
 
 // final velocity, computed with the work of the electric field
@@ -163,15 +157,24 @@ Delta U: [Display value:Delta_U format:"e" /] J [br/]
 v2: [Display value:v2 format:"d" /] m/s [br/]
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-7.5, 10 ] }` /]
+
+[var name:"vt" value:0 /]
+
 [IdyllApparatusComponent
   _url: "static/diagrams/electric_field_v2.json"
   _regionOfInterest: roi
   _width: 300
   _height: 300
+  _writeOnly:`["v_t"]`
   time:time
-  a_E:a_E
-  a_X:a_X
+  q_e:q_e
+  V1:V_1
+  V2:V_2
+  m_e:m_e
+  v_t:vt
   /]
+
+Current velocity: [Display value:vt /] m/s.
 
   // [derived name:'a_E' value:`(q_over_m)/E_field_mag` /] // m/s^2
 
@@ -428,6 +431,6 @@ Curiosity. And passion. Those are the two forces that pushes humanity to look fo
 Edited by Fred Hohman.
 [/AuthorBio]
 
-[NextArticle fullWidth:true /]
+[NextArticle /]
 
 [Footer fullWidth:true /]
