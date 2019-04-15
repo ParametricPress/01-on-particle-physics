@@ -124,57 +124,62 @@ We have obtained two expressions, the first giving to us the speed of the partic
   _width: 300
   _height: 300 /]
 
-[var name:"roi" value:`{ x: [-1.5, 7.5], y: [-7.5, 15 ] }` /]
-[IdyllApparatusComponent
-  _url: "static/diagrams/electric_field.json"
-  _regionOfInterest: roi
-  _width: 300
-  _height: 300
-  time:time
-  v:v2
-  /]
+
 
 // [Center style:`{marginBottom: 60}`]
 [Easer value:time targetValue:5 ] Start! [/easer]
 [Easer value:time targetValue:0 ] Reset [/easer]
 // [/Center]
 
-# particle's characteristics
-[var name:'q_e' value:`1.6E-19` /]
-[var name:'m_e' value:`9.109E-31` /]
-[derived name:'q_over_m' value:`(q_e / m_e)` /]
+// particle's characteristics
+[var name:"q_e" value:`1.6E-19` /]
+[var name:"m_e" value:`9.109E-31` /]
+[derived name:"q_over_m" value:`(q_e / m_e)` /]
 
-# particle's kinetics variables
-[var name:'x1' value:0 /]
-[var name:'v1' value:0 /]
-[var name:'v2' value:0 /]
-[var name:'a1' value:0 /]
-[var name:'a2' value:0 /]
+ // particle's kinetics variables
+[var name:"x1" value:0 /]
+[var name:"v1" value:0 /]
+[var name:"v2" value:0 /]
+[var name:"a1" value:0 /]
+[var name:"a2" value:0 /]
 
-# electric field properties
-[var name:'V_1' value:0 /]                           # V
-[var name:'V_2' value:350 /]                         # V
-[derived name:'Delta_V' value:`V_2-V_1` /]           # V
-[var name:'length' value:1 /]                        # m
-[derived name:E_field_mag value:`Delta_V/length` /]  # V/m
-
-# final velocity, computed with the work of the electric field
-[derived name:'Delta_U' value:`- (q_e * Delta_V)` /] # J
-[derived name:'v2_fin' value:`Math.sqrt( (2 / m_e) * (-Delta_U) )` /]
+// electric field properties
+[var name:"V_1" value:0 /]                            // V
+[var name:"V_2" value:350 /]                          // V
+[var name:"length" value:1 /]                         // m
+[derived name:"Delta_V" value:`V_2-V_1` /]            // V
+[derived name:"E_field_mag" value:`Delta_V/length` /]   // V/m
 
 
-[derived name:'a' value:`(q_over_m)/E_field_mag` /]
+// final velocity, computed with the work of the electric field
+// [derived name:'Delta_U' value:`- (q_e * Delta_V)` /] // J
+// [derived name:'v2_fin' value:`Math.sqrt( (2 / m_e) * (-Delta_U) )` /]
 
-
+// display values
 q: [Display value:q_e format:"e" /] [br/]
 m: [Display value:m_e format:"e" /] Kg[br/]
 V2-V1: [Display value:Delta_V format:"d" /] V [br/]
 Delta U: [Display value:Delta_U format:"e" /] J [br/]
 v2: [Display value:v2 format:"d" /] m/s [br/]
 
+[var name:"roi" value:`{ x: [-1.5, 7.5], y: [-7.5, 10 ] }` /]
+[IdyllApparatusComponent
+  _url: "static/diagrams/electric_field_v2.json"
+  _regionOfInterest: roi
+  _width: 300
+  _height: 300
+  time:time
+  a_E:a_E
+  a_X:a_X
+  /]
 
+  // [derived name:'a_E' value:`(q_over_m)/E_field_mag` /] // m/s^2
 
+// [Range value:a_E min:0 max:10 /]
+[Display var:a_E /]
 
+// [var name:"a_X" value:5 /] // m/s^2
+// [Display var:a_X /]
 
 Using these two principles, physicists started building particle accelerators, which can be organized in two main groups: linear and circular accelerators. Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
 
@@ -402,8 +407,19 @@ If you are on the go, it is very likely that to read this article you clicked on
 
 ## Conclusions
 
-<<<<<<< Updated upstream
+
 *soon*
+
+**soon... to be finalized!!!**
+
+Particle physics helps in unveiling the mysteries of teh universe we all live in. So far, it helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
+
+As other funbdamental sciences, its focus is not towards practical applications. Instead, it tries to answer to all open questions we might have about the fundamental mechanisms which rule the Universe we all live in. However, not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
+
+Particle physics unveiled the 4 basic forces which rule everything we know about so far.
+
+Curiosity. And passion. Those are the two forces that pushes humanity to look for answers, to go beyond the known territory, to get new questions and new answers.
+
 
 
 [AuthorBio]
@@ -414,16 +430,4 @@ Edited by Fred Hohman.
 
 [NextArticle fullWidth:true /]
 
-
 [Footer fullWidth:true /]
-=======
-**soon... to be finalized!!!**
-
-Particle physics helps in unveiling the mysteries of teh universe we all live in. So far, it helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
-
-As other funbdamental sciences, its focus is not towards practical applications. Instead, it tries to answer to all open questions we might have about the fundamental mechanisms which rule the Universe we all live in. However, not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
-
-Particle physics unveiled the 4 basic forces which rule everything we know about so far.
-
-Curiosity. And passion. Those are the two forces that pushes humanity to look for answers, to go beyond the known territory, to get new questions and new answers.
->>>>>>> Stashed changes
