@@ -11,10 +11,8 @@
   authors:`[{
     name: "Riccardo Maria Bianchi",
     role: ''
-  }, {
-    name: "Fred Hohman",
-    role: ''
   }]`
+  headerImage:"static/images/peace-baby.png"
   doi:""
   archive:""
   source:""
@@ -45,7 +43,7 @@ Different materials are made up of different atoms. The way that those atoms org
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
 // ```
 
-Particles not only compose all matter, they are also responsible for how forces behave at a basic level. One of the great achievements of physics has been the identification of four fundamental forces, the bases of all the other forces and interactions we can experience and see in our Universe. These basic forces are gravity---which prevents us flying towards the sky, and binds the planets and all galaxies together---, the electromagnetic force---which is responsible for the current flowing in an electric cable, the magnetism pushing a compass’ needle, and the light illuminating our nights---, and two other forces, called the weak and the strong nuclear forces, which act at the atomic and nuclear level. The first one is the force responsible for radioactivity, and it’s behind one half of the warmth produced in Earth’s core, while the latter is what binds atoms’ nuclei together, letting matter have a stable form and hence us be here right now. We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles---cryptically called W and Z---, are the messengers of the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force and what binds quarks together. Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
+Particles not only compose all matter, they are also responsible for how forces behave at a basic level. One of the great achievements of physics has been the identification of four fundamental forces, the bases of all the other forces and interactions we can experience and see in our Universe. These basic forces are gravity—which prevents us flying towards the sky, and binds the planets and all galaxies together—, the electromagnetic force—which is responsible for the current flowing in an electric cable, the magnetism pushing a compass’ needle, and the light illuminating our nights—, and two other forces, called the weak and the strong nuclear forces, which act at the atomic and nuclear level. The first one is the force responsible for radioactivity, and it’s behind one half of the warmth produced in Earth’s core, while the latter is what binds atoms’ nuclei together, letting matter have a stable form and hence us be here right now. We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—cryptically called W and Z—, are the messengers of the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force and what binds quarks together. Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
 
 Studying the basic elements which compose and steer the Universe around us means understanding the innermost mechanisms which govern the tangible part of the Universe we all live in, which also means unveiling the mechanisms at the base of our own life.
 
@@ -77,16 +75,11 @@ In 1933, Carl Anderson took a photograph of a cosmic ray particle passing throug
 
 
 ![positron discovery](static/images/positron.jpg)
+[caption]
+Anderson's positron discovery, [source](https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg). References [1](https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491), [2](https://physics.aps.org/story/v17/st5)
 
-[Aside]
-Photo:
-Anderson's positron discovery:
-https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg
-Refs:
-- https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491
-- https://physics.aps.org/story/v17/st5
 We can clearly show how the trajectory of a charged particle is bent. Besides being an awesome picture which shows the bending power of a magnet over a particle's trajectory, this has great historical value too, because it is the first proof of the existence of the anti-matter.
-[/Aside]
+[/caption]
 
 
 ### How do we accelerate particles, and how do accelerators work?
@@ -114,7 +107,7 @@ If we rewrite the formula by isolating the speed of the particle and the radius 
   r = mv/qB \sin\theta
 [/Equation]
 
-We have obtained two expressions, the first giving to us the speed of the particle, `v`, given the potential difference of the electric field; while the second one gives us the radius of the curvature of the particle's trajectory, given the speed of the particle and the strenght of the magnetic field. It is worth to notice that only the electic field appears in the first formula, which means that the quantity `v` only depends on the strenght of the electric field; while only the magnetic field appears in the second one. Therefore, we can use an electrical field can be used to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
+We have obtained two expressions, the first giving to us the speed of the particle, [equation]v[/equation], given the potential difference of the electric field; while the second one gives us the radius of the curvature of the particle's trajectory, given the speed of the particle and the strenght of the magnetic field. It is worth to notice that only the electic field appears in the first formula, which means that the quantity [equation]v[/equation] only depends on the strenght of the electric field; while only the magnetic field appears in the second one. Therefore, we can use an electrical field can be used to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
 
 // ```
 // interactive visualization:
@@ -221,21 +214,12 @@ It’s very likely we had, at least once in our life, a radiography, that is tha
 In many languages, the x-rays are called “Röntgen rays”.
 [/Aside]
 
-X-rays---where “X” stands for “unknown”, because of its original mysterious nature---have been found in 1895 by German physicist Wilhelm Röntgen. He discovered them by chance, while experimenting with a Crookes tube, the forerunner of the cathode-ray tube used in TV sets, which produces beams of electrons. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between the two. Röntgen realized that those rays were absorbed differently by different materials and could expose a photographic plate placed behind the object to test, the level of “blackness” in the image depending on the amount of energy they left in the body. Very soon, Röntgen had an “Eureka! Moment” when he realized the new “X” rays could traverse the body, producing an image of its inside. He then realized the first radiography, by taking a picture of his wife’s hand and her wedding ring.
+X-rays—where “X” stands for “unknown”, because of its original mysterious nature—have been found in 1895 by German physicist Wilhelm Röntgen. He discovered them by chance, while experimenting with a Crookes tube, the forerunner of the cathode-ray tube used in TV sets, which produces beams of electrons. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between the two. Röntgen realized that those rays were absorbed differently by different materials and could expose a photographic plate placed behind the object to test, the level of “blackness” in the image depending on the amount of energy they left in the body. Very soon, Röntgen had an “Eureka! Moment” when he realized the new “X” rays could traverse the body, producing an image of its inside. He then realized the first radiography, by taking a picture of his wife’s hand and her wedding ring.
 
 ![Xray first image](static/images/First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg)
-
-[Aside]
-source: `https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg`
-[/Aside]
-
-
-
-
-
-
-
-
+[caption]
+Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg).
+[/caption]
 
 
 
@@ -302,7 +286,7 @@ As building blocks in a LEGO set, every piece of knowledge and research contribu
 
 Each particle collider and ever particle physics experiment is a complex prototype, involving the design and the development of new technologies in many different fields. Very often the development of production of such new techniques and materials is done in collaboration with industry, which then develop them further, for other applications or fields, giving birth to new products.
 
-Take the example of the LHC, at CERN. Particles running in the beam pipe of the accelerator need to be confined and bent using the force exerted by magnets. Accelerator physicists designed the LHC to attain very high energy, therefore very powerful magnets had to be conceived for the task. To keep the magnets at a reasonable size and within reasonable power consumption, new superconducting magnets have been invented. Those, to work properly, need to be cooled down at a temperature of -271.25 ˚C (-456,25 ˚F)---a temperature close to the “absolute zero” and colder than deep outer space! To cool the magnets at such an extreme temperature, innovative cryogenics techniques have been developed. Moreover, to avoid that the accelerated particles lose their energy by smashing into molecules of air, new vacuum pumping techniques have been developed to extract the most of the air from the accelerator pipe. The beams of particles travel in an ultra-high vacuum—in a place as empty as the interplanetary space!
+Take the example of the LHC, at CERN. Particles running in the beam pipe of the accelerator need to be confined and bent using the force exerted by magnets. Accelerator physicists designed the LHC to attain very high energy, therefore very powerful magnets had to be conceived for the task. To keep the magnets at a reasonable size and within reasonable power consumption, new superconducting magnets have been invented. Those, to work properly, need to be cooled down at a temperature of -271.25 ˚C (-456,25 ˚F)—a temperature close to the “absolute zero” and colder than deep outer space! To cool the magnets at such an extreme temperature, innovative cryogenics techniques have been developed. Moreover, to avoid that the accelerated particles lose their energy by smashing into molecules of air, new vacuum pumping techniques have been developed to extract the most of the air from the accelerator pipe. The beams of particles travel in an ultra-high vacuum—in a place as empty as the interplanetary space!
 
 ```
 Fred: we should have an image of the LHC in the sidebar, because it looks really cool :)
@@ -333,11 +317,10 @@ As Robert Cailleau wrote “It may be said that the Web is one of the first spin
 [/Aside]
 
 
-[Aside]
-pic of the original WWW proposal cover - source: https://cds.cern.ch/record/1164396
-[/Aside]
-
 ![original WWW proposal cover](static/images/web_proposal_cover.jpg)
+[caption]
+The original WWW proposal cover - Source: [CERN](https://cds.cern.ch/record/1164396)
+[/caption]
 
 The WWW was born, and the software which was its core was released for free. Even more, it was put in the public domain, which means that both its inventor and the inventor’s employer renounce to all rights, and the software can be freely re-used and adapted without any restriction. That decision was driven by the vision of Tim Berners-Lee himself, who pushed for releasing the new technology publicly, for all people to use. And that was its strength. During the following years, the WWW circulated more and more within the academic environment and slowly drew the attention of the industry, standardized, and evolved to what we know today: the backbone of our whole digital life.
 
@@ -351,3 +334,15 @@ The WWW was born, and the software which was its core was released for free. Eve
 ## Conclusions
 
 *soon*
+
+
+[AuthorBio]
+**Riccardo Maria Bianchi** is a particle physicist at CERN. He specialize in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, design and development of scientific software and parallel computing.
+
+Edited by Fred Hohman.
+[/AuthorBio]
+
+[NextArticle fullWidth:true /]
+
+
+[Footer fullWidth:true /]
