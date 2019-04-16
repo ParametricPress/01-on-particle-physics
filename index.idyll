@@ -118,12 +118,6 @@ We have obtained two expressions, the first giving to us the speed of the partic
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
 
-// [Center style:`{marginBottom: 60}`]
-[var name:"time" value:0 /]
-
-[Easer value:time targetValue:5 ] Start! [/easer]
-[Easer value:time targetValue:0 ] Reset [/easer]
-// [/Center]
 
 // particle's characteristics
 [var name:"q_e" value:`1.6E-19` /]
@@ -140,49 +134,68 @@ We have obtained two expressions, the first giving to us the speed of the partic
 // electric field properties
 [var name:"V_1" value:0 /]                            // V1
 [var name:"V_2" value:350 /]                          // V2
-[var name:"length" value:10 /]                         // m
-[derived name:"Delta_V" value:`V_2 - V_1 ` /]            // V
-[derived name:"E_field_mag" value:`Delta_V / length ` /]   // V/m
+[var name:"E_length" value:10 /]                         // m
+[derived name:"DeltaV" value:`V_2 - V_1 ` /]            // V
+[derived name:"E_field_mag" value:`DeltaV / E_length ` /]   // V/m
 
 
 // final velocity, computed with the work of the electric field
 // [derived name:'Delta_U' value:`- (q_e * Delta_V)` /] // J
 // [derived name:'v2_fin' value:`Math.sqrt( (2 / m_e) * (-Delta_U) )` /]
+// Delta U: [Display value:Delta_U format:"e" /] J [br/]
+// v2: [Display value:v2 format:"d" /] m/s [br/]
 
-// display values
-q: [Display value:q_e format:"e" /] [br/]
-m: [Display value:m_e format:"e" /] Kg[br/]
-V2-V1: [Display value:Delta_V format:"d" /] V [br/]
-Delta U: [Display value:Delta_U format:"e" /] J [br/]
-v2: [Display value:v2 format:"d" /] m/s [br/]
 
-[var name:"roi" value:`{ x: [-1.5, 7.5], y: [-7.5, 10 ] }` /]
+[var name:"roi" value:`{ x: [-0.5, 11.0], y: [-5.5, 4.5 ] }` /]
 
+[var name:"time" value:0 /]
 [var name:"vt" value:0 /]
+[var name:"scalefactor" value:7684707447090.875 /]
+
 
 [IdyllApparatusComponent
-  _url: "static/diagrams/electric_field_v2.json"
+  _url: "static/diagrams/electric_field_v3.json"
   _regionOfInterest: roi
   _width: 300
   _height: 300
   _writeOnly:`["v_t"]`
+  _writeOnly:`["q"]`
+  _writeOnly:`["m"]`
+  _writeOnly:`["x1"]`
+  _writeOnly:`["v1"]`
+  _writeOnly:`["DeltaV"]`
+  _writeOnly:`["E_length"]`
+  _writeOnly:`["scalefactor"]`
   time:time
-  q_e:q_e
-  V1:V_1
-  V2:V_2
-  m_e:m_e
+  q:q_e
+  m:m_e
+  x0:x1
+  v0:v1
   v_t:vt
+  length:E_length
+  deltaV:DeltaV
+  scale_factor:scalefactor
   /]
 
+  // display values
+  q: [Display value:q_e format:"e" /] C [br/]
+  m: [Display value:m_e format:"e" /] Kg[br/]
+  length: [Display value:E_length format:"d" /] m[br/]
+  scalefactor: [Display value:scalefactor format:"d" /] [br/]
+  V2-V1: [Display value:DeltaV format:"d" /] V [br/]
+
+// User's action buttons
+[Easer value:time targetValue:5 ] Start! [/easer]
+// [Easer value:time targetValue:0 ] Rewind! [/easer]
+[button onClick:`x1=0; time=0`] Reset [/button]
+
+// Display updating variables
+Current time: [Display value:time /] s.[br/]
+Electric field magnitude: [Display value:E_field_mag /] V/m.[br/]
 Current velocity: [Display value:vt /] m/s.
 
-  // [derived name:'a_E' value:`(q_over_m)/E_field_mag` /] // m/s^2
-
 // [Range value:a_E min:0 max:10 /]
-[Display var:a_E /]
-
-// [var name:"a_X" value:5 /] // m/s^2
-// [Display var:a_X /]
+// [Display var:a_E /]
 
 Using these two principles, physicists started building particle accelerators, which can be organized in two main groups: linear and circular accelerators. Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
 

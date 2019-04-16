@@ -2,6 +2,9 @@ import React from 'react';
 import TWEEN from 'tween.js';
 import raf from 'raf';
 
+// Example:
+// [Easer value:time targetValue:10 ] Start! [/easer]
+
 const stages = {
   INITIAL: 0,
   ANIMATING: 1,
@@ -37,7 +40,7 @@ class Easer extends React.PureComponent {
     let _tween = { value : +this.props.value };
     new TWEEN.Tween(_tween)
       .to({value: this.props.targetValue}, 3000)
-      .easing(TWEEN.Easing.Quadratic.InOut)
+      .easing(TWEEN.Easing.Linear.None)
       .onUpdate(() => {
         this.props.updateProps({ value: _tween.value });
       }).onStop(() => {
