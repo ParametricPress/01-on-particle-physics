@@ -15,7 +15,7 @@
   "dependencies": {
     "d3": "^4.0.0",
     "idyll": "^4.0.7",
-    "idyll-apparatus-component": "^1.0.6",
+    "idyll-apparatus-component": "^1.0.7",
     "idyll-d3-component": "^2.0.0",
     "parametric-components": "^1.0.19",
     "parametric-styles": "^1.0.15",

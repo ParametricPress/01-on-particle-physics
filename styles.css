@@ -1,6 +1,55 @@
-.parametric-header-image img {
-  left: -250px;
-  top: -150px;
+
+.parametric-multi-button-container {
+  display: flex;
+  flex-direction: row;
 }
 
 
+.parametric-multi-button {
+  background: #c5c5c5;
+  color: #222;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+.parametric-multi-button.selected {
+  background: #539987;
+}
+
+.electric-field-interactive {
+  background: #222;
+  color: white;
+  font-family: 'Graphik Web';
+  padding: 1em;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 2em 0;
+}
+
+.electric-field-interactive-hed {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.electric-field-interactive-subhed {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button.reset {
+  background-color: #c5c5c5;
+  color: #222;
+}
+
+.electric-field-interactive-apparatus-container > div {
+  margin-top: 0 !important;
+}
+
+.electric-field-interactive-metadata {
+  background: #4A4A4A;
+  border-radius: 2px;
+  padding: 1em;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-top: 3em;
+}

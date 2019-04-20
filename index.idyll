@@ -5,7 +5,7 @@
 
 [Header
   title:`["Particle", "Physics"]`
-  longTitle:`["Particle", "Physics"]`
+  longTitle:`["Particle Physics:", "A Brief Primer"]`
   date:"April 15, 2019"
   dek:"An article about particles, particle physics, and why we should care about it outside of the laboratory."
   fullWidth:true
@@ -75,9 +75,12 @@ Many particles also have a property called “electric charge”. Because of tha
 In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved exactly like an electron but observing how the magnetic field around the film bent the trajectory of the particle, Anderson had the proof that he was not observing an electron. If it were an electron, the magnet would have bent it in the opposite direction. Instead, he observed for the first time a “positron,” the anti-electron, and with it, he found the first proof of the existence of the anti-matter.
 
 
-![positron discovery](static/images/positron.jpg)
+[inset]
+  ![positron discovery](static/images/positron.jpg)
+[/inset]
 [caption]
 Anderson's positron discovery, [source](https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg). References [1](https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491), [2](https://physics.aps.org/story/v17/st5)
+
 
 We can clearly show how the trajectory of a charged particle is bent. Besides being an awesome picture which shows the bending power of a magnet over a particle's trajectory, this has great historical value too, because it is the first proof of the existence of the anti-matter.
 [/caption]
@@ -110,113 +113,88 @@ If we rewrite the formula by isolating the speed of the particle and the radius 
 
 We have obtained two expressions, the first giving to us the speed of the particle, [equation]v[/equation], given the potential difference of the electric field; while the second one gives us the radius of the curvature of the particle's trajectory, given the speed of the particle and the strenght of the magnetic field. It is worth to notice that only the electic field appears in the first formula, which means that the quantity [equation]v[/equation] only depends on the strenght of the electric field; while only the magnetic field appears in the second one. Therefore, we can use an electrical field can be used to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
 
-// ```
-// interactive visualization:
-// We can show how we can accelerate and bend a charged particle by using an electrical field and a magnetic field. We show two plates and a magnet, and we let a particle traveling between them; users then modify the fields with sliders to see the particle energy and trajectory change. The related formulas are shown, dynamically updated from users' values.
-// ```
 
-
-[var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
-
-
-// particle's characteristics
-[var name:"q" value:`1.6E-19` /] // C
-[var name:"mElectron" value:`9.109E-31` /] // Kg
-[var name:"mProton" value:`1.672E-27` /] // Kg
-
-// [derived name:"qOverM" value:`(q / mElectron)` /]
-
- // particle's kinetics variables
-[var name:"x1" value:0 /]
-[var name:"v1" value:0 /]
-[var name:"v2" value:0 /]
-[var name:"a1" value:0 /]
-[var name:"a2" value:0 /]
-
-// electric field properties
-[var name:"VoltOne" value:0 /]                                // V1
-[var name:"VoltTwo" value:350 /]                              // V2
-[var name:"EFieldLength" value:10 /]                          // m
-[derived name:"DeltaV" value:`VoltTwo - VoltOne ` /]          // V
-[derived name:"EFieldMag" value:`DeltaV / EFieldLength ` /]   // V/m
-
-
-
-
-[var name:"roi" value:`{ x: [-0.5, 11.0], y: [-5.5, 4.5 ] }` /]
-
-[var name:"time" value:0 /]
-[var name:"vt" value:0 /]
-[var name:"vtScaled" value:0 /]
-[var name:"mParticle" value:`mElectron` /]
-
-// let 350 Volts make an electron travel 10 meters in 5 seconds
-[var name:"scaleFactor" value:7684707447090.875 /]
-
-
-
-
-// user's settings
-Electric field potential: [br/]
-0 [Range value:VoltTwo min:0 max:500000 /] 500000 Volts [br/]
-Time: [br/]
-[var name:"targetTime" value:5 /]
-0 [Range value:targetTime min:0 max:10 /] 10 seconds [br/]
-
-Choose a particle: [Radio value:mParticle options:`[{ value: mElectron, label: "electron" }, { value: mProton, label: "proton" }]` /]
-particle mass: [Display value:mParticle format:"e" /] Kg [br/]
-
-// final velocity, computed with the work of an electric field of 100 V
-[derived name:'DeltaU' value:`- (q * 100)` /] // J
-[derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
-// Delta U: [Display value:Delta_U format:"e" /] J [br/]
-// v2FinalMax: [Display value:v2FinalMax format:"d" /] m/s [br/]
 [Aside]
 The particle in the diagram besides is slowed down **a lot**. In reality, it should fly out of the page in a glimpse, because an electron put in a small accelerator of 10 meters and pushed by an electric field of 100 Volts, is accelerated to a speed up to about 6 millions meters per seconds, that is almost 22 millions km/h!
 
 Also, notice how much more energy is needed to push a proton, which has the same electric charge as the electron, but a much higher mass. You have to put the Volt controller towards the end to get it moving!
 [/Aside]
 
-[IdyllApparatusComponent
-  _url: "static/diagrams/electricFieldV3.json"
-  _regionOfInterest: roi
-  _width: 300
-  _height: 300
-  time:time
-  q:q
-  m:mParticle
-  x0:x1
-  v0:v1
-  v_t_scaled:vtScaled
-  v_t:vt
-  length:EFieldLength
-  deltaV:DeltaV
-  scale_factor:scaleFactor
-  /]
+[var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
+[var name:"q" value:`1.6E-19` /] // C
+[var name:"mElectron" value:`9.109E-31` /] // Kg
+[var name:"mProton" value:`1.672E-27` /] // Kg
+[var name:"x1" value:0 /]
+[var name:"v1" value:0 /]
+[var name:"v2" value:0 /]
+[var name:"a1" value:0 /]
+[var name:"a2" value:0 /]
+[var name:"VoltOne" value:0 /]                                // V1
+[var name:"VoltTwo" value:350 /]                              // V2
+[var name:"EFieldLength" value:10 /]                          // m
+[derived name:"DeltaV" value:`VoltTwo - VoltOne ` /]          // V
+[derived name:"EFieldMag" value:`DeltaV / EFieldLength ` /]   // V/m
+[var name:"roi" value:`{ x: [-0.5, 11.0], y: [-5.5, 4.5 ] }` /]
+[var name:"time" value:0 /]
+[var name:"vt" value:0 /]
+[var name:"vtScaled" value:0 /]
+[var name:"particleMap" value:`{ electron: mElectron, proton: mProton }` /]
+[derived name:"mParticle" value:`particleMap[particle]` /]
+[var name:"particle" value:"electron" /]
+[var name:"scaleFactor" value:7684707447090.875 /] // let 350 Volts make an electron travel 10 meters in 5 seconds
+[derived name:'DeltaU' value:`- (q * 100)` /] // J
+[derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
 
+// TODO - make sure these timings make sense. The map goes from particle type --> voltage value --> seconds
+[var name:"timeMap" value:`{ electron: { 350: 5, 1000: 3, 50000: 0.4}, proton: { 350: 10, 1000: 25, 50000: 18 } }` /]
+[derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
-
-// User's action buttons
-[Easer value:time targetValue:targetTime ] Start! [/easer]
-[button onClick:`x1=0; time=0; vt=0; vtScaled=0;`] Reset [/button]
-// [Easer value:time targetValue:0 ] Rewind! [/easer]
-
-// display values for debug
-// q: [Display value:q format:"e" /] C [br/]
-// m: [Display value:mParticle format:"e" /] Kg[br/]
-// V2-V1: [Display value:DeltaV format:"d" /] V [br/]
-// length: [Display value:EFieldLength format:"d" /] m[br/]
-// scalefactor: [Display value:scalefactor format:"d" /] [br/]
-// vt: [Display value:vt format:"d" /] m/s [br/]
-
-// Display updating variables
-Current time: [Display value:time /] s.[br/]
-Electric field magnitude: [Display value:EFieldMag /] V/m.[br/]
-Current velocity - scaled: [Display value:vtScaled /] m/s.
-Current velocity: [Display value:vt /] m/s.
-
-
-/// Magnetic field viz!
+[div className:"electric-field-interactive"]
+  [div className:"electric-field-interactive-hed"]
+    Accelerate a particle using an electric field
+  [/div]
+  [div className:"electric-field-interactive-subhed"]
+    TKTK Subtitle for this interactive
+  [/div]
+  [div style:`{display: 'flex', flexDirection: 'row'}`]
+    [div style:`{flex: 1}`]
+      Choose a particle
+      [MultiButton reset:time value:particle options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
+      Set a voltage
+      [MultiButton reset:time value:VoltTwo options:`[{ value: 350, label: "350V" }, { value: 1000, label: "1000V" }, { value: 50000, label: '50000V'}]` /]
+      [div className:"electric-field-interactive-metadata"]
+        Current time: [Display value:time /] s.[br/]
+        Electric field magnitude: [Display value:EFieldMag /] V/m.[br/]
+        Current velocity - scaled: [Display value:vtScaled /] m/s.[br/]
+        Current velocity: [Display format:".2e" value:vt /] m/s.[br/]
+        Particle mass: [Display value:mParticle format:".2e" /] Kg.
+      [/div]
+    [/div]
+    [div style:`{flex: 2}` className:"electric-field-interactive-apparatus-container"]
+      [IdyllApparatusComponent
+        _url: "static/diagrams/electricFieldV3.json"
+        _regionOfInterest: roi
+        _width: 300
+        _height: 300
+        _writeOnly:`['v_t_scaled', 'v_t']`
+        time:time
+        q:q
+        m:mParticle
+        x0:x1
+        v0:v1
+        v_t_scaled:vtScaled
+        v_t:vt
+        length:EFieldLength
+        deltaV:DeltaV
+        scale_factor:scaleFactor
+        /]
+      [div style:`{display: 'flex', flexDirection: 'row'}`]
+        [Button className:"reset" onClick:`x1=0; time=0; vt=0; vtScaled=0;`] Reset [/Button]
+        [Easer value:time targetValue:targetTime ] Accelerate! [/Easer]
+      [/div]
+    [/div]
+  [/div]
+[/div]
 
 Using these two principles, physicists started building particle accelerators, which can be organized in two main groups: linear and circular accelerators. Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
 
