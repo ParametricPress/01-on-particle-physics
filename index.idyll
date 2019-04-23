@@ -116,9 +116,11 @@ We have obtained two expressions, the first giving to us the speed of the partic
 
 [Aside]
 The particle in the diagram besides is slowed down **a lot**. In reality, it should fly out of the page in a glimpse, because an electron put in a small accelerator of 10 meters and pushed by an electric field of 100 Volts, is accelerated to a speed up to about 6 millions meters per seconds, that is almost 22 millions km/h!
+(That speed, insomuch as it looks enourmous, is anyway much much smaller than the speed of light in the vacuum---the highest possible speed in Nature so far---, which is about 1 billions Km/h!)
 
-Also, notice how much more energy is needed to push a proton, which has the same electric charge as the electron, but a much higher mass. You have to put the Volt controller towards the end to get it moving!
+Also, notice how much more energy is needed to push a proton, which has the same electric charge as the electron, but a much higher mass. You have to set the highest Volts value to make it move!
 [/Aside]
+
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
 [var name:"q" value:`1.6E-19` /] // C
@@ -139,8 +141,8 @@ Also, notice how much more energy is needed to push a proton, which has the same
 [var name:"vt" value:0 /]
 [var name:"vtScaled" value:0 /]
 [var name:"particleMap" value:`{ electron: mElectron, proton: mProton }` /]
-[derived name:"mParticle" value:`particleMap[particle]` /]
 [var name:"particle" value:"electron" /]
+[derived name:"mParticle" value:`particleMap[particle]` /]
 [var name:"scaleFactor" value:7684707447090.875 /] // let 350 Volts make an electron travel 10 meters in 5 seconds
 [derived name:'DeltaU' value:`- (q * 100)` /] // J
 [derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
@@ -195,6 +197,85 @@ Also, notice how much more energy is needed to push a proton, which has the same
     [/div]
   [/div]
 [/div]
+
+
+
+
+
+
+[var name:"timeB" value:0.00 /]    // s
+[var name:"mr" value:1.00 /]       // m
+[var name:"BField" value:1 /]      // T
+[var name:"mx1" value:0.0 /]       // m
+[var name:"my1" value:0.0 /]       // m
+// [derived name:"mvx1" value:`v2FinalMax` /] // m/s
+[var name:"mvx1" value:100.0 /]      // m/s
+[var name:"mvy1" value:0.0 /]      // m/s
+[var name:"qB" value:1.0 /]      // m/s
+[var name:"mB" value:1.0 /]      // m/s
+// [var name:"particleBMap" value:`{ electron: mElectron, proton: mProton }` /]
+[var name:"particleB" value:"electron" /]
+[derived name:"mParticleB" value:`particleMap[particleB]` /]
+[var name:"chargeB" value:`-1` /]
+[var name:"timeBMap" value:`{ electron: { 1: 0.1, 2: 2, 5: 2}, proton: { 1: 25, 2: 25, 5: 18 } }` /]
+[derived name:"targetTimeB" value:`timeBMap[particleB][BField]` /]
+
+[div className:"electric-field-interactive"]
+  [div className:"electric-field-interactive-hed"]
+    Bend a particle using a magnetic field
+  [/div]
+  [div className:"electric-field-interactive-subhed"]
+    TKTK Subtitle for this interactive
+  [/div]
+  [div style:`{display: 'flex', flexDirection: 'row'}`]
+    [div style:`{flex: 1}`]
+      Choose a particle
+      [MultiButton reset:timeB value:particleB options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
+      Set a charge
+      [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:`-1`, label: "negative" }]` /]
+      Set the "strenght"
+      [MultiButton reset:timeB value:BField options:`[{ value: 1, label: "1T" }, { value: 2, label: "2T" }, { value: 5, label: '5T'}]` /]
+      [div className:"electric-field-interactive-metadata"]
+        Current time: [Display value:timeB /] s.[br/]
+        Magnetic field "strenght": [Display value:BField /] T.[br/]
+        charge: [Display format:"d" value:chargeB /][br/]
+        vx: [Display value:mvx1 /] m/s.[br/]
+        Bending radius: [Display format:".2" value:mr /] m.[br/]
+        Particle mass: [Display value:mParticleB format:".2e" /] Kg.
+      [/div]
+    [/div]
+    [div style:`{flex: 2}` className:"electric-field-interactive-apparatus-container"]
+      [IdyllApparatusComponent
+        _url: "static/diagrams/magneticFieldV1.json"
+        _regionOfInterest: roi
+        _width: 300
+        _height: 300
+        _writeOnly:`['vx0', 'r', 'charge']`
+        time:timeB
+        q:qB
+        m:mB
+        x0:mx1
+        y0:my1
+        vx0:mvx1
+        vy0:mvy1
+        B:BField
+        r:mr
+        charge:chargeB
+        scale_factor:scaleFactor
+        /]
+      [div style:`{display: 'flex', flexDirection: 'row'}`]
+        [Button className:"reset" onClick:`mx1=0; my1=0; timeB=0;`] Reset [/Button]
+        // [Easer value:timeB targetValue:targetTimeB ] Go! [/Easer]
+        [Easer value:timeB targetValue:5 ] Go! [/Easer]
+      [/div]
+    [/div]
+  [/div]
+[/div]
+
+
+
+
+
 
 Using these two principles, physicists started building particle accelerators, which can be organized in two main groups: linear and circular accelerators. Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
 
