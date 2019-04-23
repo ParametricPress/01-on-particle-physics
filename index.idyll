@@ -7,7 +7,7 @@
   title:`["Particle", "Physics"]`
   longTitle:`["Particle Physics:", "A Brief Primer"]`
   date:"April 15, 2019"
-  dek:"An article about particles, particle physics, and why we should care about it outside of the laboratory."
+  dek:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
   fullWidth:true
   authors:`[{
     name: "Riccardo Maria Bianchi",
@@ -232,7 +232,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
       Choose a particle
       [MultiButton reset:timeB value:particleB options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
       Set a charge
-      [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:`-1`, label: "negative" }]` /]
+      [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:-1, label: "negative" }]` /]
       Set the "strenght"
       [MultiButton reset:timeB value:BField options:`[{ value: 1, label: "1T" }, { value: 2, label: "2T" }, { value: 5, label: '5T'}]` /]
       [div className:"electric-field-interactive-metadata"]
@@ -250,7 +250,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
         _regionOfInterest: roi
         _width: 300
         _height: 300
-        _writeOnly:`['vx0', 'r', 'charge']`
+        _writeOnly:`['vx0', 'r']`
         time:timeB
         q:qB
         m:mB
