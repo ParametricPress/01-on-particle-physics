@@ -1,6 +1,8 @@
 
 [meta title:"Particle Physics" description:"TK Something poppy to draw reader's attention and describe the article as a whole." /]
 
+[var name:"parametricSlug" value:"particle-physics" /]
+
 [Nav fullWidth:true /]
 
 [Header
@@ -13,7 +15,6 @@
     name: "Riccardo Maria Bianchi",
     role: ''
   }]`
-  headerImage:"static/images/peace-baby.png"
   doi:""
   archive:""
   source:""
@@ -61,6 +62,9 @@ Natural sources of particles were the targets of the first experiments in partic
 
 ### How do we observe and study particles?
 
+[Aside]
+  [Recirc slug:parametricSlug /]
+[/Aside]
 
 Particles are the smallest known objects in the Universe, and are intangible like light. So how can scientists observe, study and, most astonishingly, manipulate them?
 
@@ -336,6 +340,11 @@ The particles created in colliders are not to be considered “artificial”: th
 
 Once we create particles, how do we actually study them?
 
+
+[Aside]
+  [Newsletter /]
+[/Aside]
+
 Two beams of accelerated particles smash one into the other at a collision point. From the energy of that collision, new particles arise, which physicists catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors, placed around the collision point. Since different particles act differently when traveling through matter, dedicated detectors, placed at various locations, are used to detect different particles.
 
 
@@ -532,6 +541,6 @@ Curiosity. And passion. Those are the two forces that pushes humanity to look fo
 Edited by Fred Hohman.
 [/AuthorBio]
 
-[NextArticle /]
+[NextArticle slug:parametricSlug fullWidth:true /]
 
 [Footer fullWidth:true /]
