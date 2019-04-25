@@ -544,3 +544,5 @@ Edited by Fred Hohman.
 [NextArticle slug:parametricSlug fullWidth:true /]
 
 [Footer fullWidth:true /]
+
+[Analytics google:"UA-139053456-1" tag:parametricSlug /]
