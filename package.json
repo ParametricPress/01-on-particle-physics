@@ -18,8 +18,8 @@
     "idyll": "^4.0.7",
     "idyll-apparatus-component": "^1.0.7",
     "idyll-d3-component": "^2.0.0",
-    "parametric-components": "^1.0.30",
-    "parametric-styles": "^1.0.19",
+    "parametric-components": "^1.0.32",
+    "parametric-styles": "^1.0.20",
     "raf": "^3.4.1",
     "tween.js": "^16.6.0",
     "tweenjs": "^1.0.2"
