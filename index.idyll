@@ -162,7 +162,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
   [div className:"electric-field-interactive-subhed"]
     TKTK Subtitle for this interactive
   [/div]
-  [div style:`{display: 'flex', flexDirection: 'row'}`]
+  [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
       Choose a particle
       [MultiButton reset:time value:particle options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
@@ -180,7 +180,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
       [IdyllApparatusComponent
         _url: "static/diagrams/electricFieldV3.json"
         _regionOfInterest: roi
-        _width: 300
+        _width: '100%'
         _height: 300
         _writeOnly:`['v_t_scaled', 'v_t']`
         time:time
@@ -231,7 +231,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
   [div className:"electric-field-interactive-subhed"]
     TKTK Subtitle for this interactive
   [/div]
-  [div style:`{display: 'flex', flexDirection: 'row'}`]
+  [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
       Choose a particle
       [MultiButton reset:timeB value:particleB options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
@@ -252,7 +252,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
       [IdyllApparatusComponent
         _url: "static/diagrams/magneticFieldV1.json"
         _regionOfInterest: roi
-        _width: 300
+        _width: '100%'
         _height: 300
         _writeOnly:`['vx0', 'r']`
         time:timeB
