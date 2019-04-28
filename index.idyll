@@ -33,11 +33,21 @@ Fields of fundamental research  explore the structure and behavior of our univer
 
 // **Particles: how do we study them?**
 
-Since ancient times, people have asked themselves what builds up the things around us. Some thinkers looked into the right direction. For example, around the 4th-century B.C. the Greek philosopher Democritus coined the term “atomos” to indicate the smallest indivisible part of something, but  for centuries after, the idea of the “atomos” was abandoned. It was only in the early 19th century when the English chemist and physicist John Dalton revived Democritus’ ideas by proposing an atomic theory of matter. After he confirmed this through experiments on gases, physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern “atom” is not the smallest component of matter, and neither is it indivisible.
 
 // ```
 // small sidebar idea: little picture of Democritus and definition of atomos
 // ```
+[Aside]
+  [inset]
+    ![Democritus](static/images/434px-Democritus2.jpg)
+  [/inset]
+  [caption]
+  The Greek philosopher Democritus ([source](https://commons.wikimedia.org/wiki/File:Democritus2.jpg)), who, in the 4th-century B.C., coined the term “atomos” for the smallest, indivisible part of something: a privative _“a”_ followed by _"tomos”_/“cut”.
+  [/caption]
+[/Aside]
+
+Since ancient times, people have asked themselves what builds up the things around us. Some thinkers looked into the right direction. For example, around the 4th-century B.C. the Greek philosopher Democritus coined the term “atomos” to indicate the smallest indivisible part of something, but  for centuries after, the idea of the “atomos” was abandoned. It was only in the early 19th century when the English chemist and physicist John Dalton revived Democritus’ ideas by proposing an atomic theory of matter. After he confirmed this through experiments on gases, physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern “atom” is not the smallest component of matter, and neither is it indivisible.
+
 
 Different materials are made up of different atoms. The way that those atoms organize themselves into molecules determines  the properties of the material. That, in other words, is chemistry. If we looked closely at one of those atoms, we would see a bunch of electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what condensed matter physics studies. The nucleus itself, in turn, is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what nuclear physics addresses. If we go deeper we can see how even smaller elements compose protons and neutrons. These are called quarks. From what we know so far, we cannot divide a quark into smaller elements, as we can't with the electron; thus, we currently assume that those are the basic building blocks; that is, the fundamental elements of all matter. The study of those extremely tiny objects and of the forces which bind them is the realm of subnuclear physics, also known as particle physics.
 
