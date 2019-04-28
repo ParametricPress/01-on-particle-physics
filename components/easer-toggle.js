@@ -3,7 +3,7 @@ import TWEEN from 'tween.js';
 import raf from 'raf';
 
 // Example:
-// [Easer value:time targetValue:10 ] Start! [/easer]
+// [EaserToggle value:time targetValue:10 ] Start! [/easer]
 
 const stages = {
   INITIAL: 0,
@@ -18,17 +18,30 @@ const animate = () => {
   requestAnimationFrame(animate);
 };
 
-class Easer extends React.PureComponent {
+class EaserToggle extends React.PureComponent {
 
   constructor(props) {
     super(props);
 
     this._initialValue = this.value;
     this.state = {
-      stage: stages.INITIAL
+      stage: stages.INITIAL,
+      isToggleOn: true
     };
-    this.onClick = this.onClick.bind(this);
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
   }
+
+  handleClick() {
+		this.setState(function(prevState) {
+      if (this.state.isToggleOn) {
+        this.onClick();
+      } else {
+        this.onStop();
+      }
+			return {isToggleOn: !prevState.isToggleOn};
+		});
+	}
 
   onClick() {
     if (isEasing || this.state.stage !== stages.INITIAL) {
@@ -38,7 +51,6 @@ class Easer extends React.PureComponent {
     TWEEN.removeAll();
     this.setState({stage: stages.ANIMATING});
     let _tween = { value : +this.props.value };
-    // let _function = { value : +this.props.function }; // TODO: choose the easing func when setting the component in the Idyll document
     new TWEEN.Tween(_tween)
       .to({value: this.props.targetValue}, 3000)
       .easing(TWEEN.Easing.Linear.None)
@@ -49,20 +61,27 @@ class Easer extends React.PureComponent {
       }).onComplete(() => {
         isEasing = false;
         this.setState({stage: stages.INITIAL });
+        this.handleClick();
       }).start();
-
 
     animate();
   }
 
+  onStop() {
+    isEasing = false;
+    TWEEN.removeAll();
+    this.setState({stage: stages.INITIAL });
+  }
+
+
   render() {
     return (
-      <button onClick={this.onClick}>
-        {this.props.children}
+      <button onClick={this.handleClick}>
+        {this.state.isToggleOn ? 'Go!' : 'Stop.'}
       </button>
     );
   }
 }
 
 
-export default Easer;
+export default EaserToggle;

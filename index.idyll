@@ -148,7 +148,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
 [derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
 
 // TODO - make sure these timings make sense. The map goes from particle type --> voltage value --> seconds
-[var name:"timeMap" value:`{ electron: { 350: 5, 1000: 3, 50000: 0.4}, proton: { 350: 10, 1000: 25, 50000: 18 } }` /]
+[var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 6}, proton: { 350: 20, 1000: 20, 50000: 20 } }` /]
 [derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
 [div className:"electric-field-interactive"]
@@ -162,12 +162,12 @@ Also, notice how much more energy is needed to push a proton, which has the same
     [div style:`{flex: 1}`]
       Choose a particle
       [MultiButton reset:time value:particle options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
-      Set a voltage
-      [MultiButton reset:time value:VoltTwo options:`[{ value: 350, label: "350V" }, { value: 1000, label: "1000V" }, { value: 50000, label: '50000V'}]` /]
+      Set a voltage (V)
+      [MultiButton reset:time value:VoltTwo options:`[{ value: 350, label: "350" }, { value: 1000, label: "1000" }, { value: 50000, label: '50000'}]` /]
       [div className:"electric-field-interactive-metadata"]
         Current time: [Display value:time /] s.[br/]
         Electric field magnitude: [Display value:EFieldMag /] V/m.[br/]
-        Current velocity - scaled: [Display value:vtScaled /] m/s.[br/]
+        // Current velocity - scaled: [Display value:vtScaled /] m/s.[br/]
         Current velocity: [Display format:".2e" value:vt /] m/s.[br/]
         Particle mass: [Display value:mParticle format:".2e" /] Kg.
       [/div]
@@ -192,7 +192,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
         /]
       [div style:`{display: 'flex', flexDirection: 'row'}`]
         [Button className:"reset" onClick:`x1=0; time=0; vt=0; vtScaled=0;`] Reset [/Button]
-        [Easer value:time targetValue:targetTime ] Accelerate! [/Easer]
+        [EaserToggle value:time targetValue:targetTime ] Accelerate! [/EaserToggle]
       [/div]
     [/div]
   [/div]
@@ -201,25 +201,24 @@ Also, notice how much more energy is needed to push a proton, which has the same
 
 
 
-
-
+[var name:"Broi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
 [var name:"timeB" value:0.00 /]    // s
 [var name:"mr" value:1.00 /]       // m
-[var name:"BField" value:1 /]      // T
-[var name:"mx1" value:0.0 /]       // m
+[var name:"BField" value:0.1 /]      // T
+[var name:"mx1" value:-2.5 /]       // m
 [var name:"my1" value:0.0 /]       // m
-// [derived name:"mvx1" value:`v2FinalMax` /] // m/s
-[var name:"mvx1" value:100.0 /]      // m/s
+[var name:"mvx1" value:0.2 /]      // m/s
 [var name:"mvy1" value:0.0 /]      // m/s
 [var name:"qB" value:1.0 /]      // m/s
 [var name:"mB" value:1.0 /]      // m/s
-// [var name:"particleBMap" value:`{ electron: mElectron, proton: mProton }` /]
 [var name:"particleB" value:"electron" /]
 [derived name:"mParticleB" value:`particleMap[particleB]` /]
 [var name:"chargeB" value:`-1` /]
-[var name:"timeBMap" value:`{ electron: { 1: 0.1, 2: 2, 5: 2}, proton: { 1: 25, 2: 25, 5: 18 } }` /]
-[derived name:"targetTimeB" value:`timeBMap[particleB][BField]` /]
-
+// [var name:"timeBMap" value:`{ electron: { 0.1: 10, 1: 10, 5: 2}, proton: { 0.1: 25, 1: 25, 5: 18 } }` /]
+// [derived name:"targetTimeB" value:`timeBMap[particleB][BField]` /]
+[var name:"timeBMap" value:`{ electron: { 0.2: 40, 1: 10, 3: 10}, proton: { 0.2: 40, 1: 10, 3: 10 } }` /]
+[derived name:"targetTimeB" value:`timeBMap[particleB][mvx1]` /]
+// [derived name:"targetTimeBcoordX" value:`mvx1` /]
 [div className:"electric-field-interactive"]
   [div className:"electric-field-interactive-hed"]
     Bend a particle using a magnetic field
@@ -233,8 +232,10 @@ Also, notice how much more energy is needed to push a proton, which has the same
       [MultiButton reset:timeB value:particleB options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
       Set a charge
       [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:-1, label: "negative" }]` /]
-      Set the "strenght"
-      [MultiButton reset:timeB value:BField options:`[{ value: 1, label: "1T" }, { value: 2, label: "2T" }, { value: 5, label: '5T'}]` /]
+      Set a speed (m/s)
+      [MultiButton reset:timeB value:mvx1 options:`[{ value:0.2, label: "0.2" }, { value:1, label: "1" }, { value:3, label: "3" }]` /]
+      Set the magnetic "strenght" (T)
+      [MultiButton reset:timeB value:BField options:`[{ value: 0.1, label: "0.1" }, { value: 1, label: "1" }, { value: 5, label: '5'}]` /]
       [div className:"electric-field-interactive-metadata"]
         Current time: [Display value:timeB /] s.[br/]
         Magnetic field "strenght": [Display value:BField /] T.[br/]
@@ -247,10 +248,10 @@ Also, notice how much more energy is needed to push a proton, which has the same
     [div style:`{flex: 2}` className:"electric-field-interactive-apparatus-container"]
       [IdyllApparatusComponent
         _url: "static/diagrams/magneticFieldV1.json"
-        _regionOfInterest: roi
+        _regionOfInterest: Broi
         _width: 300
         _height: 300
-        _writeOnly:`['vx0', 'r']`
+        _writeOnly:`['r']`
         time:timeB
         q:qB
         m:mB
@@ -264,9 +265,9 @@ Also, notice how much more energy is needed to push a proton, which has the same
         scale_factor:scaleFactor
         /]
       [div style:`{display: 'flex', flexDirection: 'row'}`]
-        [Button className:"reset" onClick:`mx1=0; my1=0; timeB=0;`] Reset [/Button]
-        // [Easer value:timeB targetValue:targetTimeB ] Go! [/Easer]
-        [Easer value:timeB targetValue:5 ] Go! [/Easer]
+        [Button className:"reset" onClick:`mx1=-2.5; my1=0; timeB=0;`] Reset [/Button]
+        [EaserToggle value:timeB targetValue:targetTimeB ] Start! [/Easer]
+        // [EaserToggle value:timeB targetValue:20 ] Start! [/EaserToggle]
       [/div]
     [/div]
   [/div]
