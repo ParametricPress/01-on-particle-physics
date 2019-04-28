@@ -53,3 +53,23 @@ button.reset {
   font-weight: 400;
   margin-top: 3em;
 }
+
+.interactive-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  max-height: 400px;
+}
+
+@media all and (max-width: 1000px) {
+  .interactive-flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .electric-field-interactive {
+    margin: 2em -1em;
+  }
+}
