@@ -294,9 +294,14 @@ Also, notice how much more energy is needed to push a proton, which has the same
 
 
 
+[Aside]
+In reality, the process is much more complicated. Different types of accelerating modules are used to push different types of particles; and many types of magnets (dipoles, quadrupoles, sextuples, and so forth) are used to bend, squeeze, and focus the beams of charged particles, to maximize the intensity of the beams (typically, in the accelerators used for medicine or industry applications) or the number of collisions (in the accelerators used for physics experiments).
+[/Aside]
 
+Using these two principles, physicists started building *particle accelerators*.
+By using accelerating modules one after another, one can build so-called *"linear accelerators"*, whose maximum attenaible energy is limited by the number of accelerating modules or, in other terms, the total length of the accelerator; that fixes the maximum energy of the particles that are then used for the experiments. On the other hand, by using accelerating and bending modules, one can build _"circular accelerators"_: particles are injected into a ring composed of bending modules, which force particles to move in a circular path, and one accelerating module, which pushes the particles every time they pass through it. After a given amount of turns, the particles attain the maximum energy and they can be used for the experiments.
 
-Using these two principles, physicists started building particle accelerators, which can be organized in two main groups: linear and circular accelerators. Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
+Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
 
 The old television set was based on the cathode-ray tube, which is nothing else than a compact particle accelerator! Electrons are produced at one end by applying an electric field which accelerates them, making them fly towards the other end of the tube; this is covered by a layer of phosphorescent material which becomes luminescent when hit by an electron; the trajectory of the electrons is bent by using a variable magnetic field, which make them hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam “paints” an image on the screen.
 
@@ -315,7 +320,8 @@ Particles in a linear accelerator gains energy by passing through a series of ac
 
 Circular accelerators can be further divided into two main groups: "cyclotrons," which were the first to be invented around 1930, and "synchrotrons.” The first ones, today, are commonly used in hospitals. the latter is used for the giant machines used today for cutting-edge research in particle physics, such as the “LHC” (Large Hadron Collider) at CERN.
 
-As a comparison, if we would build a linear accelerator to let particles accelerate at the the same energy of the circular LHC, one should build an accelerator ??? long.
+// TODO:
+// As a comparison, if we would build a linear accelerator to let particles accelerate at the the same energy of the circular LHC, one should build an accelerator ??? long.
 
 
 
