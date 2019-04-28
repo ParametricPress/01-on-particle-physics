@@ -319,8 +319,6 @@ As a comparison, if we would build a linear accelerator to let particles acceler
 
 
 
-
-
 [Aside]
 **A brief history of accelerators**
 
@@ -371,7 +369,7 @@ Two beams of accelerated particles smash one into the other at a collision point
 // ```
 
 
-[var name:"Droi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
+[var name:"Droi" value:`{ x: [-3.0, 11.0], y: [-5.5, 7.5 ] }` /]
 [var name:"Dtime" value:0.00 /]    // s
 [var name:"Dx1" value:-3.0 /]       // m
 [var name:"Dy1" value:0.0 /]       // m
@@ -387,6 +385,7 @@ Two beams of accelerated particles smash one into the other at a collision point
         _regionOfInterest: Droi
         _width: '100%'
         _height: 300
+        _writeOnly:`['x0']`
         time:Dtime
         x0:Dx1
         y0:Dy1
