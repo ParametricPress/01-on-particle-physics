@@ -49,11 +49,12 @@ Fields of fundamental research  explore the structure and behavior of our univer
 Since ancient times, people have asked themselves what builds up the things around us. Some thinkers looked into the right direction. For example, around the 4th-century B.C. the Greek philosopher Democritus coined the term “atomos” to indicate the smallest indivisible part of something, but  for centuries after, the idea of the “atomos” was abandoned. It was only in the early 19th century when the English chemist and physicist John Dalton revived Democritus’ ideas by proposing an atomic theory of matter. After he confirmed this through experiments on gases, physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern “atom” is not the smallest component of matter, and neither is it indivisible.
 
 
-Different materials are made up of different atoms. The way that those atoms organize themselves into molecules determines  the properties of the material. That, in other words, is chemistry. If we looked closely at one of those atoms, we would see a bunch of electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what condensed matter physics studies. The nucleus itself, in turn, is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what nuclear physics addresses. If we go deeper we can see how even smaller elements compose protons and neutrons. These are called quarks. From what we know so far, we cannot divide a quark into smaller elements, as we can't with the electron; thus, we currently assume that those are the basic building blocks; that is, the fundamental elements of all matter. The study of those extremely tiny objects and of the forces which bind them is the realm of subnuclear physics, also known as particle physics.
+Different materials are made up of different atoms. The way that those atoms organize themselves into molecules determines  the properties of the material. That, in other words, is _chemistry_. If we looked closely at one of those atoms, we would see a bunch of electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what _condensed matter physics_ studies. The nucleus itself, in turn, is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what _nuclear physics_ addresses. If we go deeper we can see how even smaller elements compose protons and neutrons. These are called quarks. From what we know so far, we cannot divide a quark into smaller elements, as we can't with the electron; thus, we currently assume that those are the basic building blocks; that is, the fundamental elements of all matter. The study of those extremely tiny objects and of the forces which bind them is the realm of _subnuclear physics_, also known as **particle physics**.
 
 // ```
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
 // ```
+
 
 Particles not only compose all matter, they are also responsible for how forces behave at a basic level. One of the great achievements of physics has been the identification of four fundamental forces, the bases of all the other forces and interactions we can experience and see in our Universe. These basic forces are gravity—which prevents us flying towards the sky, and binds the planets and all galaxies together—, the electromagnetic force—which is responsible for the current flowing in an electric cable, the magnetism pushing a compass’ needle, and the light illuminating our nights—, and two other forces, called the weak and the strong nuclear forces, which act at the atomic and nuclear level. The first one is the force responsible for radioactivity, and it’s behind one half of the warmth produced in Earth’s core, while the latter is what binds atoms’ nuclei together, letting matter have a stable form and hence us be here right now. We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—cryptically called W and Z—, are the messengers of the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force and what binds quarks together. Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
 
@@ -214,6 +215,9 @@ Also, notice how much more energy is needed to push a proton, which has the same
 
 
 
+// TODO: add magnet colors
+// top: "rgba(54,103,172,1)"
+// bottom: "rgba(207,76,96,1)"
 
 [var name:"Broi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
 [var name:"timeB" value:0.00 /]    // s
@@ -280,7 +284,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
         /]
       [div style:`{display: 'flex', flexDirection: 'row'}`]
         [Button className:"reset" onClick:`mx1=-2.5; my1=0; timeB=0;`] Reset [/Button]
-        [EaserToggle value:timeB targetValue:targetTimeB ] Start! [/Easer]
+        [EaserToggle value:timeB targetValue:targetTimeB ] Start! [/EaserToggle]
         // [EaserToggle value:timeB targetValue:20 ] Start! [/EaserToggle]
       [/div]
     [/div]
@@ -363,6 +367,34 @@ Two beams of accelerated particles smash one into the other at a collision point
 // Visualization:
 // Here we can show a simplified collision point, surrounded by layers of detectors, like in the modern particle physics experiments. In each collision, one kind of particle is produced (e.g., electron, photon, muon, …), which, while traveling out of the collision point, leaves a trail in the detector which is dedicated to that specific kind of particle. In this way, people see how particles are detected and how different they are in terms of detection. The “architecture” shown here will be used later, when telling about detectors in medical imaging.
 // ```
+
+
+[var name:"Droi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
+[var name:"Dtime" value:0.00 /]    // s
+[var name:"Dx1" value:-3.0 /]       // m
+[var name:"Dy1" value:0.0 /]       // m
+[div className:"electric-field-interactive"]
+  [div className:"electric-field-interactive-hed"]
+    Detect a particle and measure its trajectory
+  [/div]
+  [div className:"electric-field-interactive-subhed"]
+    TKTK Subtitle for this interactive
+  [/div]
+      [IdyllApparatusComponent
+        _url: "static/diagrams/detectorBFieldV1.json"
+        _regionOfInterest: Droi
+        _width: '100%'
+        _height: 300
+        time:Dtime
+        x0:Dx1
+        y0:Dy1
+        /]
+      [div style:`{display: 'flex', flexDirection: 'row'}`]
+        [Button className:"reset" onClick:`Dx1=-3.0; Dy1=0; Dtime=0;`] Reset [/Button]
+        [Easer value:Dtime targetValue:1.50 ] Start! [/Easer]
+      [/div]
+[/div]
+
 
 In the simplified visualization above, only one collision occurs every second and only one single particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds which means that we get about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems to acquire and filter data from the collision in a timely way, and to identify and measure the characteristics of such particles, to study the underlying physics process which generated them.
 
