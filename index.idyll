@@ -340,7 +340,8 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 // [/Aside]
 
 
-### Particle factories: Why we need colliders and how they work
+### Particle factories: Why we need colliders
+// and how they work
 
 So far, we have only talked about particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, these are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light—and their interaction. The stability of the atoms which compose all matter depend on the interaction between two types of fundamental particles, quarks and gluons, discovered respectively at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the core's of stars—is determined by the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
 
@@ -417,9 +418,9 @@ Particle accelerators and detectors, however, are not used only for fundamental 
 
 // ### Accelerators and detectors in our life
 
-Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental x-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
+Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
-There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, x-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
+There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
 
 // Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
 
@@ -430,28 +431,31 @@ Two impactful examples include medial scanners used in hospitals and the World W
 
 ### Medicine
 
-Particle physics and medicine has a very long love story, dating back to the very first particle physics experiments. That's because of the way particles interact with our body and tissues. Thousands of low energy particles hit our skin every second without us noticing that, our skin is a barrier strong enough to stop them and protect our sensitive internal organs. But more energetic particles can penetrate into our body. That has been noticed right away by the first experimenters, who could see the effects of energetic particles traveling through their hands and body, while setting up the experimental apparatus. That discovery had immediately spawned hundreds of new experiments to find medical applications, whose discoveries conveyed into many of the diagnosis techniques we still use today, as radiographies and CT scans.
+Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted—observing particles that interact with our bodies. For example, thousands of low energy particles hit our skin every second without us noticing, since our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pirece through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose discoveries are still used today for many diagnosis techniques, such as radiographies and CT scans.
 
-What the pioneers did not know at the beginning, is that energetic particles release their energy along their way while traveling in our body, producing different biological effects in the tissues and organs they traverse. If not controlled, energetic particles travelling through an organ can be very dangerous, as later noticed the early days experimenters; but, if controlled and well calibrated, it can be used to visualize sick organs or to heal malignant tumors in places where ordinary surgery cannot arrive.
+What the early pioneers did not know at the beginning, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse through. If not properly controlled, energetic particles travelling through an organ can be very dangerous; but, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
 
-Today, medical physics is a branch of research on its own, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health".
+Today, medical physics is an independent branch of research, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health."
 
 
 #### X-Ray images
 
-It's very likely we had, at least once in our life, a radiography, that is that black and white image of our bones or other organs; perhaps to verify if we had our arm broken after that fall from the bicycle, or at the dentist, to check the status of our teeth. Radiography imaging is a direct application of what was found with the very early experiments in particle physics. What lets medical doctors see inside our body is a beam of energetic particles, the so-called x-rays.
+It's very likely people obtain, at least once in their lives, a radiography: that black and white image of our bones or other organs, perhaps to confirm a broken bone or to inspect the health of our teeth. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
 
 [Aside]
-In many languages, the x-rays are called "Röntgen rays".
+In many languages, X-rays are called "Röntgen rays," named after the German scientist [a href:"https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"]Wilhelm Röntgen[/a] who, on November 8th 1895, produced and detected X-rays. In 1901, this won him the first Noble Prize in Physics.
 [/Aside]
 
-X-rays—where "X" stands for "unknown", because of its original mysterious nature—have been found in 1895 by German physicist Wilhelm Röntgen. He discovered them by chance, while experimenting with a Crookes tube, the forerunner of the cathode-ray tube used in TV sets, which produces beams of electrons. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between the two. Röntgen realized that those rays were absorbed differently by different materials and could expose a photographic plate placed behind the object to test, the level of "blackness" in the image depending on the amount of energy they left in the body. Very soon, Röntgen had an "Eureka! Moment" when he realized the new "X" rays could traverse the body, producing an image of its inside. He then realized the first radiography, by taking a picture of his wife's hand and her wedding ring.
+X-rays (where the "X" stands for "unknown", originally named for its mysterious origins) were found in 1895 by German physicist Wilhelm Röntgen. He discovered them while experimenting with a Crookes tube: the forerunner of the cathode-ray tube used in TV sets, which produces beams of electrons. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between them. Röntgen realized that those rays were being absorbed differently by different materials. By placing a photographic plate behind the object to test, he could then observe the level of "blackness" in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka! Moment" when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the object.
 
-![Xray first image](static/images/First_medical_X-ray_by_Wilhelm_Röntgen_of_his_wife_Anna_Bertha_Ludwig's_hand_-_18951222.jpg)
-[caption]
-Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg).
-[/caption]
-
+[a href:"static/images/xray.jpg"]
+  [img style:`{maxWidth: "500px"}` src:"static/images/xray.jpg" /]
+[/a]
+[div className:'parametric-caption']
+  The first X-ray image of scientist's Wilhelm Röntgen wife's hand and wedding ring.
+  [br /][br /]
+  **Source**: [a href:"https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"]Wikipedia[/a].
+[/div]
 
 
 
