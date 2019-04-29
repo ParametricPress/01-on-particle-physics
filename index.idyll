@@ -320,7 +320,7 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 
 // **A brief history of accelerators**
 
-// [span className:"comment"/]
+// [div className:"comment"/]
 
 // A simple timeline with the history of particle accelerators, with the energy attained.
 // We should also show the size scale somehow: the first one could be carried in the
@@ -329,7 +329,7 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 // shrinks when the next one comes in, to show how the latter is bigger compared to
 // the former one.
 
-// [/span]
+// [/div]
 
 // [/Aside]
 
@@ -430,7 +430,7 @@ What the early pioneers did not know at the beginning, is that energetic particl
 Today, medical physics is an independent branch of research, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health."
 
 
-#### X-Ray images
+### X-Ray images
 
 It's very likely people obtain, at least once in their lives, a radiography: that black and white image of our bones or other organs, perhaps to confirm a broken bone or to inspect the health of our teeth. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
 
@@ -451,7 +451,7 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 
 
 
-#### PET scanners
+### PET scanners
 
 [div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
 
@@ -486,7 +486,7 @@ cyclotrons operating close to the PET facility (because of the short half-life)*
 // as atoms) emitting particles; the two have different values of half-life, so a different
 // number of particles in a given time is emitted.]
 
-#### New frontiers of cancer therapy: hadron therapy
+### New frontiers of cancer therapy: Hadron therapy
 
 [div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
 
@@ -533,40 +533,56 @@ Let's look at another example in-depth. Consider LHC at CERN. Particles in the b
   **Source**: [a href:"https://cds.cern.ch/images/CERN-PHOTO-201802-030-10"]CERN[/a].
 [/div]
 
-While building the accelerators and the experiments for fundamental research, physicists and engineers develop those new materials and techniques to solve scientific and technical challenges. But particle physicists face sociological challenges as well. They often work in very large scientific collaborations, which require methods and tools to efficiently share data, distribute information, and collaborate. The nowadays ubiquitous "Web" has been invented to solve that.
 
 
+### The World Wide Web
 
-##### The World Wide Web
+Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented "Web."
 
-Right now, you may be commuting to home or to work, or sipping a hot drink at your favorite coffee shop, reading these words on a screen. Whether it's a phone, a tablet, or a computer, the words you are reading are not stored on your device, at least until you have asked your device to open this web page. In that moment, a little piece of software running on your device, called the "browser," connects over the Internet to another machine which sits in a room somewhere around the world, called the "server," and asks it to get this article. The words composing the article are passed from the server to your device, the "client," following a certain format, and the page is built and displayed on your screen for you to read. You can then follow links which enrich the text of this page, to access other related pages stored on other servers somewhere else. These remarkably common yet still amazing process is only possible because of a mix of technologies which run under the umbrella of the "World Wide Web", or "WWW."
+Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the "browser" connects over the Internet to another machine sitting in a room somewhere around the world, called the "server," and asks to download this article. The article is then passed from the server to your device, the "client," and displayed on your screen to read. Clicking another link on in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies titled the the "World Wide Web", or "WWW."
 
-Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
-
-However, not many people know that, before handling bank account balances, images, orders, and all data we consume in our daily digital life, this mechanism was first invented to handle particle physics data.
-
-At the end of the ‘80s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the institutes participating in the experiments. Particle physics experiments have a long tradition of international collaborations. Those experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
+// [div className:"comment"]not edited by fred, not needed, repetitive[/div]
+// Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
 
 [Aside]
-LHC experiments are made possible with the contribution of many countries and institutes. The ATLAS experiment has about 3000 scientific authors from 183 institutions around the world, representing 38 countries from all the world's populated continents. Around 1200 doctoral students are involved in the research work; plus many engineers, technicians and administrative staff. The CMS experiment has similar numbers. Those experiments are among the largest collaborative efforts ever attempted in science. ((Maybe a photo of the ATLAS collaboration here...))
+CERN's LHC experiments are only made possible through the contribution of many countries and institutes.
+
+The [a href:"https://home.cern/science/experiments/atlas"]ATLAS experiment[/a] has around 3,000 scientific authors from 183 institutions around the world, representing 38 countries. Around 1,200 doctoral students are involved in the research, as well as many engineers, technicians, and administrative staff. The [a href:"https://home.cern/science/experiments/cms"]CMS experiment[/a] is similar.
+
+These experiments are among the largest collaborative efforts ever attempted in science.
 [/Aside]
 
-Exactly 30 years ago, in March 2019, Tim Berners-Lee presented a proposal for the development of a new "information management system," conceived to share information about the activities at CERN. The system was designed as a distributed network of hypertexts. The proposal came by a young developer, following an internal half-page note written by a CERN manager, Robert Cailliau, proposing to conduct a study on distributed hypertext systems to let the future LHC experiments at CERN efficiently share information. The young developer's supervisor noticed that and he passed a proposal he had received to him, with a personal note of his on the cover page: "Vague, but exciting…"! Cailleau recognized the Berners'-Lee idea as a potential solution to the distribution of documents and information across institutes for the LHC era.
+However, not many people know that before we could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was first invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments, since historically, particle physics experiments require vast international collaboration.
+// Experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
+
+[div className:"comment"]I'm a little confused on the story below, I've tried to condense. please make sure it's still correct! -fred[/div]
+
+Exactly 30 years ago, in March 1989, Tim Berners-Lee presented a proposal for the development of a new "information management system," designed to share information about the activities within CERN.
+// The system was designed as a distributed network of hypertexts.
+// Earlier, an internal half-page note written by a CERN manager, Robert Cailliau, proposed to conduct a study on distributed hypertext systems to let the future LHC experiments at CERN efficiently share information.
+His supervisor at the time, Robert Cailliau, read the proposal and added a personal note on the cover page: "Vague but exciting…". Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiements.
 
 [Aside]
-As Robert Cailleau wrote "It may be said that the Web is one of the first spin-offs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs." (Source: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014)
+As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."*
+
+**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014.
 [/Aside]
 
+[a href:"static/images/www.jpg"]
+  [img style:`{maxWidth: "500px"}` src:"static/images/www.jpg" /]
+[/a]
+[div className:'parametric-caption']
+  The original WWW proposal cover. Notice the handwritten note in the top margin: "Vague but exciting..."
+  [br /][br /]
+  **Source**: [a href:"https://cds.cern.ch/record/1164396"]CERN[/a].
+[/div]
 
-![original WWW proposal cover](static/images/web_proposal_cover.jpg)
-[caption]
-The original WWW proposal cover - Source: [CERN](https://cds.cern.ch/record/1164396)
-[/caption]
-
-The WWW was born, and the software which was its core was released for free. Even more, it was put in the public domain, which means that both its inventor and the inventor's employer renounce to all rights, and the software can be freely re-used and adapted without any restriction. That decision was driven by the vision of Tim Berners-Lee himself, who pushed for releasing the new technology publicly, for all people to use. And that was its strength. During the following years, the WWW circulated more and more within the academic environment and slowly drew the attention of the industry, standardized, and evolved to what we know today: the backbone of our whole digital life.
+And thus, the WWW was born, with its core software released for free in the public domain, renouncing both its inventor and inventor's employer to all rights, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the Internet, the backbone of our digital life.
 
 
 #### Examples of other derived products
+
+[div className:"comment"]I don't think we need to go in-depth about more! -fred[/div]
 
 *Touch screen, Cloud computing.*
 *Collaboration model*
@@ -582,9 +598,7 @@ If you are on the go, it is very likely that to read this article you clicked on
 ## Conclusions
 
 
-*soon*
-
-**soon... to be finalized!!!**
+[div className:"comment"]needs to be finished[/div]
 
 Particle physics helps in unveiling the mysteries of teh universe we all live in. So far, it helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
 
