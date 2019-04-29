@@ -55,7 +55,7 @@ Different materials are made up of different atoms. The way that those atoms org
 // ```
 
 
-Particles not only compose all matter, they are also responsible for how forces behave. One of the great achievements of physics has been the identification of four fundamental forces that form the basis of all other forces and interactions we can experience and see in our Universe. These basic forces are ***gravity**, which prevents us drifting upwards towards the sky, and binds the planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity in a cable, the magnetism pushing a compass' needle, and the light illuminating night; and two other forces, called the **weak** and **the strong nuclear forces**, which act at the atomic and nuclear level. The first is the force responsible for radioactivity and roughly one-half of the warmth produced in Earth's core, while the latter is what binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now! We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—cryptically called W and Z—, carry out the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force.
+Particles not only compose all matter, they are also responsible for how forces behave. One of the great achievements of physics has been the identification of four fundamental forces that form the basis of all other forces and interactions we can experience and see in our Universe. These basic forces are **gravity**, which prevents us drifting upwards towards the sky, and binds the planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity in a cable, the magnetism pushing a compass' needle, and the light illuminating night; and two other forces, called the **weak** and **the strong nuclear forces**, which act at the atomic and nuclear level. The first is the force responsible for radioactivity and roughly one-half of the warmth produced in Earth's core, while the latter is what binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now! We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—cryptically called W and Z—, carry out the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force.
 // Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
 
 Studying these basic elements and forces which compose the Universe around us means understanding the innermost mechanisms which govern the tangible part of the Universe we all live in, or in other words, understanding what composes our own lives.
@@ -77,27 +77,36 @@ Natural sources of particles were the focus of the first experiments in particle
   [Recirc slug:parametricSlug /]
 [/Aside]
 
-Particles are the smallest known objects in the Universe, and are intangible like light. So how can scientists observe, study and, most astonishingly, manipulate them?
+Particles are the smallest known objects in the Universe, and are intangible like light. So how can scientists observe, study, and most astonishingly, manipulate them?
 
-Particles can't really be "seen", because seeing something involves sending a beam of visible light toward the thing we want to see and then receive some light bouncing back to our eyes; but particles are so small that no visible light bounces back, even by using the most powerful of microscopes. Therefore, we have to find other ways to "observe" particles.
+Particles can't really be "seen," because seeing something involves sending a beam of visible light toward the thing we want to see and then receiving some light bouncing back from the thing to our eyes. But particles are so small that no visible light bounces back, even when using the most powerful of microscopes. Therefore, we have to find other ways to "see" particles.
 
-All particles behave differently when passing through matter. Electrons and photons, for example, rapidly lose their energy in a hectic run hitting material atoms and continuous elbowing through them, until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey. At that moment, they lose all their energy in a burst and stop there. Muons, on the other hand, can travel through layers and layers of any materials—or even through hundreds of meters of solid rock— without losing much of their energy and before being stopped. That's why scientists build underground labs buried very deeply under mountains—as at the Gran Sasso laboratory in Italy: to try to shield sensitive scientific experiments from cosmic muons coming from the sky. Neutrinos interact very weakly with all other objects:. they can pass through entire planets without stopping their travel.
+All particles behave differently when passing through matter. Electrons and photons, for example, rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey. At that moment, they lose all their energy in a burst, and immeidately stop. Muons, on the other hand, can travel through layers and layers of any material, or even through hundreds of meters of solid rock, without losing much of their energy. This is why scientists build underground labs, buried deep under mountains, for example, the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], to try to shield sensitive scientific experiments from cosmic muons coming from the sky. Neutrinos, another particle, interact weakly with all other objects: they pass through entire planets without stopping.
 
-Physicists have leveraged these differing behaviors to develop different detectors to catch and measure each type of particle. When a particle passes through a layer of some material, it leaves a certain amount of its energy behind. That energy is collected and transferred to an electronic interface which reveals the passage. By layering different detectors we can even reconstruct particle trajectories in the space, and under certain circumstances, measure the energy of the particle.
+[a href:"static/images/underground.jpg"]
+  [img src:"static/images/underground.jpg" /]
+[/a]
+[div className:'parametric-caption']
+  The Laboratori Nazionali del Gran Sasso is the world's largest underground research center.
+  [br /][br /]
+  **Source**: [a href:"https://upload.wikimedia.org/wikipedia/commons/2/29/INFN_LNGS_2014-02_%28TQB1%29.JPG"]Wikipedia[/a].
+[/div]
 
-Many particles also have a property called "electric charge". Because of that charge they behave like the needle of a compass when we put a magnet close to it: it bends towards one of the magnet's poles. Charged particles, like electrons or protons, are influenced by an electromagnetic field. In particular, the electric field pushes the charged particle forward, while the magnetic field makes it move to one side or the other, depending on the charge of the particle.
+Physicists have leveraged these differing behaviors to develop different detectors to catch and measure each type of particle. When a particle passes through a layer of some material, it leaves a certain amount of its energy behind. That energy is collected and transferred to an electronic interface which shows a particle's passage. By layering different detectors, we can even reconstruct particle trajectories in the space, and under certain circumstances, measure the exact energy of the particle.
 
-In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved exactly like an electron but observing how the magnetic field around the film bent the trajectory of the particle, Anderson had the proof that he was not observing an electron. If it were an electron, the magnet would have bent it in the opposite direction. Instead, he observed for the first time a "positron," the anti-electron, and with it, he found the first proof of the existence of the anti-matter.
+Many particles also have a property called an "electric charge." This charge makes particles behave like the needle of a compass when a magnet is close by: it points towards one of the magnet's poles. Charged particles, like electrons or protons, are influenced by electromagnetic fields. In particular, an electric field can push charged particles forward, while a magnetic field makes a particle move from one side or another, depending on the charge of the particle.
+
+In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved exactly like an electron, but observing how the magnetic field around the film bent the trajectory of the particle, Anderson had proof that this particle was an electron. If it were an electron, the magnet would have bent the particle's path in the opposite direction. Instead, he observed for the first time a "positron," the anti-electron, and with it, he found the first proof of the existence of anti-matter.
 
 
-[inset]
-  ![positron discovery](static/images/positron.jpg)
-[/inset]
+[a href:"static/images/positron.jpg"]
+  [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
+[/a]
 [caption]
-Anderson's positron discovery, [source](https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg). References [1](https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491), [2](https://physics.aps.org/story/v17/st5)
-
-
-We can clearly show how the trajectory of a charged particle is bent. Besides being an awesome picture which shows the bending power of a magnet over a particle's trajectory, this has great historical value too, because it is the first proof of the existence of the anti-matter.
+  Anderson's 1933 positron discovery, which proved the existence of anti-matter. Here, we see how the trajectory of a charged particle is bent from a magnet.
+  [br /][br /]
+  **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].
+  **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
 [/caption]
 
 

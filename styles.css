@@ -29,8 +29,8 @@
   font-size: 24px;
   font-weight: bold;
 }
-
 .electric-field-interactive-subhed {
+
   font-size: 18px;
   font-weight: 400;
 }
@@ -60,7 +60,7 @@ button.reset {
 }
 
 img {
-  max-height: 400px;
+  /* max-height: 400px; */
 }
 
 @media all and (max-width: 1000px) {
