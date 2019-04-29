@@ -311,7 +311,7 @@ The old television set was based on the cathode-ray tube, which is nothing more 
 // We use the earlier "accelerating" and "bending" modules to build two types of particle accelerators: a "linear" and a "circular" one. Users have to change the two field to accelerate the particle correctly.
 // ```
 
-So how much energy can a particle traveling in an accelerator can attain?
+So how much energy can a particle traveling in an accelerator attain?
 
 Particles in a linear accelerator gain energy by passing through a series of accelerating modules, each of them propelling the particle further. The limit of the amount of energy particles can obtain only depends on the number of the accelerating modules—the longer the accerleator, the more energy attained. That is why accelerators are so long and cost so much! On the other hand, circular accelerators only contain one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many times. Every time a particle passes through the single accelerating module, it gets a kick which gives it a bit more kinetic energy. In principle, there is no limit to the number of times a particle can be pushed through the accelerating section of a circular collider. However, in practice after a certain point the energy leaks due to many different physical effects that are larger than the kick received by the electric field. At that point, the circular accelerator has attained its energy limit due to its construction and design.
 
@@ -322,27 +322,33 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 
 
 
-[Aside]
-**A brief history of accelerators**
+// [Aside]
 
-A simple timeline with the history of particle accelerators, with the energy attained.
-We should also show the size scale somehow: the first one could be carried in the
-palm of a hand; the latest one is 27 Km long. It could be quite hard to show a sense
-of scale with images. However, we could, for example, show the first one; which
-shrinks when the next one comes in, to show how the latter is bigger compared to
-the former one.
-[/Aside]
+// **A brief history of accelerators**
+
+// [span className:"comment"/]
+
+// A simple timeline with the history of particle accelerators, with the energy attained.
+// We should also show the size scale somehow: the first one could be carried in the
+// palm of a hand; the latest one is 27 Km long. It could be quite hard to show a sense
+// of scale with images. However, we could, for example, show the first one; which
+// shrinks when the next one comes in, to show how the latter is bigger compared to
+// the former one.
+
+// [/span]
+
+// [/Aside]
 
 
 ### Particle factories: Why we need colliders and how they work
 
-So far, we have only considered particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, the mechanisms at the base of those processes are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is also responsible for the light— and their interaction. Also, the stability of the atoms which compose all matter around us depends on the interaction between two types of fundamental particles, quarks and gluons, respectively discovered at the SLAC laboratory (US) at the end of the '60s and at the DESY laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the atomic furnaces fueling stars' core—lays upon the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
+So far, we have only talked about particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, these are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light—and their interaction. The stability of the atoms which compose all matter depend on the interaction between two types of fundamental particles, quarks and gluons, discovered respectively at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the core's of stars—is determined by the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
 
-However, many more fundamental mechanisms in our Universe are based on particles which we haven't discovered yet, and there are many open questions. For example, How did the Universe form? At the beginning, in a tiny fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And again, how are ultra-high-energetic cosmic rays that sometimes hit our planet generated, if there are no known sources for them near Earth?
+However, many more fundamental mechanisms in our Universe are based on particles which we haven't discovered yet. This leads to a number of interesting questions to current physicists. For example, how did the Universe form? At the beginning of time, in a tiny fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And again, how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
 
-To answer these questions, and the others not yet asked, we will need particles interacting at much higher energies and with a much higher flux than those we can obtain from sources like radioactive elements or cosmic rays. To make progress then, we would need bespoke particle factories, to create large fluxes of particles at the desired energy while studying their interactions and effects. That's where Einstein comes in.
+To answer these questions, and the others not yet asked, we will need particles interacting at much higher energies and with a much higher flux than those we can obtain from sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
 
-In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula "E=mc2", the theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely if we create the same amount of energy correspondent to the mass of a specific particle, we can then "create" that particle and study it. Modern particle colliders are built for this: they accelerate bunches of particles up to the highest energy they are built for, then they make them collide. At that point, the energy involved in the impact is "converted" and "re-used" to create new particles. The particles created in the collisions are then caught by by particle detectors to study their characteristics.
+In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula [Equation]E=mc^2[/Equation], his theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely, if we create the same amount of energy that corresponds to the mass of a specific particle, we can then "create" that particle and study it. Modern particle colliders are built for this: they accelerate particles up to the highest possible energy they are built for, then they make them collide. At that point, the energy involved in the impact is "converted" and "re-used" to create new particles. The particles created in the collisions are then caught by particle detectors and stuided.
 
 
 // ```
@@ -351,19 +357,18 @@ In 1905, Albert Einstein proposed a theory about the equivalence of mass and ene
 // ```
 
 
-The particles created in colliders are not to be considered "artificial": they are naturally found under specific conditions in other places, like in stars, or confined in microscopic objects, like the nucleus of atoms. Using particle colliders, we simply recreate such conditions to have them at our disposal in a laboratory for study. Although the energy we can attain with today's particle accelerators is impressive, it doesn't compare to natural particle accelerators we find in outer space. Cosmic rays from outside our galaxy are accelerated at much higher energies, and more energetic collisions happen in the Earth's upper atmosphere than in even our most powerful colliders.
+The particles created in colliders are not to be considered "artificial": they are naturally found under specific conditions in other places, like in stars, or confined in microscopic objects, like the nucleus of atoms. Using particle colliders, we simply recreate such conditions so that we can study them in a laboratory. Although the energy we can attain with today's particle accelerators is impressive, it doesn't compare to natural particle accelerators found in outer space. Cosmic rays from outside our galaxy are accelerated at much higher energies, and more energetic collisions happen in the Earth's upper atmosphere than in our most powerful colliders.
 
 
 ### How do we experiment on small objects like particles?
-
-Once we create particles, how do we actually study them?
-
 
 [Aside]
   [Newsletter /]
 [/Aside]
 
-Two beams of accelerated particles smash one into the other at a collision point. From the energy of that collision, new particles arise, which physicists catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors, placed around the collision point. Since different particles act differently when traveling through matter, dedicated detectors, placed at various locations, are used to detect different particles.
+Once we create particles, how do we actually study them?
+
+Two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
 
 
 // ```
@@ -400,9 +405,9 @@ Two beams of accelerated particles smash one into the other at a collision point
 [/div]
 
 
-In the simplified visualization above, only one collision occurs every second and only one single particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds which means that we get about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems to acquire and filter data from the collision in a timely way, and to identify and measure the characteristics of such particles, to study the underlying physics process which generated them.
+In the simplified visualization above, one collision occurs every second, and only one particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems to acquire and filter data from the collision, and to identify and measure the characteristics of such particles, to ultimately study the underlying physics which generated them.
 
-Particle accelerators and detectors, however, are not used only for fundamental research. Those used in laboratories as CERN or Fermilab are the largest and most advanced, designed and built for cutting-edge scientific research. But there are many other, derived from the former ones, which are used for very different practical  applications.
+Particle accelerators and detectors, however, are not used only for fundamental research. Those used in laboratories as CERN or Fermilab are the largest and most advanced, designed and built for cutting-edge scientific research. But there are many others, derived from the former ones, which are used for very different, practical applications.
 
 
 

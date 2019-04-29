@@ -1,9 +1,7 @@
-
 .parametric-multi-button-container {
   display: flex;
   flex-direction: row;
 }
-
 
 .parametric-multi-button {
   background: #c5c5c5;
@@ -11,6 +9,7 @@
   margin: 0;
   padding: 0.5em 1em;
 }
+
 .parametric-multi-button.selected {
   background: #539987;
 }
@@ -29,8 +28,8 @@
   font-size: 24px;
   font-weight: bold;
 }
-.electric-field-interactive-subhed {
 
+.electric-field-interactive-subhed {
   font-size: 18px;
   font-weight: 400;
 }
@@ -40,7 +39,7 @@ button.reset {
   color: #222;
 }
 
-.electric-field-interactive-apparatus-container > div {
+.electric-field-interactive-apparatus-container>div {
   margin-top: 0 !important;
 }
 
@@ -68,8 +67,12 @@ img {
     display: flex;
     flex-direction: column;
   }
-
   .electric-field-interactive {
     margin: 2em -1em;
   }
+}
+
+.comment {
+  color: red;
+  font-style: italic;
 }
