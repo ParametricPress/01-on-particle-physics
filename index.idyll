@@ -560,7 +560,7 @@ However, not many people know that before we could handle bank account balances,
 Exactly 30 years ago, in March 1989, Tim Berners-Lee presented a proposal for the development of a new "information management system," designed to share information about the activities within CERN.
 // The system was designed as a distributed network of hypertexts.
 // Earlier, an internal half-page note written by a CERN manager, Robert Cailliau, proposed to conduct a study on distributed hypertext systems to let the future LHC experiments at CERN efficiently share information.
-His supervisor at the time, Robert Cailliau, read the proposal and added a personal note on the cover page: "Vague but exciting…". Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiements.
+His supervisor at the time, Robert Cailliau, read the proposal and added a personal note on the cover page: *"Vague but exciting…"*. Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiements.
 
 [Aside]
 As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."*
@@ -597,16 +597,26 @@ If you are on the go, it is very likely that to read this article you clicked on
 
 ## Conclusions
 
-
 [div className:"comment"]needs to be finished[/div]
 
-Particle physics helps in unveiling the mysteries of teh universe we all live in. So far, it helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
 
-As other funbdamental sciences, its focus is not towards practical applications. Instead, it tries to answer to all open questions we might have about the fundamental mechanisms which rule the Universe we all live in. However, not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
+Particle physics helps us unveil the mysteries of the Universe.
+// So far, it has helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
+Like other fundamental sciences, practical applications isn't its focus.
+// Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
+However, discoveries made by particle physics have transformed society and our daily lives forever.
+//  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
+// 
+// Particle physics unveiled the 4 basic forces which rule everything we know about so far.
+// 
 
-Particle physics unveiled the 4 basic forces which rule everything we know about so far.
+[div className:"comment"]let's end on something big but not too cheesy :) -fred[/div]
+
+[div className:"comment"]
 
 Curiosity. And passion. Those are the two forces that pushes humanity to look for answers, to go beyond the known territory, to get new questions and new answers.
+
+[/div]
 
 
 
