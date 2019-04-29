@@ -415,21 +415,20 @@ Particle accelerators and detectors, however, are not used only for fundamental 
 
 ## Part 2: Particle Physics in Society
 
-### Accelerators and detectors in our life
+// ### Accelerators and detectors in our life
 
-Without noticing, you might have stumbled across particles accelerators and particle detectors already. If you have ever had a x-ray in a dental clinic, or a PET scan in the hospital, then you have been close to a compact version of a particle accelerator and to detectors to catch and measure fundamental particles.
+Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental x-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
-There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine, for radiotherapy, x-ray generation, and particle therapy; another large fraction is used in industry, for semiconductor production and other processes. Only 1% of all the particle accelerators running today are used for fundamental research.
+There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, x-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
 
-Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
+// Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
+
+More generally, many technologies we commonly use today were developed as direct applications of research spinoff from particle physics. These byproducts are developed to build and run experiments or to support the activities of the particle physics community.
+
+Two impactful examples include medial scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
 
 
-Many technologies we commonly use today were developed as direct applications of research spinoff from particle physics; or as byproducts, developed to build and run the experiments or to support the activities of the particle physics community.
-
-Two impactful examples include scanners used in hospitals and the World Wide Web.  Both are indirect products of fundamental research conducted by particle physicists while studying the behavior of the smallest components of our Universe we know so far.
-
-
-#### Medicine
+### Medicine
 
 Particle physics and medicine has a very long love story, dating back to the very first particle physics experiments. That's because of the way particles interact with our body and tissues. Thousands of low energy particles hit our skin every second without us noticing that, our skin is a barrier strong enough to stop them and protect our sensitive internal organs. But more energetic particles can penetrate into our body. That has been noticed right away by the first experimenters, who could see the effects of energetic particles traveling through their hands and body, while setting up the experimental apparatus. That discovery had immediately spawned hundreds of new experiments to find medical applications, whose discoveries conveyed into many of the diagnosis techniques we still use today, as radiographies and CT scans.
 
@@ -438,7 +437,7 @@ What the pioneers did not know at the beginning, is that energetic particles rel
 Today, medical physics is a branch of research on its own, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health".
 
 
-##### X-Ray images
+#### X-Ray images
 
 It's very likely we had, at least once in our life, a radiography, that is that black and white image of our bones or other organs; perhaps to verify if we had our arm broken after that fall from the bicycle, or at the dentist, to check the status of our teeth. Radiography imaging is a direct application of what was found with the very early experiments in particle physics. What lets medical doctors see inside our body is a beam of energetic particles, the so-called x-rays.
 
@@ -456,7 +455,7 @@ Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:First_medical_X-ray_
 
 
 
-##### PET scanners
+#### PET scanners
 
 *Positron emission tomography (PET) scanners come directly from the particle and
 nuclear physics research. Here we explain the principles behind a PET scan.
@@ -489,7 +488,7 @@ cyclotrons operating close to the PET facility (because of the short half-life)*
 // as atoms) emitting particles; the two have different values of half-life, so a different
 // number of particles in a given time is emitted.]
 
-### New frontiers of cancer therapy: hadron therapy
+#### New frontiers of cancer therapy: hadron therapy
 
 *Here we briefly explain the principles of cancer therapy with particles. It's something
 widely used already. The commonly-used "radiotherapy" uses beams of accelerated electrons, which hit the target in the patient's body (the tumor) and interacting with that electrons release their energy to the tumor tissues, killing the cancer cells. The drawback is that because of the way electrons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the travel in the patient's body — that causes damages to the other tissues and organs close to the tumor.*
