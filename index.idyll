@@ -61,7 +61,7 @@ Particles not only compose all matter, they are also responsible for how forces 
 Studying these basic elements and forces which compose the Universe around us means understanding the innermost mechanisms which govern the tangible part of the Universe we all live in, or in other words, understanding what composes our own lives.
 
 
-## Natural sources of particles
+### Natural sources of particles
 
 At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, one of the building blocks of the atom. The discovery of the electron marked the beginning of particle physics. Then, at the beginning of the 20[sup]th[/sup] century, scientists observed that particles were not only part of the structure of matter, but they were also produced in natural phenomena.
 
@@ -112,20 +112,15 @@ In 1933, Carl Anderson took a photograph of a cosmic ray particle passing throug
 
 ### How do we accelerate particles, and how do accelerators work?
 
-
-Electromagnetic fields influence the speed and trajectories of charged particles. An electromagnetic field can always be divided into two distinct components: the electric field and the magnetic field. The force exerted by the field on a charged particle is the so-called "Lorentz force":
-
+Electromagnetic fields influence the speed and trajectories of charged particles. An electromagnetic field can always be divided into two distinct components: an electric field and a magnetic field. The force exerted by the field on a charged particle is the so-called "Lorentz force":
 
 [Equation display:true]
   F=q[E+(v\times B)]
 [/Equation]
 
+In the above formula, [Equation]q[/Equation] is the charge of the particle and [Equation]v[/Equation] its velocity, [Equation]E[/Equation] is the electric field, and [Equation]B[/Equation] is the magnetic field. Thus, for a given electric and magnetic field, the particle experiences a force [Equation]F[/Equation] from the field depending on its charge and speed. But what if we could control the fields [Equation]E[/Equation] and [Equation]B[/Equation]?
 
-In the above formula, q and v are the charge and the velocity of the particle, E the electric field, and B the magnetic field. Thus, for a given electric and magnetic field, the particle experiences a force F from the field depending on its charge and speed.
-But what if we could control the fields, E and B?
-
-If we rewrite the formula by isolating the speed of the particle and the radius of the bending of its trajectory, we find this:
-
+If we rewrite the formula by isolating the velocity of the particle and the radius of the bending of its trajectory, we find this:
 
 [Equation display:true]
   v = \sqrt{ \frac{2q(V_2-V_1)}{m}}
@@ -135,14 +130,13 @@ If we rewrite the formula by isolating the speed of the particle and the radius 
   r = \frac{mv}{qB} \sin\theta
 [/Equation]
 
-We have obtained two expressions, the first giving to us the speed of the particle, [equation]v[/equation], given the potential difference of the electric field; while the second one gives us the radius of the curvature of the particle's trajectory, given the speed of the particle and the strenght of the magnetic field. It is worth to notice that only the electic field appears in the first formula, which means that the quantity [equation]v[/equation] only depends on the strenght of the electric field; while only the magnetic field appears in the second one. Therefore, we can use an electrical field can be used to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
-
+We now have two expressions: the first describes the velocity of a particle, [Equation]v[/Equation], given the potential difference of the electric field, while the second describes the radius of the curvature of the particle's trajectory, [Equation]r[/Equation], given the speed of the particle and the strength of the magnetic field. Notice that only the electic field [Equation]E[/Equation] appears in the first formula, which means that the velocity [Equation]v[/Equation] only depends on the strength of the electric field, while only the magnetic field [Equation]B[/Equation] appears in the second equation. Therefore, we can use an electric field to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
 
 [Aside]
-The particle in the diagram besides is slowed down **a lot**. In reality, it should fly out of the page in a glimpse, because an electron put in a small accelerator of 10 meters and pushed by an electric field of 100 Volts, is accelerated to a speed up to about 6 millions meters per seconds, that is almost 22 millions km/h!
-(That speed, insomuch as it looks enourmous, is anyway much much smaller than the speed of light in the vacuum---the highest possible speed in Nature so far---, which is about 1 billions Km/h!)
+The particle in the diagram has been **drasitically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
+That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature—, which is about 1 billion km/h!
 
-Also, notice how much more energy is needed to push a proton, which has the same electric charge as the electron, but a much higher mass. You have to set the highest Volts value to make it move!
+Also, notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to set the highest Volts value to make it move!
 [/Aside]
 
 
@@ -248,7 +242,7 @@ Also, notice how much more energy is needed to push a proton, which has the same
 // [derived name:"targetTimeBcoordX" value:`mvx1` /]
 
 [Aside]
-In reality, the process is much more complicated. Different types of accelerating modules are used to push different types of particles; and many types of magnets (dipoles, quadrupoles, sextuples, and so forth) are used to bend, squeeze, and focus the beams of charged particles, to maximize the intensity of the beams (typically, in the accelerators used for medicine or industry applications) or the number of collisions (in the accelerators used for physics experiments).
+In reality, this process is much more complicated. Different types of accelerating modules are used to push different types of particles, and many types of magnets (e.g., dipoles, quadrupoles, sextuples, and so on) are used to bend, squeeze, and focus beams of charged particles to maximize the their intensity (as seen in the accelerators used for medicine or industry applications) or the number of their collisions (as seen in the accelerators used for physics experiments).
 [/Aside]
 
 [div className:"electric-field-interactive"]
@@ -305,13 +299,11 @@ In reality, the process is much more complicated. Different types of acceleratin
   [/div]
 [/div]
 
-Using these two principles, physicists started building *particle accelerators*.
-By using accelerating modules one after another, one can build so-called *"linear accelerators"*, whose maximum attenaible energy is limited by the number of accelerating modules or, in other terms, the total length of the accelerator; that fixes the maximum energy of the particles that are then used for the experiments. On the other hand, by using accelerating and bending modules, one can build _"circular accelerators"_: particles are injected into a ring composed of bending modules, which force particles to move in a circular path, and one accelerating module, which pushes the particles every time they pass through it. After a given amount of turns, the particles attain the maximum energy and they can be used for the experiments.
+Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build so-called *"linear accelerators"*. These have limit on their maximal attainable energyby the number of accelerating modules, in other words, the total length of the accelerator. On the other hand, by using accelerating and bending modules, we can build *"circular accelerators"*: particles are injected into a ring composed of bending modules, which force particles to move in a circular path, while one accelerating module pushes the particles each time they pass through by. After a given amount of turns, the particles attain their maximum energy and can be used for experiments.
 
-Physicists used these accelerators to study the characteristics of particles and explored the structure of matter. But it quickly became clear that they have many applications to industry and other scientific fields.
+Physicists use these accelerators to study the basic characteristics of particles, but it quickly became clear that these accelerators could have many applications to industry and other scientific fields.
 
-The old television set was based on the cathode-ray tube, which is nothing else than a compact particle accelerator! Electrons are produced at one end by applying an electric field which accelerates them, making them fly towards the other end of the tube; this is covered by a layer of phosphorescent material which becomes luminescent when hit by an electron; the trajectory of the electrons is bent by using a variable magnetic field, which make them hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam "paints" an image on the screen.
-
+The old television set was based on the cathode-ray tube, which is nothing more than a compact particle accelerator! Electrons are produced at one end by applying an electric field which accelerates them, causing them to fly towards the other end of the tube, which is covered by a layer of phosphorescent material that becomes luminescent when hit by an electron. The trajectory of the electrons is bent by using a variable magnetic field, which force them to hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam "paints" an image on the screen.
 
 // ```
 // interactive visualization:
@@ -319,13 +311,11 @@ The old television set was based on the cathode-ray tube, which is nothing else 
 // We use the earlier "accelerating" and "bending" modules to build two types of particle accelerators: a "linear" and a "circular" one. Users have to change the two field to accelerate the particle correctly.
 // ```
 
+So how much energy can a particle traveling in an accelerator can attain?
 
+Particles in a linear accelerator gain energy by passing through a series of accelerating modules, each of them propelling the particle further. The limit of the amount of energy particles can obtain only depends on the number of the accelerating modules—the longer the accerleator, the more energy attained. That is why accelerators are so long and cost so much! On the other hand, circular accelerators only contain one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many times. Every time a particle passes through the single accelerating module, it gets a kick which gives it a bit more kinetic energy. In principle, there is no limit to the number of times a particle can be pushed through the accelerating section of a circular collider. However, in practice after a certain point the energy leaks due to many different physical effects that are larger than the kick received by the electric field. At that point, the circular accelerator has attained its energy limit due to its construction and design.
 
-What the amount of energy a particle traveling in an accelerator can attain?
-
-Particles in a linear accelerator gains energy by passing through a series of accelerating modules, each of them getting the incoming accelerated particle coming from the previous module and kicking it further. The limit of the amount of energy particles can get only dependent of the number of the accelerating module, that is the length of the accelerator (and its cost!). On the other hand, circular accelerators has only one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many and many times. Every time a particle passes through the single accelerating module, it gets a kick which makes it get a bit more kinetic energy. In principle there is no limit to the number of times a particle can be pushed throgh the accelerating section of a circular collider; in practice, however, after a certain point the energy leaks due to many different physics effects are larger than the kick got by the electric field. At that point, the circular accelerator attained its limit due to its construction design.
-
-Circular accelerators can be further divided into two main groups: "cyclotrons," which were the first to be invented around 1930, and "synchrotrons." The first ones, today, are commonly used in hospitals. the latter is used for the giant machines used today for cutting-edge research in particle physics, such as the "LHC" (Large Hadron Collider) at CERN.
+Circular accelerators can be further divided into two main groups: "cyclotrons," which were the first to be invented around 1930, and "synchrotrons." The former are commonly used in hospitals today. The latter are used in machines for cutting-edge research in particle physics, such as the [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider ("LHC")[/a] at [a href:"https://home.cern/"]CERN[/a].
 
 // TODO:
 // As a comparison, if we would build a linear accelerator to let particles accelerate at the the same energy of the circular LHC, one should build an accelerator ??? long.
@@ -344,7 +334,7 @@ the former one.
 [/Aside]
 
 
-### Particle factories: why we need colliders and how they work
+### Particle factories: Why we need colliders and how they work
 
 So far, we have only considered particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, the mechanisms at the base of those processes are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is also responsible for the light— and their interaction. Also, the stability of the atoms which compose all matter around us depends on the interaction between two types of fundamental particles, quarks and gluons, respectively discovered at the SLAC laboratory (US) at the end of the '60s and at the DESY laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the atomic furnaces fueling stars' core—lays upon the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
 
@@ -364,7 +354,7 @@ In 1905, Albert Einstein proposed a theory about the equivalence of mass and ene
 The particles created in colliders are not to be considered "artificial": they are naturally found under specific conditions in other places, like in stars, or confined in microscopic objects, like the nucleus of atoms. Using particle colliders, we simply recreate such conditions to have them at our disposal in a laboratory for study. Although the energy we can attain with today's particle accelerators is impressive, it doesn't compare to natural particle accelerators we find in outer space. Cosmic rays from outside our galaxy are accelerated at much higher energies, and more energetic collisions happen in the Earth's upper atmosphere than in even our most powerful colliders.
 
 
-### How do we conduct experiments on small objects like particles?
+### How do we experiment on small objects like particles?
 
 Once we create particles, how do we actually study them?
 
@@ -510,7 +500,7 @@ widely used already. The commonly-used "radiotherapy" uses beams of accelerated 
 
 
 
-## Spinoffs and derived products
+### Spinoffs and derived products
 
 The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
 
@@ -519,7 +509,7 @@ As building blocks in a LEGO set, every piece of knowledge and research contribu
 
 
 
-### Derived products
+#### Derived products
 
 Each particle collider and ever particle physics experiment is a complex prototype, involving the design and the development of new technologies in many different fields. Very often the development of production of such new techniques and materials is done in collaboration with industry, which then develop them further, for other applications or fields, giving birth to new products.
 
@@ -533,7 +523,7 @@ While building the accelerators and the experiments for fundamental research, ph
 
 
 
-#### The World Wide Web
+##### The World Wide Web
 
 Right now, you may be commuting to home or to work, or sipping a hot drink at your favorite coffee shop, reading these words on a screen. Whether it's a phone, a tablet, or a computer, the words you are reading are not stored on your device, at least until you have asked your device to open this web page. In that moment, a little piece of software running on your device, called the "browser," connects over the Internet to another machine which sits in a room somewhere around the world, called the "server," and asks it to get this article. The words composing the article are passed from the server to your device, the "client," following a certain format, and the page is built and displayed on your screen for you to read. You can then follow links which enrich the text of this page, to access other related pages stored on other servers somewhere else. These remarkably common yet still amazing process is only possible because of a mix of technologies which run under the umbrella of the "World Wide Web", or "WWW."
 
