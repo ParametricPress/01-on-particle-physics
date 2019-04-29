@@ -27,20 +27,14 @@ Everything we see and touch is made from the basic bricks of nature called *"par
 
 Fundamental research fields explore the structure and behavior of our universe for the advancement of human knowledge; but, that doesn't mean they don't have practical applications that affect peoples' lives. Rather, disciplines which conduct fundamental research form the base of the "knowledge pyramid": their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
 
-
+[hr/]
 
 ## Part 1: The Science of Particle Physics
 
-// **Particles: how do we study them?**
-
-
-// ```
-// small sidebar idea: little picture of Democritus and definition of atomos
-// ```
 [Aside]
-  [inset]
-    ![Democritus](static/images/434px-Democritus2.jpg)
-  [/inset]
+  [a href:"static/images/democritus.jpg"]
+    [img src:"static/images/democritus.jpg" /]
+  [/a]
   [caption]
   The [Greek philosopher Democritus](https://commons.wikimedia.org/wiki/File:Democritus2.jpg), who, in the 4th-century B.C., coined the term "atomos" for the smallest, indivisible part of something: a privative *"a"* followed by *"tomos"*/"cut".
   [/caption]
@@ -63,6 +57,10 @@ Studying these basic elements and forces which compose the Universe around us me
 
 ### Natural sources of particles
 
+[Aside]
+  [Recirc slug:parametricSlug /]
+[/Aside]
+
 At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, one of the building blocks of the atom. The discovery of the electron marked the beginning of particle physics. Then, at the beginning of the 20[sup]th[/sup] century, scientists observed that particles were not only part of the structure of matter, but they were also produced in natural phenomena.
 
 Many elements are naturally radioactive. One of the most well known is Uranium, commonly used today as fuel in nuclear power plants. In the past, clock-makers used Radium and Tritium to make glowing-in-the-dark clock-hands. These elements have unstable structures, which cause them to spontaneously emit particles as byproducts of their internal readjustment—what gives them their glow. Depending on the characteristics of the radioactive atom, different types of particles are emitted: electrons, photons, or the so-called "alpha" particles (two protons and two neutrons bound together). Such radioactive elements are naturally present in small quantities in our soil, and were the object of study by particle physics pioneers, such as Henri Becquerel, and Marie and Pierre Curie.
@@ -72,10 +70,6 @@ Particles from the cosmos continuously breach the atoms of the Earth's upper atm
 Natural sources of particles were the focus of the first experiments in particles physics, and since, many other particles have been discovered studying this initial set, e.g., the positron and muon.
 
 ### How do we observe and study particles?
-
-[Aside]
-  [Recirc slug:parametricSlug /]
-[/Aside]
 
 Particles are the smallest known objects in the Universe, and are intangible like light. So how can scientists observe, study, and most astonishingly, manipulate them?
 
@@ -343,6 +337,10 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 ### Particle factories: Why we need colliders
 // and how they work
 
+[Aside]
+  [Newsletter /]
+[/Aside]
+
 So far, we have only talked about particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, these are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light—and their interaction. The stability of the atoms which compose all matter depend on the interaction between two types of fundamental particles, quarks and gluons, discovered respectively at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the core's of stars—is determined by the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
 
 However, many more fundamental mechanisms in our Universe are based on particles which we haven't discovered yet. This leads to a number of interesting questions to current physicists. For example, how did the Universe form? At the beginning of time, in a tiny fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And again, how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
@@ -362,10 +360,6 @@ The particles created in colliders are not to be considered "artificial": they a
 
 
 ### How do we experiment on small objects like particles?
-
-[Aside]
-  [Newsletter /]
-[/Aside]
 
 Once we create particles, how do we actually study them?
 
@@ -410,9 +404,7 @@ In the simplified visualization above, one collision occurs every second, and on
 
 Particle accelerators and detectors, however, are not used only for fundamental research. Those used in laboratories as CERN or Fermilab are the largest and most advanced, designed and built for cutting-edge scientific research. But there are many others, derived from the former ones, which are used for very different, practical applications.
 
-
-
-
+[hr/]
 
 ## Part 2: Particle Physics in Society
 
@@ -461,6 +453,8 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 
 #### PET scanners
 
+[div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
+
 *Positron emission tomography (PET) scanners come directly from the particle and
 nuclear physics research. Here we explain the principles behind a PET scan.
 PET scan uses a radioactive isotope which binds to specific tissues in the patient's
@@ -494,38 +488,50 @@ cyclotrons operating close to the PET facility (because of the short half-life)*
 
 #### New frontiers of cancer therapy: hadron therapy
 
+[div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
+
 *Here we briefly explain the principles of cancer therapy with particles. It's something
 widely used already. The commonly-used "radiotherapy" uses beams of accelerated electrons, which hit the target in the patient's body (the tumor) and interacting with that electrons release their energy to the tumor tissues, killing the cancer cells. The drawback is that because of the way electrons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the travel in the patient's body — that causes damages to the other tissues and organs close to the tumor.*
 
 *A new frontier in cancer therapy with particle beams is the so-called hadron therapy. It uses protons (or other particles affine to the protons, belonging to the same class called "hadrons"), which because of the way they interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the energy. Thus, fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancer cells. That technique, even if still a novelty, is already used in some advanced medical centers around the world.*
 
-// ### Interview with Prof. Ugo Amaldi
-//
-// I am pretty confident I can get an interview with Prof. Ugo Amaldi, whom I know
-// personally. Prof. Amaldi is one of the "fathers" of hadron therapy (and the son of
-// Prof. Edoardo Amaldi).
+
+
+// ### Spinoffs and derived products
+
+// [div className:"comment"]not edited by fred, I don't think we need this general info below. the last few sentences with Marie Curie and Einstein could be kept[/div]
+
+// The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
+
+// As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them. 
 
 
 
+### Research spinoffs 
 
-### Spinoffs and derived products
+Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials developed are created in collaboration with other industry partners, which lead to further developement and application for other fields.
 
-The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
+For example, Marie Curie didn't know what future technologies would benefit from her research of natural radioactivity of certain elements, but all today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein did develop his theory of General Relativity expecting it to be used for the exact calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
-As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them. Marie Curie didn't know what applications could have the new phenomenon she was studying (the natural radioactivity of certain elements), but all today's medical imaging techniques come from her and her colleagues' research. Again, Einstein did not develop his theory of General Relativity for the exact calibration of GPS devices; yet, without his theory, the GPS on your phone could not work at all. Thus, fundamental research not only advance human knowledge per se, but it also triggers the rise of derived researches and developments. And those, in turn, produce satellite industrial and commercial activities too.
+[a href:"static/images/lhc2.jpg"]
+  [img src:"static/images/lhc2.jpg" /]
+[/a]
+[div className:'parametric-caption']
+  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator.
+  [br /][br /]
+  **Source**: [a href:"https://home.cern"]CERN[/a].
+[/div]
 
+Let's look at another example in-depth. Consider LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, ensure that accelerated particles keep their energy when smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
-
-
-#### Derived products
-
-Each particle collider and ever particle physics experiment is a complex prototype, involving the design and the development of new technologies in many different fields. Very often the development of production of such new techniques and materials is done in collaboration with industry, which then develop them further, for other applications or fields, giving birth to new products.
-
-Take the example of the LHC, at CERN. Particles running in the beam pipe of the accelerator need to be confined and bent using the force exerted by magnets. Accelerator physicists designed the LHC to attain very high energy, therefore very powerful magnets had to be conceived for the task. To keep the magnets at a reasonable size and within reasonable power consumption, new superconducting magnets have been invented. Those, to work properly, need to be cooled down at a temperature of -271.25 ˚C (-456,25 ˚F)—a temperature close to the "absolute zero" and colder than deep outer space! To cool the magnets at such an extreme temperature, innovative cryogenics techniques have been developed. Moreover, to avoid that the accelerated particles lose their energy by smashing into molecules of air, new vacuum pumping techniques have been developed to extract the most of the air from the accelerator pipe. The beams of particles travel in an ultra-high vacuum—in a place as empty as the interplanetary space!
-
-```
-Fred: we should have an image of the LHC in the sidebar, because it looks really cool :)
-```
+[a href:"static/images/lhc1.jpg"]
+  [img src:"static/images/lhc1.jpg" /]
+[/a]
+[div className:'parametric-caption']
+  The Large Hadron Collider accelerates particles and boost their energy using a 27-kilometer ring of superconducting magnets.
+  [br /][br /]
+  **Source**: [a href:"https://cds.cern.ch/images/CERN-PHOTO-201802-030-10"]CERN[/a].
+[/div]
 
 While building the accelerators and the experiments for fundamental research, physicists and engineers develop those new materials and techniques to solve scientific and technical challenges. But particle physicists face sociological challenges as well. They often work in very large scientific collaborations, which require methods and tools to efficiently share data, distribute information, and collaborate. The nowadays ubiquitous "Web" has been invented to solve that.
 
@@ -591,7 +597,7 @@ Curiosity. And passion. Those are the two forces that pushes humanity to look fo
 
 
 [AuthorBio]
-**Riccardo Maria Bianchi** is a particle physicist at CERN. He specialize in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, design and development of scientific software and parallel computing.
+**Riccardo Maria Bianchi** is a particle physicist at CERN. He specialize in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, parallel computing, and the design and development of scientific software.
 
 Edited by Fred Hohman.
 [/AuthorBio]
