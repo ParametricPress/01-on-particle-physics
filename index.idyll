@@ -652,7 +652,8 @@ Before the Web could handle bank account balances, images, food orders, and all 
 Sendall passed Berners-Lee's proposal to Cailleau, after having added [a href:"http://info.cern.ch/Proposal.html"]a personal note on the cover[/a] page: "Vague but exciting…" Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiments, and supported the development of Berners-Lee's idea.
 
 [Aside]
-As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."* (**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014). //TODO: move this to a pop-up link.
+As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."* (**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014).
+// TODO: move this to a pop-up link.
 [/Aside]
 
 [br/]
@@ -666,15 +667,12 @@ As Robert Cailleau wrote, *"It may be said that the Web is one of the first spin
 
 And thus, the WWW was born. The core software was released in the public domain, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous backbone of our digital life.
 
-[br/]
-
 ## A last word
 
-Particle physics helps us unveil the mysteries of the Universe.
-// So far, it has helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
-Like other fundamental sciences, practical applications isn't its focus.
+Particle physics helps us unveil the mysteries of the Universe, and has let us discern the basic components of matter and the basic forces which govern the Universe as we know it.
+Like other fundamental sciences, practical applications aren't the focus.
 // Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
-However, discoveries made by particle physics and technologies invented for it have transformed society and our daily lives forever.
+Still, the discoveries made by particle physicists, and technologies developed to enable their experiments, have transformed our lives forever.
 //  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
 //
 // Particle physics unveiled the 4 basic forces which rule everything we know about so far.
