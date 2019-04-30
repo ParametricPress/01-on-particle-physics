@@ -1,14 +1,17 @@
 
-[meta title:"Particle Physics" description:"TK Something poppy to draw reader's attention and describe the article as a whole." /]
+[meta title:"Particle Physics: A Brief Primer" description:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
+  shareImageUrl:"https://issue-01-preview.parametric.press/issue-01/particle-physics-a-brief-primer/static/images/share.png"
+  shareImageWidth:"880"
+  shareImageHeight:"440" /]
 
-[var name:"parametricSlug" value:"particle-physics" /]
+[var name:"parametricSlug" value:"particle-physics-a-brief-primer" /]
 
 [Nav fullWidth:true /]
 
 [Header
   title:`["Particle", "Physics"]`
   longTitle:`["Particle Physics:", "A Brief Primer"]`
-  date:"April 15, 2019"
+  date:"May 1, 2019"
   dek:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
   fullWidth:true
   authors:`[{
@@ -503,11 +506,11 @@ widely used already. The commonly-used "radiotherapy" uses beams of accelerated 
 
 // The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
 
-// As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them. 
+// As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
 
 
 
-### Research spinoffs 
+### Research spinoffs
 
 Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials developed are created in collaboration with other industry partners, which lead to further developement and application for other fields.
 
@@ -606,9 +609,9 @@ Like other fundamental sciences, practical applications isn't its focus.
 // Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
 However, discoveries made by particle physics have transformed society and our daily lives forever.
 //  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
-// 
+//
 // Particle physics unveiled the 4 basic forces which rule everything we know about so far.
-// 
+//
 
 [div className:"comment"]let's end on something big but not too cheesy :) -fred[/div]
 
@@ -623,7 +626,7 @@ Curiosity. And passion. Those are the two forces that pushes humanity to look fo
 [AuthorBio]
 **Riccardo Maria Bianchi** is a particle physicist at CERN. He specialize in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, parallel computing, and the design and development of scientific software.
 
-Edited by Fred Hohman.
+Edited by Fred Hohman and Matthew Conlen.
 [/AuthorBio]
 
 [NextArticle slug:parametricSlug fullWidth:true /]
