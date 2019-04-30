@@ -90,15 +90,14 @@ All particles behave differently when passing through matter. Electrons and phot
 In Italian, *Gran Sasso* literally means "Big Rock"!
 [/Aside]
 
-Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
+Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]*Gran Sasso* laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
 
 [br/]
-
 
 [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/underground.jpg" /]
 
 [div className:'parametric-caption']
-  The Laboratori Nazionali del Gran Sasso is the world's largest underground research center. It has been built under the Gran Sasso, the highest mountain of the Italian Appennini. Thousands of meters or rock shield the experiments conducted underground from most of the effects of the cosmic rays.
+  The *Laboratori Nazionali del Gran Sasso* is the world's largest underground research center. It has been built under the Gran Sasso, the highest mountain of the Italian Appennini. Thousands of meters or rock shield the experiments conducted underground from most of the effects of the cosmic rays.
   [br /][br /]
   **Source**: [a href:"https://upload.wikimedia.org/wikipedia/commons/2/29/INFN_LNGS_2014-02_%28TQB1%29.JPG"]Wikipedia[/a].
 [/div]
@@ -344,21 +343,17 @@ Electrons are produced and subjected to an electric field, causing them to fly t
 
 
 
-// [Aside]
-
+// TODO:
+//[Aside]
 // **A brief history of accelerators**
-
 // [div className:"comment"/]
-
 // A simple timeline with the history of particle accelerators, with the energy attained.
 // We should also show the size scale somehow: the first one could be carried in the
 // palm of a hand; the latest one is 27 Km long. It could be quite hard to show a sense
 // of scale with images. However, we could, for example, show the first one; which
 // shrinks when the next one comes in, to show how the latter is bigger compared to
 // the former one.
-
 // [/div]
-
 // [/Aside]
 
 
@@ -430,7 +425,19 @@ In a circular collider, two beams of accelerated particles smash into one anothe
 [/div]
 
 
-In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle come, the magnetic fiekd bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle come, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+
+
+[br/]
+
+[img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/atlas.jpg" /]
+
+[div className:'parametric-caption']
+  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector.
+  [br/] Did you notice the human being on the bottom of the picture?
+  [br /][br /]
+  **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
+[/div]
 
 
 
@@ -448,7 +455,7 @@ In reality, however, many collisions occur, and many more particles are produced
   [img src:"static/images/lhc_collision_atlas_LR.jpg" /]
 [/a]
 [div className:'parametric-caption']
-  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. In the image, the particles accelerated by the LCH smash inside the detector of the ATLA experiment, producing thousands of new particles. Physicsts place layers of detectors around the collision point to catch and measure them.
+  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. In the image, the particles accelerated by the LCH smash inside the detector of the [a href:"https://atlas.cern/discover/about"]ATLAS experiment[/a], producing thousands of new particles. Physicsts place layers of detectors around the collision point to catch and measure them.
   [br /][br /]
   **Source**: [a href:"hhttps://cds.cern.ch/record/2105605?ln=en"]ATLAS Experiment, CERN[/a].
 [/div]
@@ -466,7 +473,7 @@ Particle Physics in Society
 // ### Accelerators and detectors in our life
 Particle accelerators such as those at CERN and Fermilab are designed and built for cutting-edge scientific research, but there are many others which are used for very different, practical applications. Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
-There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
+There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research. // TODO: add reference!!
 
 // Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
 
@@ -502,6 +509,10 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
   [br /][br /]
   **Source**: [a href:"https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"]Wikipedia[/a].
 [/div]
+
+
+// TODO: We can tell (and show) how x-rays imaging works: What "x-rays" are (photons of a specific wavelength) and how they produce an image of our body?
+
 
 
 
@@ -553,7 +564,7 @@ Since more than 50 years, the **ISOLDE** facility at CERN produces radioactive b
 
 Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
 
-As CERN’s Director for Accelerators and Technology, Frédérick Bordry, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]said[/a], "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
+As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
 
 // If you have time:
 // - viz of a cyclotron
@@ -564,12 +575,28 @@ As CERN’s Director for Accelerators and Technology, Frédérick Bordry, [a hre
 
 ### New frontiers of cancer therapy: Hadron therapy
 
-[div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
+[div className:"comment"]NEW SECTION! To be edited![/div]
 
-*Here we briefly explain the principles of cancer therapy with particles. It's something
-widely used already. The commonly-used "radiotherapy" uses beams of accelerated electrons, which hit the target in the patient's body (the tumor) and interacting with that electrons release their energy to the tumor tissues, killing the cancer cells. The drawback is that because of the way electrons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the travel in the patient's body — that causes damages to the other tissues and organs close to the tumor.*
+So far, we only looked at particles used as probes, in medical imaging techniques. But
+particles are used in therapies, too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
 
-*A new frontier in cancer therapy with particle beams is the so-called hadron therapy. It uses protons (or other particles affine to the protons, belonging to the same class called "hadrons"), which because of the way they interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the energy. Thus, fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancer cells. That technique, even if still a novelty, is already used in some advanced medical centers around the world.*
+Briefly after the discovery of radioactivity itself by Henri Bequerel, in 1906 Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, for them to shrink. The new technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20-th century, brachitherapy is still used today to treat different kind of tumors.
+Another common cancer therapy which makes use of particles is *radiotherapy*, where X-rays are collimated and driven to the target organ or tissue. To deliver the planned dose, multiple treatments from different angles are usually given. *Electron therapy* uses beams of energetic electrons. Given their characteristics, beams of electrons do not penetrate deeply in the body tissues, so they are mainly used to treat skin tumors.
+
+The drawback of all these techniques resides in the nature of the particles used for them. Because of the way energetic electrons or photons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the particle's travel in the patient's body. That causes damages to the other tissues and organs close to the tumor. Even with a careful planning of the treatments, there is a non-negligeable amount of energy released to heathy organs around the sick ones, which get damaged; and that for the very nature of the particles used for the treatment.
+
+[Aside]
+Protons, neutrons, and ions all belong to the same family of **hadrons**. Those are the particles composed of the smaller, fundamental bricks called *quarks*. Therefore, the term *hadron therapy* is used for all therapies making use of *hadrons*.
+[/Aside]
+
+A new frontier in cancer therapy with particle beams is the so-called *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
+
+That technique is based on most of the findings of particles physics experiments of last decades. Also, the accelerators used to accelerate protons or other hadrons come directly from the research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
+
+// TODO: viz - graph of the energy vs. path length. Maybe, animated...
+
+Even if *hadron therapy* is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a] or the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, or the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in US—to treat nasty tumors in children or in body's areas difficult to operate surgically.
+
 
 
 
@@ -605,9 +632,9 @@ Let's look at another example in-depth. Consider LHC at CERN. Particles in the b
 
 ### The World Wide Web
 
-Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented "Web."
+Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented the "Web."
 
-Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the "browser" connects over the Internet to another machine sitting in a room somewhere around the world, called the "server," and asks to download this article. The article is then passed from the server to your device, the "client," and displayed on your screen to read. Clicking another link on in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies titled the the "World Wide Web", or "WWW."
+Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the "browser" connects over the Internet to another machine sitting in a room somewhere around the world, called the "server," and asks to download this article. The article is then passed from the server to your device, the "client," and displayed on your screen to read. Clicking another link on in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies titled the "World Wide Web", or "WWW."
 
 // [div className:"comment"]not edited by fred, not needed, repetitive[/div]
 // Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
