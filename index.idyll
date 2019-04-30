@@ -433,8 +433,7 @@ In the simplified visualization above, three layers of detectors are placed one 
 [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector.
-  [br/] Did you notice the human being on the bottom of the picture?
+  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
@@ -490,7 +489,7 @@ Today, medical physics is an independent branch of research, which studies, quot
 
 ### X-ray images
 
-Many people obtain a radiography—that black and white image of bones or other organs—at least once in their lives, perhaps to confirm a broken bone or to inspect dental health. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
+Many people get a radiography—that black and white image of bones or other organs—at least once in their lives, perhaps to confirm a broken bone or to inspect dental health. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
 
 X-rays (where the "X" stands for "unknown", originally named for its mysterious origins) were found in 1895 by German physicist Wilhelm Röntgen. He discovered them while experimenting with a Crookes tube: the forerunner of the cathode-ray tube used in TV sets. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between them.
 
@@ -498,11 +497,11 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 In many languages, X-rays are called "Röntgen rays," named after the German scientist [a href:"https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"]Wilhelm Röntgen[/a] who, on November 8th 1895, produced and detected X-rays. In 1901, this won him the first Noble Prize in Physics.
 [/Aside]
 
-Röntgen realized that those rays were absorbed differently by different materials. By placing a photographic plate behind the object to test, he could observe the level of darkness in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka!" moment when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the object.
+Röntgen realized that those rays were absorbed differently by different materials. By placing a photographic plate behind the object to test, he could observe the level of darkness in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka!" moment when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the subject.
 
-[a href:"static/images/xray.jpg"]
-  [img style:`{maxWidth: "500px"}` src:"static/images/xray.jpg" /]
-[/a]
+[br/]
+
+[img style:`{maxWidth: "500px"}` src:"static/images/xray.jpg" /]
 [div className:'parametric-caption']
   The first X-ray image captured Anna Bertha Ludwig's hand and wedding ring. She was the wife of scientist Wilhelm Röntgen.
   [br /][br /]
@@ -516,21 +515,19 @@ Röntgen realized that those rays were absorbed differently by different materia
 
 ### PET scanners
 
-[div className:"comment"]NEW content in this section!! To be edited![/div]
 
-Many other medical imaging techniques are applications of physics techniques.
-Positron-emission tomography (PET), for example, is a *nuclear medicine* imaging technique, which comes directly from particle and nuclear physics research.
+Besides X-rays, there are many other medical imaging techniques that apply physics techniques. Positron-emission tomography (PET), for example, is a *nuclear medicine* imaging technique, which comes directly from particle and nuclear physics research.
 
-PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body, releasing its energy, and it is eventually caught by an atom, where it meets an electron. Being the positron the anti-matter buddy of the electron, when the two meet they *annihilate*. That means that the two "dissolve" in the interaction and a certain amount of energy is released in the process, following Einstein's known mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
+PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body before releasing its energy, and is eventually caught by an atom, where it meets an electron. When a positron, the anti-matter buddy of the electron, meets an electron, the two particles *annihilate*. That means that they "dissolve" during the interaction and a certain amount of energy is released, following Einstein's  mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
 
-In order to catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the "big
-ring" patients see when they lay down for the PET exam—detect the two escaping
-photons measuring the time of arrival and the direction, and a piece of dedicated
-software reconstruct the trajectory and then the point of origin within the patient's body. The tracer collects in organs and tissues of higher chemical activity, often bound to certain diseas. Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
+To catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the big
+ring patients see when they lay down for the PET exam—detect the two escaping
+photons, measuring the time of arrival and the direction. A piece of dedicated
+software reconstructs the trajectory and the point of origin within the patient's body.
 
+The tracer collects in organs and tissues of higher chemical activity, often bound to certain disease.
+// Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
 The areas where the tracer accumulates are the origin of a higher number of photons and show up as bright spots on the images from the PET scan. Cancer cells, for instance, have a higher metabolic rate than normal cells and, because of this, they appear as bright spots on a PET scan, helping doctors check the presence or the status of a tumor.
-
-
 
 
 // ```
@@ -539,8 +536,6 @@ The areas where the tracer accumulates are the origin of a higher number of phot
 // detector ring, where a "spark" is generated, and a signal (a blob) travels along a
 // cable to a computer.
 // ```
-
-
 
 The radioactive isotopes used in PET scanners have to be produced in [a href:"https://en.wikipedia.org/wiki/Cyclotron"]cyclotrons[/a], small circular particle accelerators which combine an oscillating electric field and a static magnetic field that holds the particles to accelerate in a spiral path.
 As CERN scientist Yacine Kadi [a href:"https://indico.cern.ch/event/528094/contributions/2172915/"]explains in one of his lectures[/a], the accelerated particles are then driven to a specific target which, after irradiation, contains the desired radioisotope. The parameters like particle energy, beam intensity, target material, and time will determine the kind and the quantity of produced radioisotopes.
@@ -552,17 +547,17 @@ The **half-life** is a parameter that indicates the time needed for half of the 
 Tracers with a shorter half-life must be used within a short delay from their production, therefore, they should be produced closed to the PET facility or to be  transported there as fast as possible. PET radio-isotopes can be transported to maximum 3-5 hours distance only, which confines their production within the hospitals neiborhood.
 [/Aside]
 
-Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen, to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracer is based on the radioisotope "fluorine-18", whose half-life is of 110 minutes, which allows for medium-long transports. Another one is "rubidium-82", with a half-life of 1.27 minutes, who is usually produced very close to the PET facility.
+Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen specifically to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracers is based on the radioisotope fluorine-18, whose half-life is of 110 minutes, which allows for medium-long transports. Another one is rubidium-82, with a half-life of 1.27 minutes, which is usually produced very close to the PET facility.
 
-Being the cost of operating a cyclotron and the equipment for the subsequent preparation of the radioactive tracer quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
+Given that the cost of operating a cyclotron, along with the equipment for the subsequent preparation of the radioactive tracer, are quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
 
-[Aside]
-Since more than 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
-[/Aside]
+// [Aside]
+// For over 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
+// [/Aside]
 
-Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
+// Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
 
-As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
+// As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
 
 // If you have time:
 // - viz of a cyclotron
@@ -571,29 +566,28 @@ As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.w
 
 
 
-### New frontiers of cancer therapy: Hadron therapy
+### New frontiers of cancer therapy: hadron therapy
 
-[div className:"comment"]NEW SECTION! To be edited![/div]
+So far we looked at how particles used as probes in medical imaging, but
+particles are used as therapies too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
 
-So far, we only looked at particles used as probes, in medical imaging techniques. But
-particles are used in therapies, too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
+In 1906, shortly after the discovery of radioactivity itself by Henri Bequerel, Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, which causes them to shrink. The technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20th century, brachitherapy is still used today to treat different kind of tumors.
 
-Briefly after the discovery of radioactivity itself by Henri Bequerel, in 1906 Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, for them to shrink. The new technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20-th century, brachitherapy is still used today to treat different kind of tumors.
 Another common cancer therapy which makes use of particles is *radiotherapy*, where X-rays are collimated and driven to the target organ or tissue. To deliver the planned dose, multiple treatments from different angles are usually given. *Electron therapy* uses beams of energetic electrons. Given their characteristics, beams of electrons do not penetrate deeply in the body tissues, so they are mainly used to treat skin tumors.
 
-The drawback of all these techniques resides in the nature of the particles used for them. Because of the way energetic electrons or photons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the particle's travel in the patient's body. That causes damages to the other tissues and organs close to the tumor. Even with a careful planning of the treatments, there is a non-negligeable amount of energy released to heathy organs around the sick ones, which get damaged; and that for the very nature of the particles used for the treatment.
+The drawback of all these techniques resides in the nature of the particles used for them. Because of the way energetic electrons or photons interact with matter (all matter, not just bodily tissue), much energy is released in the healthy tissue along a particle's path through a patient's body. This causes damage to the other tissue and organs near the tumor. Even with careful planning of the treatment, some energy will be released in the heathy organs around the sick ones, causing them to get damaged; and that is due to the very nature of the particles used for the treatment.
 
 [Aside]
 Protons, neutrons, and ions all belong to the same family of **hadrons**. Those are the particles composed of the smaller, fundamental bricks called *quarks*. Therefore, the term *hadron therapy* is used for all therapies making use of *hadrons*.
 [/Aside]
 
-A new frontier in cancer therapy with particle beams is the so-called *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
+A new frontier in cancer therapy with particle beams is *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
 
-That technique is based on most of the findings of particles physics experiments of last decades. Also, the accelerators used to accelerate protons or other hadrons come directly from the research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
+// The technique is based on recent findings from particles physics, and the accelerators used to accelerate protons and other hadrons are derived from research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
 
 // TODO: viz - graph of the energy vs. path length. Maybe, animated...
 
-Even if *hadron therapy* is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a] or the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, or the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in US—to treat nasty tumors in children or in body's areas difficult to operate surgically.
+Even though hadron therapy is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a], the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, and the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in the U.S.—to treat nasty tumors in children or in areas which are difficult to operate on surgically.
 
 
 
@@ -610,16 +604,18 @@ Even if *hadron therapy* is still under active development, it is already used i
 
 ### Research spinoffs
 
-Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials developed are created in collaboration with other industry partners, which lead to further developement and application for other fields.
+Particle colliders are complex structures that require careful design and development. Oftentimes, the materials developed are created in collaboration with  industry partners, which lead to further developement and applications in other fields.
 
-For example, Marie Curie didn't know what future technologies would benefit from her research of natural radioactivity of certain elements, but all today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein did develop his theory of General Relativity expecting it to be used for the exact calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
+Marie Curie didn't know what future technologies would stem from her research of radioactivity, but all of today's medical imaging techniques can be traced back to her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it also enables the creation of advanced new technologies.
+
+Consider LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realistic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero"—colder than outer space.
+
+To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy when smashing into air molecules, new vacuum pumping techniques had to be developed to suck out most of the air from the accelerator pipe. The beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
+
+[br/]
 
 
-Let's look at another example in-depth. Consider LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, ensure that accelerated particles keep their energy when smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
-
-[a href:"static/images/lhc1.jpg"]
-  [img src:"static/images/lhc1.jpg" /]
-[/a]
+[img src:"static/images/lhc1.jpg" /]
 [div className:'parametric-caption']
   The Large Hadron Collider accelerates particles and boost their energy using a 27-kilometer ring of superconducting magnets.
   [br /][br /]
