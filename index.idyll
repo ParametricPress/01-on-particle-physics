@@ -63,9 +63,8 @@ Going deeper, we can see how even smaller elements compose protons and neutrons.
 
 One of the great achievements of physics is the identification of four fundamental forces that form the basis of all other forces and interactions we see in our Universe. The basic forces are **gravity**, which prevents us from drifting up into the sky and binds planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity through a cable, the magnetism pushing a compass' needle, and the light illuminating night; and the **weak and strong nuclear forces**, which act at the atomic and nuclear level. The weak nuclear force is responsible for radioactivity and roughly one-half of the warmth produced in Earth's core. The strong nuclear force binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now!
 
-We know today that the last three forces listed are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—called W and Z—, carry out the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force. Studying these basic elements and forces leads to an understanding of the innermost mechanisms governing the Universe.
+We know today that the last three forces listed are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—called [equation]W[/equation] and [equation]Z[/equation]—, carry out the weak nuclear force; and the particle called *gluon* is the bearer of the strong nuclear force. Studying these basic elements and forces leads to an understanding of the innermost mechanisms governing the Universe.
 
-// Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
 
 ### Natural sources of particles
 
@@ -365,18 +364,16 @@ Electrons are produced and subjected to an electric field, causing them to fly t
   [Newsletter /]
 [/Aside]
 
-So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars—is determined by the behavior of [equation]W[/equation] and [equation]Z[/equation], discovered at CERN in 1983.
+So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars—is determined by the behavior of the [equation]W[/equation] and [equation]Z[/equation] particles, discovered at CERN in 1983.
 
 Many fundamental mechanisms in the Universe depend on particles which we haven't discovered yet. This creates a number of interesting questions for modern physicists. For example, how did the Universe form? At the beginning of time, in a fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
 
-To answer these questions, and others not yet asked, we need particles interacting at much higher energies
-and with a much higher flux
-than those we can obtain from natural sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
+To answer these questions, and others not yet asked, we need particles interacting at much higher energies and with a much higher flux than those we can obtain from natural sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
 
 In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula [Equation]E=mc^2[/Equation], his theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely, if we create the exact amount of energy that corresponds to the mass of a specific particle, we can then create that particle and study it. Modern particle colliders are built for this: they accelerate particles up to the highest possible velocities and make them collide. The energy involved in the impact is used to create new particles which are caught by detectors and studied.
 
 
-// ```
+// TODO:
 // Illustration: mass of particles discovered at colliders vs.
 // the energy of the colliders
 // ```
@@ -392,7 +389,7 @@ The particles created in colliders are not to be considered artificial: they are
 In a circular collider, two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists can catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
 
 
-// ```
+// TODO:
 // Visualization:
 // Here we can show a simplified collision point, surrounded by layers of detectors, like in the modern particle physics experiments. In each collision, one kind of particle is produced (e.g., electron, photon, muon, …), which, while traveling out of the collision point, leaves a trail in the detector which is dedicated to that specific kind of particle. In this way, people see how particles are detected and how different they are in terms of detection. The "architecture" shown here will be used later, when telling about detectors in medical imaging.
 // ```
