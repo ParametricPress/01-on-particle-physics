@@ -86,7 +86,7 @@ Particles are the smallest known objects in the Universe, and are intangible lik
 
 All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immeidately stop.
 
-Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact weakly with all other objects: they can pass through entire planets without stopping.
+Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
 
 [br/]
 
@@ -167,7 +167,7 @@ The expression describes the velocity of a particle, [Equation]v[/Equation], giv
 
 [aside]
 The particle in the diagram has been **drasitically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
-That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature—, which is about 1 billion km/h!
+That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature, as far as we currently know—, which is about 1 billion km/h!
 
 Also notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to choose the highest voltage setting to make it move!
 [/aside]
@@ -384,7 +384,7 @@ The particles created in colliders are not to be considered artificial: they are
 
 // Once we create particles, how do we actually study them?
 
-Two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists can catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
+In a circular collider, two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists can catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
 
 
 // ```
@@ -421,7 +421,24 @@ Two beams of accelerated particles smash into one another at a collision point. 
 [/div]
 
 
-In the simplified visualization above, one collision occurs every second, and only one particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems that acquire and filter data from these collisions. With that data they can identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
+In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle come, the magnetic fiekd bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+
+[a href:"static/images/lhc_collision_atlas.png"]
+  [img src:"static/images/lhc_collision_atlas.png" /]
+[/a]
+[div className:'parametric-caption']
+  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. In the image, the particles accelerated by the LCH smash inside the detector of the ATLA experiment, producing thousands of new particles. Physicsts place layers of detectors around the collision point to catch and measure them.
+  [br /][br /]
+  **Source**: [a href:"hhttps://cds.cern.ch/record/2105605?ln=en"]ATLAS Experiment, CERN[/a].
+[/div]
+
+
+[Aside]
+A **nanosecond** is a billionth of a second, that is 0.000000001 seconds!
+[/Aside]
+
+In reality, however, many collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems that acquire and filter data from these collisions. With that data they can identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
+
 
 
 [br/]
@@ -536,14 +553,6 @@ Unsurprisingly, particle colliders are complex structures that require the desig
 
 For example, Marie Curie didn't know what future technologies would benefit from her research of natural radioactivity of certain elements, but all today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein did develop his theory of General Relativity expecting it to be used for the exact calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
-[a href:"static/images/lhc2.jpg"]
-  [img src:"static/images/lhc2.jpg" /]
-[/a]
-[div className:'parametric-caption']
-  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator.
-  [br /][br /]
-  **Source**: [a href:"https://home.cern"]CERN[/a].
-[/div]
 
 Let's look at another example in-depth. Consider LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, ensure that accelerated particles keep their energy when smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
@@ -644,7 +653,7 @@ Curiosity. And passion. Those are the two forces that pushes humanity to look fo
 
 
 [AuthorBio]
-**Riccardo Maria Bianchi** is a particle physicist at CERN. He specialize in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, parallel computing, and the design and development of scientific software.
+**Riccardo Maria Bianchi**, PhD, is a particle physicist at CERN, where he works on the ATLAS Experiment on the Large Hadron Collider (LHC). Currently affiliated with the University of Pittsburgh, he specializes in searches for Supersymmetric particles, model-independent searches for new physics, data analysis, interactive data visualization, parallel computing, and the design and development of scientific software. He is the co-author of "Applied Computational Physics" (Oxford).
 
 Edited by Fred Hohman and Matthew Conlen.
 [/AuthorBio]
