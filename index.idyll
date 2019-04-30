@@ -110,6 +110,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 
 [br/]
 
+[a name:"positron"/]
 [a href:"static/images/positron.jpg"]
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
 [/a]
@@ -120,6 +121,9 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
   **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
 [/caption]
 
+[Aside]
+Anderson's original journal paper, *The Positive Electron*, in which he announces the discovery of the positron, is an interesting read! [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"] You can freely read it online[/a].
+[/Aside]
 
 In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved almost exactly like an electron, except for the way a magnetic field around the film bent its trajectory. If it were an electron, the magnet would have bent the path in the opposite direction.  Anderson had proof that this particle wasn't an electron. What he observed was a *positron*, the anti-electron, and the first proof of the existence of anti-matter.
 
@@ -503,23 +507,22 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 
 ### PET scanners
 
-[div className:"comment"]not edited by fred, we could maybe cut and focus on x-rays and www[/div]
+[div className:"comment"]NEW content in this section!! To be edited![/div]
 
-*Positron emission tomography (PET) scanners come directly from the particle and
-nuclear physics research. Here we explain the principles behind a PET scan.
-PET scan uses a radioactive isotope which binds to specific tissues in the patient's
-body and, while decaying, it emits positrons (we now know what a positron is; also,
-link to the picture of Anderson's experiment). The positron travels a very short
-distance in the body and gets caught by an atom, where it meets an electron. Being
-the positron the anti-matter buddy of the electron, when the two meet they annihilate.
-That means that the two "dissolve" in the interaction and a certain amount of energy
-is released in the process (following Einstein's bespoke formulas). The annihilation
-energy produces two photons, which escape the body in opposite directions. The
-detector (we now know what a "particle detector" is!) around the patient (the "big
-ring" patients see when they lay down for the exam) detects the two escaping
+Many other medical imaging techniques are applications of physics techniques.
+Positron-emission tomography (PET), for example, is a *nuclear medicine* imaging technique, which comes directly from particle and nuclear physics research.
+
+PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body, releasing its energy, and it is eventually caught by an atom, where it meets an electron. Being the positron the anti-matter buddy of the electron, when the two meet they *annihilate*. That means that the two "dissolve" in the interaction and a certain amount of energy is released in the process, following Einstein's known mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
+
+In order to catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the "big
+ring" patients see when they lay down for the PET exam—detect the two escaping
 photons measuring the time of arrival and the direction, and a piece of dedicated
-software reconstruct the trajectory. Decay after decay, the software can reconstruct
-the structure and the status of the tissue or the organ under exam.*
+software reconstruct the trajectory and then the point of origin within the patient's body. The tracer collects in organs and tissues of higher chemical activity, often bound to certain diseas. Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
+
+The areas where the tracer accumulates are the origin of a higher number of photons and show up as bright spots on the images from the PET scan. Cancer cells, for instance, have a higher metabolic rate than normal cells and, because of this, they appear as bright spots on a PET scan, helping doctors check the presence or the status of a tumor.
+
+
+
 
 // ```
 // visualization idea: we could show a stylized patient in the PET scanner, the pair of
@@ -528,13 +531,36 @@ the structure and the status of the tissue or the organ under exam.*
 // cable to a computer.
 // ```
 
-*How to produce the contrast liquid for the PET? —> small accelerator at
-Hospitals? PET scanners use artificially-produced radioactive isotopes, usually produced in
-cyclotrons operating close to the PET facility (because of the short half-life)*
 
-// [visualization: we could explain the concept of "half-life" with two isotopes (depicted
-// as atoms) emitting particles; the two have different values of half-life, so a different
-// number of particles in a given time is emitted.]
+
+The radioactive isotopes used in PET scanners have to be produced in [a href:"https://en.wikipedia.org/wiki/Cyclotron"]cyclotrons[/a], small circular particle accelerators which combine an oscillating electric field and a static magnetic field that holds the particles to accelerate in a spiral path.
+As CERN scientist Yacine Kadi [a href:"https://indico.cern.ch/event/528094/contributions/2172915/"]explains in one of his lectures[/a], the accelerated particles are then driven to a specific target which, after irradiation, contains the desired radioisotope. The parameters like particle energy, beam intensity, target material, and time will determine the kind and the quantity of produced radioisotopes.
+
+[Aside]
+Decay after decay, samples of radioactive materials slowly "die", emitting fewer and fewer particles. How slow they die it depends on the material itself.
+The **half-life** is a parameter that indicates the time needed for half of the atoms of the radioactive material to decay, on average; that, in practice, indicates the duration of the radioactive material in time.
+
+Tracers with a shorter half-life must be used within a short delay from their production, therefore, they should be produced closed to the PET facility or to be  transported there as fast as possible. PET radio-isotopes can be transported to maximum 3-5 hours distance only, which confines their production within the hospitals neiborhood.
+[/Aside]
+
+Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen, to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracer is based on the radioisotope "fluorine-18", whose half-life is of 110 minutes, which allows for medium-long transports. Another one is "rubidium-82", with a half-life of 1.27 minutes, who is usually produced very close to the PET facility.
+
+Being the cost of operating a cyclotron and the equipment for the subsequent preparation of the radioactive tracer quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
+
+[Aside]
+Since more than 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
+[/Aside]
+
+Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
+
+As CERN’s Director for Accelerators and Technology, Frédérick Bordry, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]said[/a], "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
+
+// If you have time:
+// - viz of a cyclotron
+// - viz: we could explain the concept of "half-life" with two isotopes emitting particles; the two have different values of half-life, so a different number of particles in a given time is emitted.
+
+
+
 
 ### New frontiers of cancer therapy: Hadron therapy
 
