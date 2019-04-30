@@ -52,7 +52,7 @@ class EaserToggle extends React.PureComponent {
     this.setState({stage: stages.ANIMATING});
     let _tween = { value : +this.props.value };
     new TWEEN.Tween(_tween)
-      .to({value: this.props.targetValue}, 3000)
+      .to({value: this.props.targetValue}, 3000) // TODO: add 'time' variable
       .easing(TWEEN.Easing.Linear.None)
       .onUpdate(() => {
         this.props.updateProps({ value: _tween.value });

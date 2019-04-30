@@ -37,10 +37,11 @@ class Easer extends React.PureComponent {
     isEasing = true;
     TWEEN.removeAll();
     this.setState({stage: stages.ANIMATING});
-    let _tween = { value : +this.props.value };
+    let _tween = { value : +this.props.value, time: +this.props.time };
     // let _function = { value : +this.props.function }; // TODO: choose the easing func when setting the component in the Idyll document
     new TWEEN.Tween(_tween)
-      .to({value: this.props.targetValue}, 3000)
+      // .to({value: this.props.targetValue}, 3000)
+      .to({value: this.props.targetValue}, this.props.time)
       .easing(TWEEN.Easing.Linear.None)
       .onUpdate(() => {
         this.props.updateProps({ value: _tween.value });
