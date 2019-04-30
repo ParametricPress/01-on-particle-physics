@@ -24,15 +24,19 @@
 /]
 
 
-Everything we see and touch is made from the basic bricks of nature called *"particles."* Particles like electrons, protons, and neutrons compose the atoms of the computer or phone you are touching right now. Other particles, like photons, are responsible for the glow emitted from your screen. When produced in the Sun these same photons are responsible for the light which shines in the sky above us.
+Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
 
-*Particle physics* is the branch of science that studies the nature and the behavior of such particles. It is one of the so-called "fundamental research" fields: research that seeks to explore and explain Nature at its essence. Here, the goal is to understand Nature's most fundamental building blocks. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
+*Particle physics* is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain Nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
 
-Fundamental research fields explore the structure and behavior of our universe for the advancement of human knowledge; but, that doesn't mean they don't have practical applications that affect peoples' lives. Rather, disciplines which conduct fundamental research form the base of the "knowledge pyramid": their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
+Fundamental research fields explore the structure and behavior of our universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
 
-[hr/]
+[br/]
+[br/]
 
-## Part 1: The Science of Particle Physics
+[h2]
+[span style:`{fontWeight: 400}`]Part 01[/span][br/]
+The Science of Particle Physics
+[/h2]
 
 [Aside]
   [a href:"static/images/democritus.jpg"]
@@ -43,20 +47,25 @@ Fundamental research fields explore the structure and behavior of our universe f
   [/caption]
 [/Aside]
 
-Since ancient times, people have asked themselves what builds up the things around us. Around the 4th-century B.C., the Greek philosopher Democritus coined the term "atomos" to indicate the smallest indivisible part of something, but for centuries after, the idea of the "atomos" was abandoned. It wasn't until the early 19[sup]th[/sup] century when the English chemist and physicist John Dalton revived Democritus' ideas by proposing an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern "atom" is not the smallest component of matter, and nor is it indivisible.
+Since ancient times people have wondered of what the objects arounds them were composed. Around the 4th-century B.C., the Greek philosopher Democritus coined the term *atomos* to indicate the smallest indivisible part of something, but for centuries after, the idea of the atomos was abandoned. It wasn't until the early 19[sup]th[/sup] century when the English chemist and physicist John Dalton revived Democritus' ideas by proposing an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern atom is not the smallest component of matter nor is it indivisible.
 
-Different materials are made up of different atoms. The way that those atoms organize themselves into molecules determines the properties of a material. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see a bunch of electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses. If we go deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. From what we know so far, we cannot divide a quark into smaller elements, as we can't with electrons; thus, we currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
+Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see a many electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
+
+Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
 
 // ```
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
 // ```
 
+### The Fundamental Forces
 
-Particles not only compose all matter, they are also responsible for how forces behave. One of the great achievements of physics has been the identification of four fundamental forces that form the basis of all other forces and interactions we can experience and see in our Universe. These basic forces are **gravity**, which prevents us drifting upwards towards the sky, and binds the planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity in a cable, the magnetism pushing a compass' needle, and the light illuminating night; and two other forces, called the **weak** and **the strong nuclear forces**, which act at the atomic and nuclear level. The first is the force responsible for radioactivity and roughly one-half of the warmth produced in Earth's core, while the latter is what binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now! We know today that the last three forces listed above are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—cryptically called W and Z—, carry out the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force.
+// Particles not only compose all matter, they are also responsible for how forces behave.
+
+One of the great achievements of physics is the identification of four fundamental forces that form the basis of all other forces and interactions we see in our Universe. The basic forces are **gravity**, which prevents us from drifting up into the sky and binds planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity through a cable, the magnetism pushing a compass' needle, and the light illuminating night; and the **weak and strong nuclear forces**, which act at the atomic and nuclear level. The weak nuclear force is responsible for radioactivity and roughly one-half of the warmth produced in Earth's core. The strong nuclear force binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now!
+
+We know today that the last three forces listed are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—called W and Z—, carry out the weak nuclear force; and the particle called gluon is the bearer of the strong nuclear force. Studying these basic elements and forces leads to an understanding of the innermost mechanisms governing the Universe.
+
 // Particle physicists study the nature of such carrier particles as well, and how they interact with the other particles.
-
-Studying these basic elements and forces which compose the Universe around us means understanding the innermost mechanisms which govern the tangible part of the Universe we all live in, or in other words, understanding what composes our own lives.
-
 
 ### Natural sources of particles
 
@@ -64,37 +73,37 @@ Studying these basic elements and forces which compose the Universe around us me
   [Recirc slug:parametricSlug /]
 [/Aside]
 
-At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, one of the building blocks of the atom. The discovery of the electron marked the beginning of particle physics. Then, at the beginning of the 20[sup]th[/sup] century, scientists observed that particles were not only part of the structure of matter, but they were also produced in natural phenomena.
+At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, a building block of the atom. The discovery of the electron marked the beginning of particle physics. At the beginning of the 20[sup]th[/sup] century scientists observed that particles were not only part of the structure of matter, but they were also produced by natural phenomena. Naturally produced particles were the focus of early experiments in particles physics, and many particles were discovered this way, for example the positron and the muon.
 
-Many elements are naturally radioactive. One of the most well known is Uranium, commonly used today as fuel in nuclear power plants. In the past, clock-makers used Radium and Tritium to make glowing-in-the-dark clock-hands. These elements have unstable structures, which cause them to spontaneously emit particles as byproducts of their internal readjustment—what gives them their glow. Depending on the characteristics of the radioactive atom, different types of particles are emitted: electrons, photons, or the so-called "alpha" particles (two protons and two neutrons bound together). Such radioactive elements are naturally present in small quantities in our soil, and were the object of study by particle physics pioneers, such as Henri Becquerel, and Marie and Pierre Curie.
+Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment, giving them their glow. One of the most well known is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to make glow-in-the-dark clock hands.  Different radioactive atom emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
 
-Particles from the cosmos continuously breach the atoms of the Earth's upper atmosphere. In these collisions, other particles are produced and travel towards our planet's surface. Many of them get trapped in subsequent collisions, some of them reach the ground, while others traverse the Earth and continue traveling undisturbed. These particles are called "cosmic rays". Among them, we find photons and electrons, but also muons — a sort of heavy electron — and positrons — the equivalent anti-matter of the electron. Cosmic rays are harmless to us: humanity has evolved in such an environment, and the human body is accustomed to such "particle showers."
+Particles from the cosmos continuously strike the atoms in the Earth's upper atmosphere. These particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The collisions produce particles that travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to particle showers.
 
-Natural sources of particles were the focus of the first experiments in particles physics, and since, many other particles have been discovered studying this initial set, e.g., the positron and muon.
 
-### How do we observe and study particles?
+### Observing and studying particles
 
-Particles are the smallest known objects in the Universe, and are intangible like light. So how can scientists observe, study, and most astonishingly, manipulate them?
+Particles are the smallest known objects in the Universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards the object of interest and observing light bounced back into our eyes. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
 
-Particles can't really be "seen," because seeing something involves sending a beam of visible light toward the thing we want to see and then receiving some light bouncing back from the thing to our eyes. But particles are so small that no visible light bounces back, even when using the most powerful of microscopes. Therefore, we have to find other ways to "see" particles.
+All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immeidately stop.
 
-All particles behave differently when passing through matter. Electrons and photons, for example, rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey. At that moment, they lose all their energy in a burst, and immeidately stop. Muons, on the other hand, can travel through layers and layers of any material, or even through hundreds of meters of solid rock, without losing much of their energy. This is why scientists build underground labs, buried deep under mountains, for example, the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], to try to shield sensitive scientific experiments from cosmic muons coming from the sky. Neutrinos, another particle, interact weakly with all other objects: they pass through entire planets without stopping.
+Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact weakly with all other objects: they can pass through entire planets without stopping.
 
-[a href:"static/images/underground.jpg"]
-  [img src:"static/images/underground.jpg" /]
-[/a]
+[br/]
+
+[img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/underground.jpg" /]
+
 [div className:'parametric-caption']
   The Laboratori Nazionali del Gran Sasso is the world's largest underground research center.
   [br /][br /]
   **Source**: [a href:"https://upload.wikimedia.org/wikipedia/commons/2/29/INFN_LNGS_2014-02_%28TQB1%29.JPG"]Wikipedia[/a].
 [/div]
 
-Physicists have leveraged these differing behaviors to develop different detectors to catch and measure each type of particle. When a particle passes through a layer of some material, it leaves a certain amount of its energy behind. That energy is collected and transferred to an electronic interface which shows a particle's passage. By layering different detectors, we can even reconstruct particle trajectories in the space, and under certain circumstances, measure the exact energy of the particle.
 
-Many particles also have a property called an "electric charge." This charge makes particles behave like the needle of a compass when a magnet is close by: it points towards one of the magnet's poles. Charged particles, like electrons or protons, are influenced by electromagnetic fields. In particular, an electric field can push charged particles forward, while a magnetic field makes a particle move from one side or another, depending on the charge of the particle.
+Physicists leverage these different behaviors to develop detectors that catch and measure each type of particle. When a particle passes through a material it leaves a certain amount of its energy behind. That energy is collected and transferred to an electronic interface which visualizes a particle's passage. By layering different detectors, physicists can reconstruct particle trajectories, and, under certain circumstances, measure the exact energy of a particle.
 
-In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved exactly like an electron, but observing how the magnetic field around the film bent the trajectory of the particle, Anderson had proof that this particle was an electron. If it were an electron, the magnet would have bent the particle's path in the opposite direction. Instead, he observed for the first time a "positron," the anti-electron, and with it, he found the first proof of the existence of anti-matter.
+Many particles have an *electric charge*. A charged particle behaves like the needle of a compass near a magnet: it points towards one of the magnet's poles. Charged particles, like electrons or protons, are influenced by electromagnetic fields. An electric field can be used to push charged particles forward, while a magnetic field can make a particle move to one side or another, depending on the charge of the particle.
 
+[br/]
 
 [a href:"static/images/positron.jpg"]
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
@@ -107,35 +116,25 @@ In 1933, Carl Anderson took a photograph of a cosmic ray particle passing throug
 [/caption]
 
 
-### How do we accelerate particles, and how do accelerators work?
+In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved almost exactly like an electron, except for the way a magnetic field around the film bent its trajectory. If it were an electron, the magnet would have bent the path in the opposite direction.  Anderson had proof that this particle wasn't an electron. What he observed was a *positron*, the anti-electron, and the first proof of the existence of anti-matter.
 
-Electromagnetic fields influence the speed and trajectories of charged particles. An electromagnetic field can always be divided into two distinct components: an electric field and a magnetic field. The force exerted by the field on a charged particle is the so-called "Lorentz force":
+### Accelerating particles
+
+Electromagnetic fields influence the speed and trajectories of charged particles. An electromagnetic field can always be divided into two distinct components: an electric field and a magnetic field. The force exerted by the field on a charged particle is called the *Lorentz force*:
 
 [Equation display:true]
   F=q[E+(v\times B)]
 [/Equation]
 
-In the above formula, [Equation]q[/Equation] is the charge of the particle and [Equation]v[/Equation] its velocity, [Equation]E[/Equation] is the electric field, and [Equation]B[/Equation] is the magnetic field. Thus, for a given electric and magnetic field, the particle experiences a force [Equation]F[/Equation] from the field depending on its charge and speed. But what if we could control the fields [Equation]E[/Equation] and [Equation]B[/Equation]?
+In the above formula, [Equation]q[/Equation] is the charge of the particle and [Equation]v[/Equation] its velocity, [Equation]E[/Equation] is the electric field, and [Equation]B[/Equation] is the magnetic field. For a given electric and magnetic field, the particle experiences a force [Equation]F[/Equation] from the field dependent on its charge and speed. But what if we could control the fields [Equation]E[/Equation] and [Equation]B[/Equation]?
 
-If we rewrite the formula by isolating the velocity of the particle and the radius of the bending of its trajectory, we find this:
+Rewriting the formula to isolate the velocity of the particle we find this:
 
 [Equation display:true]
   v = \sqrt{ \frac{2q(V_2-V_1)}{m}}
 [/Equation]
 
-[Equation display:true]
-  r = \frac{mv}{qB} \sin\theta
-[/Equation]
-
-We now have two expressions: the first describes the velocity of a particle, [Equation]v[/Equation], given the potential difference of the electric field, while the second describes the radius of the curvature of the particle's trajectory, [Equation]r[/Equation], given the speed of the particle and the strength of the magnetic field. Notice that only the electic field [Equation]E[/Equation] appears in the first formula, which means that the velocity [Equation]v[/Equation] only depends on the strength of the electric field, while only the magnetic field [Equation]B[/Equation] appears in the second equation. Therefore, we can use an electric field to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
-
-[Aside]
-The particle in the diagram has been **drasitically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
-That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature—, which is about 1 billion km/h!
-
-Also, notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to set the highest Volts value to make it move!
-[/Aside]
-
+The expression describes the velocity of a particle, [Equation]v[/Equation], given the potential difference of an electric field. This means that creating a large voltage difference will increase a chared particle's velocity.
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
 [var name:"q" value:`1.6E-19` /] // C
@@ -166,12 +165,19 @@ Also, notice how much more energy is needed to push a proton, which has the same
 [var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 6}, proton: { 350: 20, 1000: 20, 50000: 20 } }` /]
 [derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
+[aside]
+The particle in the diagram has been **drasitically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
+That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature—, which is about 1 billion km/h!
+
+Also notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to choose the highest voltage setting to make it move!
+[/aside]
+
 [div className:"electric-field-interactive"]
   [div className:"electric-field-interactive-hed"]
     Accelerate a particle using an electric field
   [/div]
   [div className:"electric-field-interactive-subhed"]
-    TKTK Subtitle for this interactive
+    Applying a voltage difference to
   [/div]
   [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
@@ -213,7 +219,14 @@ Also, notice how much more energy is needed to push a proton, which has the same
   [/div]
 [/div]
 
+If we instead rewriting the formula to isolate the radius of the bending of its trajectory, we find a description the radius of the curvature of a particle's trajectory, [Equation]r[/Equation], given the speed of the particle and the strength of the magnetic field:
 
+
+[Equation display:true]
+  r = \frac{mv}{qB} \sin\theta
+[/Equation]
+
+Means that a magnetic field can be used to steer the path of a charged particle.
 
 // TODO: add magnet colors
 // top: "rgba(54,103,172,1)"
@@ -296,11 +309,16 @@ In reality, this process is much more complicated. Different types of accelerati
   [/div]
 [/div]
 
-Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build so-called *"linear accelerators"*. These have limit on their maximal attainable energyby the number of accelerating modules, in other words, the total length of the accelerator. On the other hand, by using accelerating and bending modules, we can build *"circular accelerators"*: particles are injected into a ring composed of bending modules, which force particles to move in a circular path, while one accelerating module pushes the particles each time they pass through by. After a given amount of turns, the particles attain their maximum energy and can be used for experiments.
+// Notice that only the electic field [Equation]E[/Equation] appears in the first formula, which means that the velocity [Equation]v[/Equation] only depends on the strength of the electric field, while only the magnetic field [Equation]B[/Equation] appears in the second equation. Therefore, we can use an electric field to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
 
-Physicists use these accelerators to study the basic characteristics of particles, but it quickly became clear that these accelerators could have many applications to industry and other scientific fields.
+Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build linear accelerators but the energy that these accelerators can produce is governed by their length. By combining accelerating and bending modules, we can build circular accelerators, in which particles are injected and forced to move in a circular path. Each time a particle goes around it is accelerated. After a given amount of cycles the particle attains its maximum energy and can be used for experiments.
 
-The old television set was based on the cathode-ray tube, which is nothing more than a compact particle accelerator! Electrons are produced at one end by applying an electric field which accelerates them, causing them to fly towards the other end of the tube, which is covered by a layer of phosphorescent material that becomes luminescent when hit by an electron. The trajectory of the electrons is bent by using a variable magnetic field, which force them to hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam "paints" an image on the screen.
+
+Circular accelerators can be further divided into two main groups: *cyclotrons*, which were the first to be invented around 1930, and *synchrotrons*. The former are commonly used in hospitals today. The latter are used in machines for cutting-edge research in particle physics, such as the [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider[/a]  (LHC) at CERN.
+
+Physicists designed accelerators to study the basic characteristics of particles, but it quickly became clear that they could have many other scientific and industrial applications. For example, old television sets were driven by cathode-ray tubes, which are nothing more than compact particle accelerators!
+
+Electrons are produced and subjected to an electric field, causing them to fly towards a certain end of the tube. This end is covered by a layer of phosphorescent material that becomes luminescent when hit by electrons. The trajectory of the electrons is bent by a variable magnetic field, which forces electrons to hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam paints an image on the screen.
 
 // ```
 // interactive visualization:
@@ -308,11 +326,9 @@ The old television set was based on the cathode-ray tube, which is nothing more 
 // We use the earlier "accelerating" and "bending" modules to build two types of particle accelerators: a "linear" and a "circular" one. Users have to change the two field to accelerate the particle correctly.
 // ```
 
-So how much energy can a particle traveling in an accelerator attain?
+// So how much energy can a particle traveling in an accelerator attain?
 
-Particles in a linear accelerator gain energy by passing through a series of accelerating modules, each of them propelling the particle further. The limit of the amount of energy particles can obtain only depends on the number of the accelerating modules—the longer the accerleator, the more energy attained. That is why accelerators are so long and cost so much! On the other hand, circular accelerators only contain one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many times. Every time a particle passes through the single accelerating module, it gets a kick which gives it a bit more kinetic energy. In principle, there is no limit to the number of times a particle can be pushed through the accelerating section of a circular collider. However, in practice after a certain point the energy leaks due to many different physical effects that are larger than the kick received by the electric field. At that point, the circular accelerator has attained its energy limit due to its construction and design.
-
-Circular accelerators can be further divided into two main groups: "cyclotrons," which were the first to be invented around 1930, and "synchrotrons." The former are commonly used in hospitals today. The latter are used in machines for cutting-edge research in particle physics, such as the [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider ("LHC")[/a] at [a href:"https://home.cern/"]CERN[/a].
+// Particles in a linear accelerator gain energy by passing through a series of accelerating modules, each of them propelling the particle further. The limit of the amount of energy particles can obtain only depends on the number of the accelerating modules—the longer the accerleator, the more energy attained. That is why accelerators are so long and cost so much! On the other hand, circular accelerators only contain one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many times. Every time a particle passes through the single accelerating module, it gets a kick which gives it a bit more kinetic energy. In principle, there is no limit to the number of times a particle can be pushed through the accelerating section of a circular collider. However, in practice after a certain point the energy leaks due to many different physical effects that are larger than the kick received by the electric field. At that point, the circular accelerator has attained its energy limit due to its construction and design.
 
 // TODO:
 // As a comparison, if we would build a linear accelerator to let particles accelerate at the the same energy of the circular LHC, one should build an accelerator ??? long.
@@ -337,20 +353,22 @@ Circular accelerators can be further divided into two main groups: "cyclotrons,"
 // [/Aside]
 
 
-### Particle factories: Why we need colliders
+### Particle factories
 // and how they work
 
 [Aside]
   [Newsletter /]
 [/Aside]
 
-So far, we have only talked about particles produced in natural sources, for example, the decay of radioactive materials or cosmic rays. However, these are only a few of the many natural phenomena which involve particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light—and their interaction. The stability of the atoms which compose all matter depend on the interaction between two types of fundamental particles, quarks and gluons, discovered respectively at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979. Moreover, the mechanism behind radioactive decay itself—which also takes part in the core's of stars—is determined by the behavior of two specific types of particles, called W and Z, discovered at CERN in 1983.
+So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars—is determined by the behavior of [equation]W[/equation] and [equation]Z[/equation], discovered at CERN in 1983.
 
-However, many more fundamental mechanisms in our Universe are based on particles which we haven't discovered yet. This leads to a number of interesting questions to current physicists. For example, how did the Universe form? At the beginning of time, in a tiny fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And again, how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
+Many fundamental mechanisms in the Universe depend on particles which we haven't discovered yet. This creates a number of interesting questions for modern physicists. For example, how did the Universe form? At the beginning of time, in a fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
 
-To answer these questions, and the others not yet asked, we will need particles interacting at much higher energies and with a much higher flux than those we can obtain from sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
+To answer these questions, and others not yet asked, we need particles interacting at much higher energies
+and with a much higher flux
+than those we can obtain from natural sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
 
-In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula [Equation]E=mc^2[/Equation], his theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely, if we create the same amount of energy that corresponds to the mass of a specific particle, we can then "create" that particle and study it. Modern particle colliders are built for this: they accelerate particles up to the highest possible energy they are built for, then they make them collide. At that point, the energy involved in the impact is "converted" and "re-used" to create new particles. The particles created in the collisions are then caught by particle detectors and stuided.
+In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula [Equation]E=mc^2[/Equation], his theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely, if we create the exact amount of energy that corresponds to the mass of a specific particle, we can then create that particle and study it. Modern particle colliders are built for this: they accelerate particles up to the highest possible velocities and make them collide. The energy involved in the impact is used to create new particles which are caught by detectors and studied.
 
 
 // ```
@@ -359,14 +377,14 @@ In 1905, Albert Einstein proposed a theory about the equivalence of mass and ene
 // ```
 
 
-The particles created in colliders are not to be considered "artificial": they are naturally found under specific conditions in other places, like in stars, or confined in microscopic objects, like the nucleus of atoms. Using particle colliders, we simply recreate such conditions so that we can study them in a laboratory. Although the energy we can attain with today's particle accelerators is impressive, it doesn't compare to natural particle accelerators found in outer space. Cosmic rays from outside our galaxy are accelerated at much higher energies, and more energetic collisions happen in the Earth's upper atmosphere than in our most powerful colliders.
+The particles created in colliders are not to be considered artificial: they are naturally found under specific conditions in other places, like stars, or confined in microscopic objects, like the nuclei of atoms. Using particle colliders, we simply are simply creating the right conditions for them to be observed in a laboratory. Although today's particle accelerators are impressive, they don't compare to natural particle accelerators found in outer space. Cosmic rays from outside the Milky Way create much more energetic collisions in the Earth's upper atmosphere than our most powerful colliders.
 
 
-### How do we experiment on small objects like particles?
+### Conducting experiments on particles
 
-Once we create particles, how do we actually study them?
+// Once we create particles, how do we actually study them?
 
-Two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
+Two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists can catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
 
 
 // ```
@@ -403,17 +421,19 @@ Two beams of accelerated particles smash into one another at a collision point. 
 [/div]
 
 
-In the simplified visualization above, one collision occurs every second, and only one particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems to acquire and filter data from the collision, and to identify and measure the characteristics of such particles, to ultimately study the underlying physics which generated them.
+In the simplified visualization above, one collision occurs every second, and only one particle is produced in each collision. In reality, however, many more collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems that acquire and filter data from these collisions. With that data they can identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
 
-Particle accelerators and detectors, however, are not used only for fundamental research. Those used in laboratories as CERN or Fermilab are the largest and most advanced, designed and built for cutting-edge scientific research. But there are many others, derived from the former ones, which are used for very different, practical applications.
 
-[hr/]
+[br/]
+[br/]
 
-## Part 2: Particle Physics in Society
+[h2]
+[span style:`{fontWeight: 400}`]Part 02[/span][br/]
+Particle Physics in Society
+[/h2]
 
 // ### Accelerators and detectors in our life
-
-Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
+Particle accelerators such as those at CERN and Fermilab are designed and built for cutting-edge scientific research, but there are many others which are used for very different, practical applications. Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
 There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
 
