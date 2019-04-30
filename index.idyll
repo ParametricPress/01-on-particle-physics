@@ -109,6 +109,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 
 [br/]
 
+// TODO: with Photoshop, add label on the photo to indicate the track and the metal plate, for users to understand the image easier.
 [a name:"positron"/]
 [a href:"static/images/positron.jpg"]
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
@@ -604,13 +605,11 @@ Even though hadron therapy is still under active development, it is already used
 
 ### Research spinoffs
 
-Particle colliders are complex structures that require careful design and development. Oftentimes, the materials developed are created in collaboration with  industry partners, which lead to further developement and applications in other fields.
+Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which lead to further developement and application for other fields.
 
-Marie Curie didn't know what future technologies would stem from her research of radioactivity, but all of today's medical imaging techniques can be traced back to her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it also enables the creation of advanced new technologies.
+Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
-Consider LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realistic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero"—colder than outer space.
-
-To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy when smashing into air molecules, new vacuum pumping techniques had to be developed to suck out most of the air from the accelerator pipe. The beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
+// All of these innovations led to further developments and new industrial products, [a href:"https://kt.cern/"]eventually being used for applications other than fundamental research in particle physics[/a].
 
 [br/]
 
@@ -623,12 +622,15 @@ To do this, innovative cryogenics were developed. Moreover, to ensure that accel
 [/div]
 
 
+Scientific findings are not always immediately used. But every bit of knowledge might be used eventually. As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
+For example, Marie Curie didn't know what future technologies would benefit from her research of radioactivity, but all of today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
-### The World Wide Web
 
-Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented the "Web."
+### Happy 30th birthday, World Wide Web!
 
-Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the "browser" connects over the Internet to another machine sitting in a room somewhere around the world, called the "server," and asks to download this article. The article is then passed from the server to your device, the "client," and displayed on your screen to read. Clicking another link on in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies titled the "World Wide Web", or "WWW."
+Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented the Web.
+
+Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the *browser* connects over the Internet to another machine sitting in a room somewhere around the world, called the *server*, and asks to download the article. The article is then passed from the server to your device, the *client*, and displayed on the screen to read. Clicking another link in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies called the World Wide Web, or the WWW.
 
 // [div className:"comment"]not edited by fred, not needed, repetitive[/div]
 // Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
@@ -638,49 +640,31 @@ CERN's LHC experiments are only made possible through the contribution of many c
 
 The [a href:"https://home.cern/science/experiments/atlas"]ATLAS experiment[/a] has around 3,000 scientific authors from 183 institutions around the world, representing 38 countries. Around 1,200 doctoral students are involved in the research, as well as many engineers, technicians, and administrative staff. The [a href:"https://home.cern/science/experiments/cms"]CMS experiment[/a] is similar.
 
-These experiments are among the largest collaborative efforts ever attempted in science.
+These experiments are among the largest collaborative efforts ever attempted in science!
 [/Aside]
 
-However, not many people know that before we could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was first invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments, since historically, particle physics experiments require vast international collaboration.
+Before the Web could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments.
+//  since historically, particle physics experiments require vast international collaboration.
 // Experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
 
-// [div className:"comment"]I'm a little confused on the story below, I've tried to condense. please make sure it's still correct! -fred[/div]
+[a href:"https://web30.web.cern.ch/"]30 years ago[/a], in March 1989, Tim Berners-Lee presented to his supervisor, Mike Sendall, a proposal to develop a new "information management system," designed to share information about the activities within CERN. At the same time, a CERN manager, Robert Cailleau, was looking for solutions to let the future LHC experiments efficiently share information.
 
-Exactly 30 years ago, in March 1989, Tim Berners-Lee presented a proposal for the development of a new "information management system," designed to share information about the activities within CERN.
-// The system was designed as a distributed network of hypertexts.
-// Earlier, an internal half-page note written by a CERN manager, Robert Cailliau, proposed to conduct a study on distributed hypertext systems to let the future LHC experiments at CERN efficiently share information.
-His supervisor at the time, Robert Cailliau, read the proposal and added a personal note on the cover page: "Vague but exciting…" Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiements.
+Sendall passed Berners-Lee's proposal to Cailleau, after having added [a href:"http://info.cern.ch/Proposal.html"]a personal note on the cover[/a] page: "Vague but exciting…" Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiments, and supported the development of Berners-Lee's idea.
 
 [Aside]
-As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."*
-
-**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014.
+As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."* (**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014). //TODO: move this to a pop-up link.
 [/Aside]
 
-[a href:"static/images/www.jpg"]
-  [img style:`{maxWidth: "500px"}` src:"static/images/www.jpg" /]
-[/a]
+[br/]
+
+[img style:`{maxWidth: "500px"}` src:"static/images/www.jpg" /]
 [div className:'parametric-caption']
-  The original WWW proposal cover. Notice the handwritten note in the top margin: "Vague but exciting..."
+  The original WWW proposal cover. Notice the handwritten note in the top margin: *"Vague but exciting..."*
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/1164396"]CERN[/a].
 [/div]
 
-And thus, the WWW was born, with its core software released for free in the public domain, renouncing both its inventor and inventor's employer to all rights, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the Internet, the backbone of our digital life.
-
-
-// #### Examples of other derived products
-
-// [div className:"comment"]I don't think we need to go in-depth about more! -fred[/div]
-
-// *Touch screen, Cloud computing.*
-// *Collaboration model*
-// *Industry, Accelerators for industry*
-
-// Many other technologies saw the light (si dice??) as byproducts of engineering and technical development to solve technological issues in experimental particle physics.
-
-// If you are on the go, it is very likely that to read this article you clicked on a couple of links or buttons shown on the screen of your device. The first touch screen saw the light at CERN, in ???. Touch screens were invented and developed to ... .
-
+And thus, the WWW was born. The core software was released in the public domain, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous backbone of our digital life.
 
 
 
