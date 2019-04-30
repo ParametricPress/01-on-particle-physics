@@ -86,13 +86,14 @@ Particles are the smallest known objects in the Universe, and are intangible lik
 
 All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immeidately stop.
 
+[Aside]
+In Italian, *Gran Sasso* literally means "Big Rock"!
+[/Aside]
+
 Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]Gran Sasso laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
 
 [br/]
 
-[Aside]
-In Italian, *Gran Sasso* literally means "Big Rock"!
-[/Aside]
 
 [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/underground.jpg" /]
 
@@ -427,6 +428,18 @@ In a circular collider, two beams of accelerated particles smash into one anothe
 
 In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle come, the magnetic fiekd bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
 
+
+
+[Aside]
+A **nanosecond** is a billionth of a second, that is 0.000000001 seconds!
+[/Aside]
+
+In reality, however, many collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems that acquire and filter data from these collisions. With that data they can identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
+
+// [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/lhc_collision_atlas.png" /]
+// [br/]
+
+[br/]
 [a href:"static/images/lhc_collision_atlas.png"]
   [img src:"static/images/lhc_collision_atlas.png" /]
 [/a]
@@ -435,13 +448,6 @@ In the simplified visualization above, three layers of detectors are placed one 
   [br /][br /]
   **Source**: [a href:"hhttps://cds.cern.ch/record/2105605?ln=en"]ATLAS Experiment, CERN[/a].
 [/div]
-
-
-[Aside]
-A **nanosecond** is a billionth of a second, that is 0.000000001 seconds!
-[/Aside]
-
-In reality, however, many collisions occur, and many more particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists is to design and build bespoke hardware and software systems that acquire and filter data from these collisions. With that data they can identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
 
 
 
