@@ -26,9 +26,9 @@
 
 Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
 
-*Particle physics* is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain Nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
+**Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain Nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
 
-Fundamental research fields explore the structure and behavior of our universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
+Fundamental research fields explore the structure and behavior of the Universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
 
 [br/]
 [br/]
@@ -51,7 +51,7 @@ Since ancient times people have wondered of what the objects arounds them were c
 
 Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see a many electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
 
-Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
+Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as particle physics.
 
 // ```
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
@@ -81,7 +81,7 @@ Particles from the cosmos continuously strike the atoms in the Earth's upper atm
 
 ### Observing and studying particles
 
-Particles are the smallest known objects in the Universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards the object of interest and observing light bounced back into our eyes. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
+Particles are the smallest known objects in the Universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards an object and observing light that bounces back. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
 
 All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immeidately stop.
 
@@ -116,7 +116,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 [caption]
   Anderson's 1933 positron discovery, which proved the existence of anti-matter. Here, we see how the trajectory of a charged particle is bent from a magnet.
   [br /][br /]
-  **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].
+  **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].[br/]
   **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
 [/caption]
 
@@ -184,9 +184,9 @@ Also notice how much more energy is needed to push a proton, which has the same 
   [div className:"electric-field-interactive-hed"]
     Accelerate a particle using an electric field
   [/div]
-  [div className:"electric-field-interactive-subhed"]
-    Applying a voltage difference to
-  [/div]
+  // [div className:"electric-field-interactive-subhed"]
+  //   Applying a voltage difference to
+  // [/div]
   [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
       Choose a particle
@@ -267,9 +267,9 @@ In reality, this process is much more complicated. Different types of accelerati
   [div className:"electric-field-interactive-hed"]
     Bend a particle using a magnetic field
   [/div]
-  [div className:"electric-field-interactive-subhed"]
-    TKTK Subtitle for this interactive
-  [/div]
+  // [div className:"electric-field-interactive-subhed"]
+  //   TKTK Subtitle for this interactive
+  // [/div]
   [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
       Choose a particle
@@ -431,12 +431,10 @@ In the simplified visualization above, three layers of detectors are placed one 
 [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector.
-  [br/] Did you notice the human being on the bottom of the picture?
+  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
-
 
 
 [Aside]
@@ -448,15 +446,15 @@ In reality, however, many collisions occur, and many more particles are produced
 // [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/lhc_collision_atlas.png" /]
 // [br/]
 
-[br/]
-[a href:"static/images/lhc_collision_atlas.png"]
-  [img src:"static/images/lhc_collision_atlas_LR.jpg" /]
-[/a]
-[div className:'parametric-caption']
-  CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. In the image, the particles accelerated by the LCH smash inside the detector of the [a href:"https://atlas.cern/discover/about"]ATLAS experiment[/a], producing thousands of new particles. Physicsts place layers of detectors around the collision point to catch and measure them.
-  [br /][br /]
-  **Source**: [a href:"hhttps://cds.cern.ch/record/2105605?ln=en"]ATLAS Experiment, CERN[/a].
-[/div]
+// [br/]
+// [a href:"static/images/lhc_collision_atlas.png"]
+//   [img src:"static/images/lhc_collision_atlas_LR.jpg" /]
+// [/a]
+// [div className:'parametric-caption']
+//   CERN's Large Hadron Collider (LHC) is the world’s largest and most powerful particle accelerator. In the image, the particles accelerated by the LCH smash inside the detector of the [a href:"https://atlas.cern/discover/about"]ATLAS experiment[/a], producing thousands of new particles. Physicsts place layers of detectors around the collision point to catch and measure them.
+//   [br /][br /]
+//   **Source**: [a href:"hhttps://cds.cern.ch/record/2105605?ln=en"]ATLAS Experiment, CERN[/a].
+// [/div]
 
 
 
@@ -471,43 +469,42 @@ Particle Physics in Society
 // ### Accelerators and detectors in our life
 Particle accelerators such as those at CERN and Fermilab are designed and built for cutting-edge scientific research, but there are many others which are used for very different, practical applications. Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
-There are about 30,000 particle accelerators in the world today, of which almost half are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Many are also used in other industries too, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research. // TODO: add reference!!
+There are about 30,000 particle accelerators in the world today, almost half of which are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Some are used for other purposes, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
 
 // Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
 
-More generally, many technologies we commonly use today were developed as direct applications of research spinoff from particle physics. These byproducts are developed to build and run experiments or to support the activities of the particle physics community.
-
-Two impactful examples include medial scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
+Many technologies we commonly use today are the results of research spun-off from particle physics. These byproducts were developed to build and run experiments or to support the activities of the particle physics community. Two impactful examples include medical scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
 
 
 ### Medicine
 
-Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted—observing particles that interact with our bodies. For example, thousands of low energy particles hit our skin every second without us noticing, since our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pirece through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose discoveries are still used today for many diagnosis techniques, such as radiographies and CT scans.
+Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted: observing particles that interact with our bodies. Thousands of low energy particles hit our skin every second without us noticing. Our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pirece through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose results are still used today for many diagnosis techniques, such as radiographies and CT scans.
 
-What the early pioneers did not know at the beginning, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse through. If not properly controlled, energetic particles travelling through an organ can be very dangerous; but, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
+What these early pioneers did not know however, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse. If not properly controlled, energetic particles travelling through an organ can be very dangerous. But, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
 
 Today, medical physics is an independent branch of research, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health."
 
 
-### X-Ray images
+### X-ray images
 
-It's very likely people obtain, at least once in their lives, a radiography: that black and white image of our bones or other organs, perhaps to confirm a broken bone or to inspect the health of our teeth. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
+Many people get a radiography—that black and white image of bones or other organs—at least once in their lives, perhaps to confirm a broken bone or to inspect dental health. Radiography imaging, better known as X-rays, is a direct application of what was discovered from early experiments in particle physics.
+
+X-rays (where the "X" stands for "unknown", originally named for its mysterious origins) were found in 1895 by German physicist Wilhelm Röntgen. He discovered them while experimenting with a Crookes tube: the forerunner of the cathode-ray tube used in TV sets. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between them.
 
 [Aside]
 In many languages, X-rays are called "Röntgen rays," named after the German scientist [a href:"https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"]Wilhelm Röntgen[/a] who, on November 8th 1895, produced and detected X-rays. In 1901, this won him the first Noble Prize in Physics.
 [/Aside]
 
-X-rays (where the "X" stands for "unknown", originally named for its mysterious origins) were found in 1895 by German physicist Wilhelm Röntgen. He discovered them while experimenting with a Crookes tube: the forerunner of the cathode-ray tube used in TV sets, which produces beams of electrons. Röntgen noticed a luminescent halo in the fluorescent screen far away from the tube, even when thick books and a thin metal plate were placed between them. Röntgen realized that those rays were being absorbed differently by different materials. By placing a photographic plate behind the object to test, he could then observe the level of "blackness" in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka! Moment" when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the object.
+Röntgen realized that those rays were absorbed differently by different materials. By placing a photographic plate behind the object to test, he could observe the level of darkness in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka!" moment when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the subject.
 
-[a href:"static/images/xray.jpg"]
-  [img style:`{maxWidth: "500px"}` src:"static/images/xray.jpg" /]
-[/a]
+[br/]
+
+[img style:`{maxWidth: "500px"}` src:"static/images/xray.jpg" /]
 [div className:'parametric-caption']
-  The first X-ray image of scientist's Wilhelm Röntgen wife's hand and wedding ring.
+  The first X-ray image captured Anna Bertha Ludwig's hand and wedding ring. She was the wife of scientist Wilhelm Röntgen.
   [br /][br /]
   **Source**: [a href:"https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"]Wikipedia[/a].
 [/div]
-
 
 // TODO: We can tell (and show) how x-rays imaging works: What "x-rays" are (photons of a specific wavelength) and how they produce an image of our body?
 
@@ -516,21 +513,19 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 
 ### PET scanners
 
-[div className:"comment"]NEW content in this section!! To be edited![/div]
 
-Many other medical imaging techniques are applications of physics techniques.
-Positron-emission tomography (PET), for example, is a *nuclear medicine* imaging technique, which comes directly from particle and nuclear physics research.
+Besides X-rays, there are many other medical imaging techniques that apply physics techniques. Positron-emission tomography (PET), for example, is a *nuclear medicine* imaging technique, which comes directly from particle and nuclear physics research.
 
-PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body, releasing its energy, and it is eventually caught by an atom, where it meets an electron. Being the positron the anti-matter buddy of the electron, when the two meet they *annihilate*. That means that the two "dissolve" in the interaction and a certain amount of energy is released in the process, following Einstein's known mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
+PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body before releasing its energy, and is eventually caught by an atom, where it meets an electron. When a positron, the anti-matter buddy of the electron, meets an electron, the two particles *annihilate*. That means that they "dissolve" during the interaction and a certain amount of energy is released, following Einstein's  mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
 
-In order to catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the "big
-ring" patients see when they lay down for the PET exam—detect the two escaping
-photons measuring the time of arrival and the direction, and a piece of dedicated
-software reconstruct the trajectory and then the point of origin within the patient's body. The tracer collects in organs and tissues of higher chemical activity, often bound to certain diseas. Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
+To catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the big
+ring patients see when they lay down for the PET exam—detect the two escaping
+photons, measuring the time of arrival and the direction. A piece of dedicated
+software reconstructs the trajectory and the point of origin within the patient's body.
 
+The tracer collects in organs and tissues of higher chemical activity, often bound to certain disease.
+// Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
 The areas where the tracer accumulates are the origin of a higher number of photons and show up as bright spots on the images from the PET scan. Cancer cells, for instance, have a higher metabolic rate than normal cells and, because of this, they appear as bright spots on a PET scan, helping doctors check the presence or the status of a tumor.
-
-
 
 
 // ```
@@ -539,8 +534,6 @@ The areas where the tracer accumulates are the origin of a higher number of phot
 // detector ring, where a "spark" is generated, and a signal (a blob) travels along a
 // cable to a computer.
 // ```
-
-
 
 The radioactive isotopes used in PET scanners have to be produced in [a href:"https://en.wikipedia.org/wiki/Cyclotron"]cyclotrons[/a], small circular particle accelerators which combine an oscillating electric field and a static magnetic field that holds the particles to accelerate in a spiral path.
 As CERN scientist Yacine Kadi [a href:"https://indico.cern.ch/event/528094/contributions/2172915/"]explains in one of his lectures[/a], the accelerated particles are then driven to a specific target which, after irradiation, contains the desired radioisotope. The parameters like particle energy, beam intensity, target material, and time will determine the kind and the quantity of produced radioisotopes.
@@ -552,17 +545,17 @@ The **half-life** is a parameter that indicates the time needed for half of the 
 Tracers with a shorter half-life must be used within a short delay from their production, therefore, they should be produced closed to the PET facility or to be  transported there as fast as possible. PET radio-isotopes can be transported to maximum 3-5 hours distance only, which confines their production within the hospitals neiborhood.
 [/Aside]
 
-Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen, to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracer is based on the radioisotope "fluorine-18", whose half-life is of 110 minutes, which allows for medium-long transports. Another one is "rubidium-82", with a half-life of 1.27 minutes, who is usually produced very close to the PET facility.
+Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen specifically to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracers is based on the radioisotope fluorine-18, whose half-life is of 110 minutes, which allows for medium-long transports. Another one is rubidium-82, with a half-life of 1.27 minutes, which is usually produced very close to the PET facility.
 
-Being the cost of operating a cyclotron and the equipment for the subsequent preparation of the radioactive tracer quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
+Given that the cost of operating a cyclotron, along with the equipment for the subsequent preparation of the radioactive tracer, are quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
 
-[Aside]
-Since more than 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
-[/Aside]
+// [Aside]
+// For over 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
+// [/Aside]
 
-Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
+// Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
 
-As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
+// As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
 
 // If you have time:
 // - viz of a cyclotron
@@ -571,29 +564,28 @@ As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.w
 
 
 
-### New frontiers of cancer therapy: Hadron therapy
+### New frontiers of cancer therapy: hadron therapy
 
-[div className:"comment"]NEW SECTION! To be edited![/div]
+So far we looked at how particles used as probes in medical imaging, but
+particles are used as therapies too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
 
-So far, we only looked at particles used as probes, in medical imaging techniques. But
-particles are used in therapies, too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
+In 1906, shortly after the discovery of radioactivity itself by Henri Bequerel, Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, which causes them to shrink. The technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20th century, brachitherapy is still used today to treat different kind of tumors.
 
-Briefly after the discovery of radioactivity itself by Henri Bequerel, in 1906 Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, for them to shrink. The new technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20-th century, brachitherapy is still used today to treat different kind of tumors.
 Another common cancer therapy which makes use of particles is *radiotherapy*, where X-rays are collimated and driven to the target organ or tissue. To deliver the planned dose, multiple treatments from different angles are usually given. *Electron therapy* uses beams of energetic electrons. Given their characteristics, beams of electrons do not penetrate deeply in the body tissues, so they are mainly used to treat skin tumors.
 
-The drawback of all these techniques resides in the nature of the particles used for them. Because of the way energetic electrons or photons interact with matter (all matter, not only body tissues), much energy is released to healthy tissues along the particle's travel in the patient's body. That causes damages to the other tissues and organs close to the tumor. Even with a careful planning of the treatments, there is a non-negligeable amount of energy released to heathy organs around the sick ones, which get damaged; and that for the very nature of the particles used for the treatment.
+The drawback of all these techniques resides in the nature of the particles used for them. Because of the way energetic electrons or photons interact with matter (all matter, not just bodily tissue), much energy is released in the healthy tissue along a particle's path through a patient's body. This causes damage to the other tissue and organs near the tumor. Even with careful planning of the treatment, some energy will be released in the heathy organs around the sick ones, causing them to get damaged; and that is due to the very nature of the particles used for the treatment.
 
 [Aside]
 Protons, neutrons, and ions all belong to the same family of **hadrons**. Those are the particles composed of the smaller, fundamental bricks called *quarks*. Therefore, the term *hadron therapy* is used for all therapies making use of *hadrons*.
 [/Aside]
 
-A new frontier in cancer therapy with particle beams is the so-called *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
+A new frontier in cancer therapy with particle beams is *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
 
-That technique is based on most of the findings of particles physics experiments of last decades. Also, the accelerators used to accelerate protons or other hadrons come directly from the research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
+// The technique is based on recent findings from particles physics, and the accelerators used to accelerate protons and other hadrons are derived from research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
 
 // TODO: viz - graph of the energy vs. path length. Maybe, animated...
 
-Even if *hadron therapy* is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a] or the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, or the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in US—to treat nasty tumors in children or in body's areas difficult to operate surgically.
+Even though hadron therapy is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a], the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, and the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in the U.S.—to treat nasty tumors in children or in areas which are difficult to operate on surgically.
 
 
 
@@ -612,13 +604,14 @@ Even if *hadron therapy* is still under active development, it is already used i
 
 Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which lead to further developement and application for other fields.
 
-Let's look at an example in-depth. Consider the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets were invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
+Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
-All these innovative technologies led to further developments and new industrial products, [a href:"https://kt.cern/"]eventually used for applications other than fundamental research in particle physics[/a].
+// All of these innovations led to further developments and new industrial products, [a href:"https://kt.cern/"]eventually being used for applications other than fundamental research in particle physics[/a].
 
-[a href:"static/images/lhc1.jpg"]
-  [img src:"static/images/lhc1.jpg" /]
-[/a]
+[br/]
+
+
+[img src:"static/images/lhc1.jpg" /]
 [div className:'parametric-caption']
   The Large Hadron Collider accelerates particles and boost their energy using a 27-kilometer ring of superconducting magnets.
   [br /][br /]
@@ -626,15 +619,15 @@ All these innovative technologies led to further developments and new industrial
 [/div]
 
 
-Scientific findings are not always immediately used. But every bit of knowledge will be used eventually. As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
-For example, Marie Curie didn't know what future technologies would benefit from her research of natural radioactivity of certain elements, but all today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein  develop his theory of General Relativity expecting it to be used for the exact calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
+Scientific findings are not always immediately used. But every bit of knowledge might be used eventually. As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
+For example, Marie Curie didn't know what future technologies would benefit from her research of radioactivity, but all of today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
 
-### Happy 30-th birthday, World Wide Web!
+### Happy 30th birthday, World Wide Web!
 
-Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented the "Web."
+Building particle accelerators is a large collaborative undertaking. Years ago, particle physicists and engineers were having trouble efficiently sharing data, distributing information, and collaborating as computers became more mainstream. To solve that, they invented the Web.
 
-Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the "browser" connects over the Internet to another machine sitting in a room somewhere around the world, called the "server," and asks to download this article. The article is then passed from the server to your device, the "client," and displayed on your screen to read. Clicking another link on in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies titled the "World Wide Web", or the "WWW."
+Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the *browser* connects over the Internet to another machine sitting in a room somewhere around the world, called the *server*, and asks to download the article. The article is then passed from the server to your device, the *client*, and displayed on the screen to read. Clicking another link in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies called the World Wide Web, or the WWW.
 
 // [div className:"comment"]not edited by fred, not needed, repetitive[/div]
 // Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
@@ -647,39 +640,36 @@ The [a href:"https://home.cern/science/experiments/atlas"]ATLAS experiment[/a] h
 These experiments are among the largest collaborative efforts ever attempted in science!
 [/Aside]
 
-However, not many people know that before we could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was first invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments, since historically, particle physics experiments require vast international collaboration.
+Before the Web could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments.
+//  since historically, particle physics experiments require vast international collaboration.
 // Experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
 
-Exactly [a href:"https://web30.web.cern.ch/"]30 years ago[/a], in March 1989, Tim Berners-Lee presented to his supervisor, Mike Sendall, a proposal for the development of a new "information management system," designed to share information about the activities within CERN. At the same time, a CERN manager, Robert Cailleau, was looking for solutions to let the future LHC experiments efficiently share information.
-Sendall passed Berners-Lee's proposal to Cailleau, after having added [a href:"http://info.cern.ch/Proposal.html"]a personal note on the cover[/a] page: *"Vague but exciting…"*. Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiments, and supported the development of Berners-Lee's idea.
+[a href:"https://web30.web.cern.ch/"]30 years ago[/a], in March 1989, Tim Berners-Lee presented to his supervisor, Mike Sendall, a proposal to develop a new "information management system," designed to share information about the activities within CERN. At the same time, a CERN manager, Robert Cailleau, was looking for solutions to let the future LHC experiments efficiently share information.
+
+Sendall passed Berners-Lee's proposal to Cailleau, after having added [a href:"http://info.cern.ch/Proposal.html"]a personal note on the cover[/a] page: "Vague but exciting…" Cailleau recognized that Berners-Lee's idea could be a potential solution to distribute documents and data across institutes for future LHC experiments, and supported the development of Berners-Lee's idea.
 
 [Aside]
-As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."* (**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014). //TODO: move this to a pop-up link.
+As Robert Cailleau wrote, *"It may be said that the Web is one of the first spinoffs of the LHC. In that sense, the mere existence of the Web should silence all critics of the LHC's costs."* (**Source**: "From Physics to Daily Life", Edited by B. Bressan, Wiley, 2014).
+// TODO: move this to a pop-up link.
 [/Aside]
 
-[a href:"static/images/www.jpg"]
-  [img style:`{maxWidth: "500px"}` src:"static/images/www.jpg" /]
-[/a]
+[br/]
+
+[img style:`{maxWidth: "500px"}` src:"static/images/www.jpg" /]
 [div className:'parametric-caption']
   The original WWW proposal cover. Notice the handwritten note in the top margin: *"Vague but exciting..."*
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/1164396"]CERN[/a].
 [/div]
 
-And thus, the WWW was born, with its core software released for free in the public domain, renouncing both its inventor and inventor's employer to all rights, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous "WWW", the backbone of our digital life.
-
-
-
-
-[br/]
+And thus, the WWW was born. The core software was released in the public domain, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous backbone of our digital life.
 
 ## A last word
 
-Particle physics helps us unveil the mysteries of the Universe.
-// So far, it has helped us discern the basic components of the known matter and the basic forces which rule everything we know so far.
-Like other fundamental sciences, practical applications isn't its focus.
+Particle physics helps us unveil the mysteries of the Universe, and has let us discern the basic components of matter and the basic forces which govern the Universe as we know it.
+Like other fundamental sciences, practical applications aren't the focus.
 // Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
-However, discoveries made by particle physics and technologies invented for it have transformed society and our daily lives forever.
+Still, the discoveries made by particle physicists, and technologies developed to enable their experiments, have transformed our lives forever.
 //  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
 //
 // Particle physics unveiled the 4 basic forces which rule everything we know about so far.
