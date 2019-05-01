@@ -24,7 +24,7 @@
 /]
 
 
-Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
+Everything that we can see and touch is made up of *particles*, the basic building blocks of Nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
 
 **Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain Nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
 
@@ -43,15 +43,15 @@ The Science of Particle Physics
     [img src:"static/images/democritus.jpg" /]
   [/a]
   [caption]
-  The [Greek philosopher Democritus](https://commons.wikimedia.org/wiki/File:Democritus2.jpg), who, in the 4th-century B.C., coined the term "atomos" for the smallest, indivisible part of something: a privative *"a"* followed by *"tomos"*/"cut".
+  The [Greek philosopher Democritus](https://commons.wikimedia.org/wiki/File:Democritus2.jpg), who, in the 4th-century B.C., coined the term "atomos"—a privative *"a"* followed by *"tomos"*/"cut"—for the smallest, indivisible part of something.
   [/caption]
 [/Aside]
 
 Since ancient times people have wondered of what the objects arounds them were composed. Around the 4th-century B.C., the Greek philosopher Democritus coined the term *atomos* to indicate the smallest indivisible part of something, but for centuries after, the idea of the atomos was abandoned. It wasn't until the early 19[sup]th[/sup] century when the English chemist and physicist John Dalton revived Democritus' ideas by proposing an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern atom is not the smallest component of matter nor is it indivisible.
 
-Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see a many electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
+Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
 
-Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as particle physics.
+Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
 
 // ```
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
@@ -74,22 +74,22 @@ We know today that the last three forces listed are carried out by particles: th
 
 At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, a building block of the atom. The discovery of the electron marked the beginning of particle physics. At the beginning of the 20[sup]th[/sup] century scientists observed that particles were not only part of the structure of matter, but they were also produced by natural phenomena. Naturally produced particles were the focus of early experiments in particles physics, and many particles were discovered this way, for example the positron and the muon.
 
-Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment, giving them their glow. One of the most well known is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to make glow-in-the-dark clock hands.  Different radioactive atom emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
+Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment. One of the most well known is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to push the phosphor to glow in their glow-in-the-dark clock hands.  Different radioactive atoms emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
 
-Particles from the cosmos continuously strike the atoms in the Earth's upper atmosphere. These particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The collisions produce particles that travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to particle showers.
+Particles from the cosmos continuosly hit our planet and strike the atoms in the Earth's upper atmosphere, producing additional particles. Those particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The particles produced in the collisions travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to those particle showers.
 
 
 ### Observing and studying particles
 
 Particles are the smallest known objects in the Universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards an object and observing light that bounces back. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
 
-All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immeidately stop.
+All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immediately stop.
 
 [Aside]
 In Italian, *Gran Sasso* literally means "Big Rock"!
 [/Aside]
 
-Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]*Gran Sasso* laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
+Muons, on the other hand, can travel through layers and layers of any material, even through hundreds of meters of solid rock, without losing much of their energy. Scientists build labs, like the [a href:"https://en.wikipedia.org/wiki/Laboratori_Nazionali_del_Gran_Sasso"]*Gran Sasso* laboratory in Italy[/a], deep under mountains to shield sensitive experiments from cosmic muons. Neutrinos, another fundamental particle, interact extremely weakly with all other objects: they can pass through entire planets without stopping.
 
 [br/]
 
@@ -101,7 +101,7 @@ Muons, on the other hand, can travel through layers and layers of any material, 
   **Source**: [a href:"https://upload.wikimedia.org/wikipedia/commons/2/29/INFN_LNGS_2014-02_%28TQB1%29.JPG"]Wikipedia[/a].
 [/div]
 
-
+// TODO: check if this paragraph is repeated when talking about experiments and detectors, further below.
 Physicists leverage these different behaviors to develop detectors that catch and measure each type of particle. When a particle passes through a material it leaves a certain amount of its energy behind. That energy is collected and transferred to an electronic interface which visualizes a particle's passage. By layering different detectors, physicists can reconstruct particle trajectories, and, under certain circumstances, measure the exact energy of a particle.
 
 Many particles have an *electric charge*. A charged particle behaves like the needle of a compass near a magnet: it points towards one of the magnet's poles. Charged particles, like electrons or protons, are influenced by electromagnetic fields. An electric field can be used to push charged particles forward, while a magnetic field can make a particle move to one side or another, depending on the charge of the particle.
@@ -142,7 +142,7 @@ Rewriting the formula to isolate the velocity of the particle we find this:
   v = \sqrt{ \frac{2q(V_2-V_1)}{m}}
 [/Equation]
 
-The expression describes the velocity of a particle, [Equation]v[/Equation], given the potential difference of an electric field. This means that creating a large voltage difference will increase a chared particle's velocity.
+The expression describes the velocity of a particle, [Equation]v[/Equation], given the potential difference of an electric field. This means that creating a large voltage difference will increase a charged particle's velocity.
 
 [var name:"roi" value:`{ x: [-1.5, 7.5], y: [-1.5, 7.5 ] }` /]
 [var name:"q" value:`1.6E-19` /] // C
@@ -174,7 +174,7 @@ The expression describes the velocity of a particle, [Equation]v[/Equation], giv
 [derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
 [aside]
-The particle in the diagram has been **drasitically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
+The particle in the diagram has been **drastically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
 That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature, as far as we currently know—, which is about 1 billion km/h!
 
 Also notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to choose the highest voltage setting to make it move!
@@ -227,7 +227,7 @@ Also notice how much more energy is needed to push a proton, which has the same 
   [/div]
 [/div]
 
-If we instead rewriting the formula to isolate the radius of the bending of its trajectory, we find a description the radius of the curvature of a particle's trajectory, [Equation]r[/Equation], given the speed of the particle and the strength of the magnetic field:
+If we instead rewriting the formula to isolate the radius of the bending of its trajectory, we find a description of the radius of the curvature of a particle's trajectory, [Equation]r[/Equation], given the speed of the particle and the strength of the magnetic field:
 
 
 [Equation display:true]
@@ -239,6 +239,8 @@ Means that a magnetic field can be used to steer the path of a charged particle.
 // TODO: add magnet colors
 // top: "rgba(54,103,172,1)"
 // bottom: "rgba(207,76,96,1)"
+
+// TODO: check time values for easer-toggle. Add time to it as you did with easer.
 
 [var name:"Broi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
 [var name:"timeB" value:0.00 /]    // s
@@ -260,7 +262,7 @@ Means that a magnetic field can be used to steer the path of a charged particle.
 // [derived name:"targetTimeBcoordX" value:`mvx1` /]
 
 [Aside]
-In reality, this process is much more complicated. Different types of accelerating modules are used to push different types of particles, and many types of magnets (e.g., dipoles, quadrupoles, sextuples, and so on) are used to bend, squeeze, and focus beams of charged particles to maximize the their intensity (as seen in the accelerators used for medicine or industry applications) or the number of their collisions (as seen in the accelerators used for physics experiments).
+In reality, this process is much more complicated. Different types of accelerating modules are used to push different types of particles, and [a href:"https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/components/magnets/types_of_magnets.htm"]many types of magnets[/a] (e.g., dipoles, quadrupoles, sextuples, and so on) are used to bend, squeeze, and focus beams of charged particles to maximize the their intensity (as seen in the accelerators used for medicine or industry applications) or the number of their collisions (as seen in the accelerators used for physics experiments).
 [/Aside]
 
 [div className:"electric-field-interactive"]
@@ -319,10 +321,21 @@ In reality, this process is much more complicated. Different types of accelerati
 
 // Notice that only the electic field [Equation]E[/Equation] appears in the first formula, which means that the velocity [Equation]v[/Equation] only depends on the strength of the electric field, while only the magnetic field [Equation]B[/Equation] appears in the second equation. Therefore, we can use an electric field to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
 
-Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build linear accelerators but the energy that these accelerators can produce is governed by their length. By combining accelerating and bending modules, we can build circular accelerators, in which particles are injected and forced to move in a circular path. Each time a particle goes around it is accelerated. After a given amount of cycles the particle attains its maximum energy and can be used for experiments.
+Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build linear accelerators where the energy that these accelerators can produce is governed by their length. By combining accelerating and bending modules, we can build circular accelerators, in which particles are injected and forced to move in a circular path. Each time a particle goes around it is accelerated. After a given amount of cycles the particles attains their maximum energy and can be used for experiments.
 
 
-Circular accelerators can be further divided into two main groups: *cyclotrons*, which were the first to be invented around 1930, and *synchrotrons*. The former are commonly used in hospitals today. The latter are used in machines for cutting-edge research in particle physics, such as the [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider[/a]  (LHC) at CERN.
+Circular accelerators can be further divided into two main groups: *cyclotrons*, which were the first to be invented around 1930, and *synchrotrons*. The former can be seen in hospitals today. The latter are used in machines for cutting-edge research in particle physics, such as the [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider[/a]  (LHC) at CERN.
+
+[br/]
+
+[img fullWidth:true style:`{objectFit: 'cover', height: 800, width: '100%'}` src:"static/images/lhc_tunnel.jpg" /]
+
+[div className:'parametric-caption']
+  The [a href:"https://home.cern/science/accelerators/large-hadron-collider"]Large Hadron Collider[/a] (LHC) at CERN, the world's most powerful particle collider, accelerates particles and boost their energy using [a href:"https://home.cern/science/engineering/accelerating-radiofrequency-cavities"]radiofrequency cavities[/a] and a 27-kilometer ring of superconducting magnets.
+  [br /][br /]
+  **Source**: [a href:"https://cds.cern.ch/record/1223589"]CERN[/a].
+[/div]
+
 
 Physicists designed accelerators to study the basic characteristics of particles, but it quickly became clear that they could have many other scientific and industrial applications. For example, old television sets were driven by cathode-ray tubes, which are nothing more than compact particle accelerators!
 
@@ -364,7 +377,7 @@ Electrons are produced and subjected to an electric field, causing them to fly t
   [Newsletter /]
 [/Aside]
 
-So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars—is determined by the behavior of the [equation]W[/equation] and [equation]Z[/equation] particles, discovered at CERN in 1983.
+So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars and planets like Earth—is determined by the behavior of the [equation]W[/equation] and [equation]Z[/equation] particles, discovered at CERN in 1983.
 
 Many fundamental mechanisms in the Universe depend on particles which we haven't discovered yet. This creates a number of interesting questions for modern physicists. For example, how did the Universe form? At the beginning of time, in a fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
 
@@ -423,15 +436,15 @@ In a circular collider, two beams of accelerated particles smash into one anothe
 [/div]
 
 
-In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle come, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle comes, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors records the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
 
 
 [br/]
 
-[img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/atlas.jpg" /]
+[img fullWidth:true style:`{objectFit: 'cover', height: 700, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 82 feet (25 meters) diameter, 150 feet (46 meters) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
+  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter,  46 meters (150 feet) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
@@ -473,12 +486,12 @@ There are about 30,000 particle accelerators in the world today, almost half of 
 
 // Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
 
-Many technologies we commonly use today are the results of research spun-off from particle physics. These byproducts were developed to build and run experiments or to support the activities of the particle physics community. Two impactful examples include medical scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
+Many technologies we commonly use today are the results of research spin-off from particle physics. These byproducts were developed to build and run experiments or to support the activities of the particle physics community. Two impactful examples include medical scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
 
 
 ### Medicine
 
-Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted: observing particles that interact with our bodies. Thousands of low energy particles hit our skin every second without us noticing. Our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pirece through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose results are still used today for many diagnosis techniques, such as radiographies and CT scans.
+Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted: observing particles that interact with our bodies. Thousands of low energy particles hit our skin every second without us noticing. Our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pierce through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose results are still used today for many diagnosis techniques, such as radiographies and CT scans.
 
 What these early pioneers did not know however, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse. If not properly controlled, energetic particles travelling through an organ can be very dangerous. But, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
 
@@ -557,6 +570,7 @@ Given that the cost of operating a cyclotron, along with the equipment for the s
 
 // As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
 
+//  TODO:
 // If you have time:
 // - viz of a cyclotron
 // - viz: we could explain the concept of "half-life" with two isotopes emitting particles; the two have different values of half-life, so a different number of particles in a given time is emitted.
@@ -566,7 +580,7 @@ Given that the cost of operating a cyclotron, along with the equipment for the s
 
 ### New frontiers of cancer therapy: hadron therapy
 
-So far we looked at how particles used as probes in medical imaging, but
+So far we looked at how particles are used as probes in medical imaging, but
 particles are used as therapies too. Beams of ionizing radiation—another name to indicate beams of energetic particles—damage the DNA of cancerous tissue leading to their cellular death.
 
 In 1906, shortly after the discovery of radioactivity itself by Henri Bequerel, Pierre Curie suggested that tumors could be cured by inserting a radioactive source—usually emitting electrons or photons—, which causes them to shrink. The technique was called *brachitherapy*, from the Greek word *brachys*, which means "short distance", to indicate that the radioactive source is placed in contact with the tumor. Common in the beginning of the 20th century, brachitherapy is still used today to treat different kind of tumors.
@@ -585,7 +599,7 @@ A new frontier in cancer therapy with particle beams is *hadron therapy*, which 
 
 // TODO: viz - graph of the energy vs. path length. Maybe, animated...
 
-Even though hadron therapy is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a], the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe, and the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in the U.S.—to treat nasty tumors in children or in areas which are difficult to operate on surgically.
+Even though hadron therapy is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a] and the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe; and the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in the U.S.—to treat nasty tumors in children or in areas which are difficult to operate on surgically.
 
 
 
@@ -602,25 +616,25 @@ Even though hadron therapy is still under active development, it is already used
 
 ### Research spinoffs
 
-Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which lead to further developement and application for other fields.
+Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which leads to further developement and application for other fields.
 
-Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, new superconducting magnets had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, innovative cryogenics were developed. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, new vacuum pumping techniques were developed to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
+Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]new superconducting magnets[/a] had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, [a href:"https://home.cern/science/engineering/cryogenics-low-temperatures-high-performance"]innovative cryogenics were developed[/a]. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, [a href:"https://home.cern/science/engineering/vacuum-empty-interstellar-space"]new vacuum pumping techniques were developed[/a] to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
 // All of these innovations led to further developments and new industrial products, [a href:"https://kt.cern/"]eventually being used for applications other than fundamental research in particle physics[/a].
 
 [br/]
 
 
-[img src:"static/images/lhc1.jpg" /]
+[img src:"static/images/lhc_magnets_coils.jpg" /]
 [div className:'parametric-caption']
-  The Large Hadron Collider accelerates particles and boost their energy using a 27-kilometer ring of superconducting magnets.
+  The Large Hadron Collider uses innovative superconducting magnets. For them, new superconductive materials have been designed, developed, and built. Those materials are then [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]used for other applications[/a].
   [br /][br /]
-  **Source**: [a href:"https://cds.cern.ch/images/CERN-PHOTO-201802-030-10"]CERN[/a].
+  **Source**: [a href:"http://cdsweb.cern.ch/search?recid=39304"]CERN[/a].
 [/div]
 
 
 Scientific findings are not always immediately used. But every bit of knowledge might be used eventually. As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
-For example, Marie Curie didn't know what future technologies would benefit from her research of radioactivity, but all of today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
+For example, Marie Curie didn't know what future technologies would benefit from her research on radioactivity, but all of today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
 
 ### Happy 30th birthday, World Wide Web!
@@ -640,7 +654,7 @@ The [a href:"https://home.cern/science/experiments/atlas"]ATLAS experiment[/a] h
 These experiments are among the largest collaborative efforts ever attempted in science!
 [/Aside]
 
-Before the Web could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share experimental data among the various institutes participating in the experiments.
+Before the Web could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share information among the various institutes participating in the experiments.
 //  since historically, particle physics experiments require vast international collaboration.
 // Experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
 
@@ -662,11 +676,11 @@ As Robert Cailleau wrote, *"It may be said that the Web is one of the first spin
   **Source**: [a href:"https://cds.cern.ch/record/1164396"]CERN[/a].
 [/div]
 
-And thus, the WWW was born. The core software was released in the public domain, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous backbone of our digital life.
+And thus, the WWW was born. The core software was released in the public domain, allowing the software to be freely re-used and adapted without any restriction. This decision was driven by Tim Berners-Lee's vision for the WWW, and ultimately was its strength. During the following years, the WWW circulated throughout academic communities and slowly drew the attention of industry. After becoming standardized, it evolved to what we know today: the ubiquitous "www", the backbone of our digital life.
 
 ## A last word
 
-Particle physics helps us unveil the mysteries of the Universe, and has let us discern the basic components of matter and the basic forces which govern the Universe as we know it.
+Particle physics helps us unveil the mysteries of the Universe, and has let us discern the basic components of matter and the basic forces which govern the Universe as we know it so far.
 Like other fundamental sciences, practical applications aren't the focus.
 // Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
 Still, the discoveries made by particle physicists, and technologies developed to enable their experiments, have transformed our lives forever.
