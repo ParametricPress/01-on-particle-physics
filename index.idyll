@@ -115,7 +115,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
 [/a]
 [caption]
-  Anderson's 1933 positron discovery, which proved the existence of anti-matter. Here, we see how the trajectory of a charged particle is bent from a magnet.
+  In 1933 Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter. In the picture, a positron enters the experiment setup and its trajectory is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate and its trajectory is further bent toward the same direction. If it were an electron, the particle would have been bent toward the opposite direction. 
   [br /][br /]
   **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].[br/]
   **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
@@ -628,7 +628,7 @@ Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the
 
 [img src:"static/images/lhc_magnets_coils.jpg" /]
 [div className:'parametric-caption']
-  The Large Hadron Collider uses innovative superconducting magnets. For them, new superconductive materials have been designed, developed, and built. Those materials are then [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]used for other applications[/a].
+  The Large Hadron Collider uses innovative magnets. For them, new superconductive materials have been developed and built. Those materials are then [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]used for other applications[/a].
   [br /][br /]
   **Source**: [a href:"http://cdsweb.cern.ch/search?recid=39304"]CERN[/a].
 [/div]
