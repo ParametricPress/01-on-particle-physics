@@ -61,3 +61,7 @@ typings/
 build
 
 static/fonts
+
+
+_warc_cache/
+*.warc.gz

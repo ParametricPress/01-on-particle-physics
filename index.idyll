@@ -1,34 +1,35 @@
 
-[meta title:"Particle Physics: A Brief Primer" description:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
-  shareImageUrl:"https://issue-01-preview.parametric.press/issue-01/particle-physics-a-brief-primer/static/images/share.png"
+[meta title:"On Particle Physics" description:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
+  shareImageUrl:"https://parametric.press/issue-01/on-particle-physics/static/images/share.png"
   shareImageWidth:"880"
   shareImageHeight:"440" /]
 
-[var name:"parametricSlug" value:"particle-physics-a-brief-primer" /]
+[var name:"parametricSlug" value:"on-particle-physics" /]
 
 [Nav fullWidth:true /]
 
 [Header
   title:`["Particle", "Physics"]`
-  longTitle:`["Particle Physics:", "A Brief Primer"]`
+  longTitle:`["On Particle Physics"]`
   date:"May 1, 2019"
   dek:"A CERN particle physicist walks through the history and science of particle physics, and why you should care about it—even outside of the laboratory."
   fullWidth:true
   authors:`[{
     name: "Riccardo Maria Bianchi",
-    role: ''
+    role: '',
+    url: "https://twitter.com/ricmbianchi"
   }]`
-  doi:""
-  archive:""
-  source:""
+  doi:"https://doi.org/10.5281/zenodo.2655978"
+  archive:`'https://parametric-press-archives.s3.amazonaws.com/issue-01/' + parametricSlug + '.warc.gz'`
+  source:`"https://github.com/ParametricPress/01-" + parametricSlug `
 /]
 
 
-Everything that we can see and touch is made up of *particles*, the basic building blocks of Nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
+Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
 
-**Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain Nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our Universe. We can study how the Big Bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the Universe itself evolves.
+**Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our universe. We can study how the big bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the universe itself evolves.
 
-Fundamental research fields explore the structure and behavior of the Universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
+Fundamental research fields explore the structure and behavior of the universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
 
 [br/]
 [br/]
@@ -47,9 +48,9 @@ The Science of Particle Physics
   [/caption]
 [/Aside]
 
-Since ancient times people have wondered of what the objects arounds them were composed. Around the 4th-century B.C., the Greek philosopher Democritus coined the term *atomos* to indicate the smallest indivisible part of something, but for centuries after, the idea of the atomos was abandoned. It wasn't until the early 19[sup]th[/sup] century when the English chemist and physicist John Dalton revived Democritus' ideas by proposing an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern atom is not the smallest component of matter nor is it indivisible.
+Since ancient times, people have wondered of what the objects arounds them were composed of. Around the 4th century B.C., the Greek philosopher Democritus coined the term "atomos" to indicate the smallest indivisible part of something—but his concept was abandoned for hundreds of years, and it wasn’t revived until the early 19th century, when the English chemist and physicist John Dalton proposed an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern atom is not the smallest component of matter, nor is it indivisible.
 
-Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see electrons occupying the space around a tiny but heavy nucleus; their interactions, and how different atoms tie together, is what **condensed matter physics** studies. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
+Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see many electrons occupying the space around a tiny but heavy nucleus; the interactions of these atoms, and how they tie together, is the subject matter of a field known as **condensed matter physics**. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
 
 Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
 
@@ -61,9 +62,9 @@ Going deeper, we can see how even smaller elements compose protons and neutrons.
 
 // Particles not only compose all matter, they are also responsible for how forces behave.
 
-One of the great achievements of physics is the identification of four fundamental forces that form the basis of all other forces and interactions we see in our Universe. The basic forces are **gravity**, which prevents us from drifting up into the sky and binds planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity through a cable, the magnetism pushing a compass' needle, and the light illuminating night; and the **weak and strong nuclear forces**, which act at the atomic and nuclear level. The weak nuclear force is responsible for radioactivity and roughly one-half of the warmth produced in Earth's core. The strong nuclear force binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now!
+One of the great achievements of physics is the identification of four fundamental forces that form the basis of all other forces and interactions we see in our universe. The basic forces are **gravity**, which prevents us from drifting up into the sky and binds planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity through a cable, the magnetism pushing a compass' needle, and the light illuminating night; and the **weak and strong nuclear forces**, which act at the atomic and nuclear level. The weak nuclear force is responsible for radioactivity and roughly one-half of the warmth produced in Earth's core. The strong nuclear force binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now!
 
-We know today that the last three forces listed are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles—called [equation]W[/equation] and [equation]Z[/equation]—, carry out the weak nuclear force; and the particle called *gluon* is the bearer of the strong nuclear force. Studying these basic elements and forces leads to an understanding of the innermost mechanisms governing the Universe.
+We know today that the last three forces listed are carried out by particles: the intangible and massless photon is the carrier of the electromagnetic force; two particles, known by physicists as “W” and “Z,” carry out the weak nuclear force; and the particle called *gluon* is the bearer of the strong nuclear force. Studying these basic elements and forces leads to an understanding of the innermost mechanisms governing the universe.
 
 
 ### Natural sources of particles
@@ -81,7 +82,7 @@ Particles from the cosmos continuosly hit our planet and strike the atoms in the
 
 ### Observing and studying particles
 
-Particles are the smallest known objects in the Universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards an object and observing light that bounces back. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
+Particles are the smallest known objects in the universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards an object and observing light that bounces back. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
 
 All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immediately stop.
 
@@ -175,7 +176,7 @@ The expression describes the velocity of a particle, [Equation]v[/Equation], giv
 
 [aside]
 The particle in the diagram has been **drastically slowed down**. In reality, the particle would instantly fly out of the page, since an electron put in a small accelerator (say, of 10 meters) and pushed by an electric field (say, of 100 Volts), will be accelerated to a speed of about 6 million meters per second—that is almost 22 million km/h!
-That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in Nature, as far as we currently know—, which is about 1 billion km/h!
+That speed, while fast on its own, is still much slower than the speed of light—the fastest possible speed in nature, as far as we currently know—, which is about 1 billion km/h!
 
 Also notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to choose the highest voltage setting to make it move!
 [/aside]
@@ -379,7 +380,7 @@ Electrons are produced and subjected to an electric field, causing them to fly t
 
 So far, we have talked about particles produced in natural sources, but there are many more natural phenomena involving particles. All fundamental phenomena involving the electromagnetic force, for example, depend on the characteristics of electrons and photons—the elementary particle which is responsible for light. The stability of atoms, which compose all matter, depend on the interaction between two fundamental particles: quarks and gluons. These particles were discovered at the SLAC laboratory (US) at the end of the 1960s and at the DESY Laboratory (Germany) in 1979, respectively. The mechanism behind radioactive decay—which occurs in the cores of stars and planets like Earth—is determined by the behavior of the [equation]W[/equation] and [equation]Z[/equation] particles, discovered at CERN in 1983.
 
-Many fundamental mechanisms in the Universe depend on particles which we haven't discovered yet. This creates a number of interesting questions for modern physicists. For example, how did the Universe form? At the beginning of time, in a fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our Universe? Is gravity carried by a particle like the other fundamental forces? And how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
+Many fundamental mechanisms in the universe depend on particles which we haven't discovered yet. This creates a number of interesting questions for modern physicists. For example, how did the universe form? At the beginning of time, in a fraction of a second, quarks and gluons bounced and smashed, interacting and recombining until creating the first glimpse of the matter we see today. And which particle, if any, is behind Dark Matter, which composes about 25% of the total energy of our universe? Is gravity carried by a particle like the other fundamental forces? And how are high-energetic cosmic rays that hit our planet generated, if there are no known sources for them near Earth?
 
 To answer these questions, and others not yet asked, we need particles interacting at much higher energies and with a much higher flux than those we can obtain from natural sources like radioactive elements or cosmic rays. To make progress, we would need bespoke particle factories, to create large fluxes of particles at the desired energy to study interactions and effects. That's where Einstein comes in.
 
@@ -444,7 +445,7 @@ In the simplified visualization above, three layers of detectors are placed one 
 [img fullWidth:true style:`{objectFit: 'cover', height: 700, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter,  46 meters (150 feet) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our Universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
+  The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter,  46 meters (150 feet) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. Did you notice the person at the bottom of the picture?
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
@@ -680,9 +681,9 @@ And thus, the WWW was born. The core software was released in the public domain,
 
 ## A last word
 
-Particle physics helps us unveil the mysteries of the Universe, and has let us discern the basic components of matter and the basic forces which govern the Universe as we know it so far.
+Particle physics helps us unveil the mysteries of the universe, and has let us discern the basic components of matter and the basic forces which govern the universe as we know it so far.
 Like other fundamental sciences, practical applications aren't the focus.
-// Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the Universe we all live in.
+// Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the universe we all live in.
 Still, the discoveries made by particle physicists, and technologies developed to enable their experiments, have transformed our lives forever.
 //  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
 //
