@@ -60,6 +60,9 @@ button.reset {
 
 img {
   /* max-height: 400px; */
+  max-height: 67vh;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 @media all and (max-width: 1000px) {
@@ -69,6 +72,10 @@ img {
   }
   .electric-field-interactive {
     margin: 2em -1em;
+  }
+  .idyll-text-container img {
+    margin: 0 auto;
+    max-width: 100% !important;
   }
 }
 
