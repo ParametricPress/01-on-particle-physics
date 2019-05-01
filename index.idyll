@@ -25,11 +25,11 @@
 /]
 
 
-Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light which shines in the sky.
+Everything that we can see and touch is made up of *particles*, the basic building blocks of nature. Particles like protons, neutrons, and electrons compose the atoms of the computer or phone you are touching right now. Photons are responsible for the glow emitted from the screen. These same photons, when produced by the Sun, are responsible for the light that shines in the sky.
 
-**Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain nature at its essence. Understanding how particles interact can illuminate the innermost and still-murky mechanisms of our universe. We can study how the big bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the universe itself evolves.
+**Particle physics** is the branch of science that investigates the nature and the behavior of these particles. It is one of the fundamental research fields: research that seeks to explore and explain nature at its essence. Understanding how particles interact can illuminate the innermost mechanisms of our universe. We can study how the big bang gave birth to matter, how stars behave, how cosmic rays travel from distant stars to our Earth, and how the universe itself evolves.
 
-Fundamental research fields explore the structure and behavior of the universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines which conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
+Fundamental research fields explore the structure and behavior of the universe for the advancement of human knowledge, but that doesn't mean they don't have practical applications that affect peoples' lives. Disciplines that conduct fundamental research form the base of a knowledge pyramid: their discoveries provide a foundation for practical applications developed by other disciplines. Research spinoffs and collaborations between researchers and industry bring further development with new, sometimes world-changing, applications.
 
 [br/]
 [br/]
@@ -48,9 +48,9 @@ The Science of Particle Physics
 
 Since ancient times, people have wondered what the objects arounds them were composed of. Around the 4th century B.C., the Greek philosopher Democritus coined the term "atomos" to indicate the smallest indivisible part of something—but his concept was abandoned for hundreds of years, and it wasn’t revived until the early 19th century, when the English chemist and physicist John Dalton proposed an atomic theory of matter. After he confirmed his theory through experiments on gases, other physicists started investigating the structure of matter at a smaller scale, discovering complex substructure. Today we know that the modern atom is not the smallest component of matter, nor is it indivisible.
 
-Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see many electrons occupying the space around a tiny but heavy nucleus; the interactions of these atoms, and how they tie together, is the subject matter of a field known as **condensed matter physics**. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
+Different materials are made up of different atoms. How those atoms organize themselves determines a material's properties. That, in other words, is **chemistry**. If we looked closely at one of those atoms, we would see many electrons occupying the space around a tiny but heavy nucleus; the interactions of these atoms, and how they tie together, is the subject of a field known as **condensed matter physics**. The nucleus itself is composed of smaller components called protons and neutrons; the study of those and the forces acting between them is what **nuclear physics** addresses.
 
-Going deeper, we can see how even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
+Going deeper, we can see that even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
 
 // ```
 // small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
@@ -71,9 +71,9 @@ We know today that the last three forces listed are carried out by particles: th
   [Recirc slug:parametricSlug /]
 [/Aside]
 
-At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron, a building block of the atom. The discovery of the electron marked the beginning of particle physics. At the beginning of the 20[sup]th[/sup] century scientists observed that particles were not only part of the structure of matter, but they were also produced by natural phenomena. Naturally produced particles were the focus of early experiments in particles physics, and many particles were discovered this way, for example the positron and the muon.
+At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron. The discovery of the electron marked the beginning of particle physics. At the beginning of the 20[sup]th[/sup] century scientists observed that particles were not only part of the structure of matter, but they were also produced by natural phenomena. Naturally produced particles were the focus of early experiments in particles physics, and many particles were discovered this way, for example the positron and the muon.
 
-Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment. One of the most well known is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to push the phosphor to glow in their glow-in-the-dark clock hands.  Different radioactive atoms emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
+Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment. One of the most well-nown is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to push the phosphor to glow in their glow-in-the-dark clock hands.  Different radioactive atoms emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
 
 Particles from the cosmos continuosly hit our planet and strike the atoms in the Earth's upper atmosphere, producing additional particles. Those particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The particles produced in the collisions travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to those particle showers.
 
@@ -115,7 +115,9 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron_annotated_LR.png" /]
 [/a]
 [caption]
-  In 1933, Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter. While analyzing the pictures he took, Anderson noticed that a cosmic ray particle with the same characteristics of an electron entered the experiment. After entering from the bottom left of the picture, the particle is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate—the thick layer in the middle of the picture—so that its trajectory is further bent, always toward the same direction. The particle behaved exactly as an electron; only, if it were an ordinary electron with negative charge, the magnetic field would have bent it in the opposite direction! Thus, Anderson realized that he was facing a particle never seen before, an electron with positive charge, the anti-electron, and [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]he called it *positron*[/a].
+  In 1933, Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter.
+
+  //While analyzing the pictures he took, Anderson noticed that a cosmic ray particle with the same characteristics of an electron entered the experiment. After entering from the bottom left of the picture, the particle is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate—the thick layer in the middle of the picture—so that its trajectory is further bent, always toward the same direction. The particle behaved exactly as an electron; only, if it were an ordinary electron with negative charge, the magnetic field would have bent it in the opposite direction! Thus, Anderson realized that he was facing a particle never seen before, an electron with positive charge, the anti-electron, and [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]he called it *positron*[/a].
   [br /][br /]
   **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].
   [br/]
@@ -422,7 +424,7 @@ In a circular collider, two beams of accelerated particles smash into one anothe
     Detect a particle and measure its trajectory
   [/div]
   [div className:"electric-field-interactive-subhed"]
-    By measuring the curve taken by the charged particle in the magnetic field we can infer its energy
+    By measuring the curve taken by the charged particle in the magnetic field we can infer its energy.
   [/div]
       [IdyllApparatusComponent
         _url: "static/diagrams/detectorBFieldV1.json"
@@ -639,7 +641,7 @@ Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the
 
 
 Scientific findings are not always immediately used. But every bit of knowledge might be used eventually. As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
-For example, Marie Curie didn't know what future technologies would benefit from her research on radioactivity, but all of today's medical imaging techniques steam from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
+For example, Marie Curie didn't know what future technologies would benefit from her research on radioactivity, but all of today's medical imaging techniques stem from her and her colleagues' research. Neither did Einstein develop his theory of General Relativity expecting it to be used for the calibration of GPS devices. Fundamental research not only advances human knowledge, it enables the rise of new and advanced technologies.
 
 
 ### Happy 30th birthday, World Wide Web!
