@@ -1,21 +1,21 @@
 
 @font-face {
   font-family: 'Silkscreen';
-  src: url('fonts/silkscreen/slkscr.ttf') format('truetype');
+  src: url('/static/fonts/silkscreen/slkscr.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Silkscreen';
-  src: url('fonts/silkscreen/slkscrb.ttf') format('truetype');
+  src: url('/static/fonts/silkscreen/slkscrb.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-BlackItalic-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-BlackItalic-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-BlackItalic-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-BlackItalic-Web.woff') format('woff');
   font-weight:  800;
   font-style:   italic;
   font-stretch: normal;
@@ -23,8 +23,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-Black-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-Black-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-Black-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-Black-Web.woff') format('woff');
   font-weight:  800;
   font-style:   normal;
   font-stretch: normal;
@@ -32,10 +32,10 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-BoldItalic-Web.eot');
-  src: url('fonts/graphik/Graphik-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
-       url('fonts/graphik/Graphik-BoldItalic-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-BoldItalic-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-BoldItalic-Web.eot');
+  src: url('/static/fonts/graphik/Graphik-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url('/static/fonts/graphik/Graphik-BoldItalic-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-BoldItalic-Web.woff') format('woff');
   font-weight:  700;
   font-style:   italic;
   font-stretch: normal;
@@ -43,8 +43,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-Bold-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-Bold-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-Bold-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-Bold-Web.woff') format('woff');
   font-weight:  700;
   font-style:   normal;
   font-stretch: normal;
@@ -52,8 +52,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-MediumItalic-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-MediumItalic-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-MediumItalic-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-MediumItalic-Web.woff') format('woff');
   font-weight:  500;
   font-style:   italic;
   font-stretch: normal;
@@ -61,8 +61,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-Medium-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-Medium-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-Medium-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-Medium-Web.woff') format('woff');
   font-weight:  500;
   font-style:   normal;
   font-stretch: normal;
@@ -70,8 +70,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-RegularItalic-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-RegularItalic-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-RegularItalic-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-RegularItalic-Web.woff') format('woff');
   font-weight:  400;
   font-style:   italic;
   font-stretch: normal;
@@ -79,8 +79,8 @@
 
 @font-face {
   font-family: 'Graphik Web';
-  src: url('fonts/graphik/Graphik-Regular-Web.woff2') format('woff2'),
-       url('fonts/graphik/Graphik-Regular-Web.woff') format('woff');
+  src: url('/static/fonts/graphik/Graphik-Regular-Web.woff2') format('woff2'),
+       url('/static/fonts/graphik/Graphik-Regular-Web.woff') format('woff');
   font-weight:  400;
   font-style:   normal;
   font-stretch: normal;
@@ -89,46 +89,46 @@
 
 @font-face {
   font-family: 'Bluu';
-  src: url('fonts/bluu/bluunext-bold-webfont.woff2') format('woff2'),
-       url('fonts/bluu/bluunext-bold-webfont.woff') format('woff'),
-       url('fonts/bluu/bluunext-bold.ttf') format('truetype'),
-       url('fonts/bluu/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
+  src: url('/static/fonts/bluu/bluunext-bold-webfont.woff2') format('woff2'),
+       url('/static/fonts/bluu/bluunext-bold-webfont.woff') format('woff'),
+       url('/static/fonts/bluu/bluunext-bold.ttf') format('truetype'),
+       url('/static/fonts/bluu/bluunext-bold-webfont.svg#bluu_nextbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bluu';
-  src: url('fonts/bluu/bluunext-bolditalic-webfont.woff2') format('woff2'),
-       url('fonts/bluu/bluunext-bolditalic-webfont.woff') format('woff'),
-       url('fonts/bluu/bluunext-bolditalic.ttf') format('truetype'),
-       url('fonts/bluu/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+  src: url('/static/fonts/bluu/bluunext-bolditalic-webfont.woff2') format('woff2'),
+       url('/static/fonts/bluu/bluunext-bolditalic-webfont.woff') format('woff'),
+       url('/static/fonts/bluu/bluunext-bolditalic.ttf') format('truetype'),
+       url('/static/fonts/bluu/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Reforma';
-  src: url('fonts/reforma/Reforma1918-Blanca.ttf') format('truetype');
+  src: url('/static/fonts/reforma/Reforma1918-Blanca.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Reforma';
-  src: url('fonts/reforma/Reforma1918-Negra.ttf') format('truetype');
+  src: url('/static/fonts/reforma/Reforma1918-Negra.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Reforma';
-  src: url('fonts/reforma/Reforma1918-Gris.ttf') format('truetype');
+  src: url('/static/fonts/reforma/Reforma1918-Gris.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Reforma';
-  src: url('fonts/reforma/Reforma1918-GrisItalica.ttf') format('truetype');
+  src: url('/static/fonts/reforma/Reforma1918-GrisItalica.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
@@ -491,6 +491,10 @@ pre {
   padding-left: 40px !important;
 }
 
+.idyll-root {
+  max-width: 1425px;
+  /* margin-left: 0; */
+}
 .idyll-root::before {
   display: table;
   content: "";
@@ -979,7 +983,7 @@ h2 {
 }
 
 .idyll-root {
-  padding-top: 0;
+  padding-top: 250px;
   margin-bottom: 0 !important;
   padding-bottom: 0;
 }
@@ -997,7 +1001,11 @@ button, input[type=submit] {
   font-size: 14px;
   padding: 1em 2em;
   cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
+
 
 pre {
   max-width: 960px;
@@ -1197,11 +1205,16 @@ a {
   margin-right: 50px;
   z-index: 1000;
   font-size: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .parametric-header-text {
   display: flex;
   width: 100vw;
+  max-width: 1425px;
   position: relative;
   top: 4em;
 }
@@ -1315,12 +1328,13 @@ a {
 .parametric-footer {
   background: #222222;
   color: white;
-  display: flex;
-  flex-direction: row;
   padding: 2em 50px 3em 50px;
   margin-top: 2em;
   font-family: 'Graphik Web';
   font-size: 16px;
+  width: 100vw;
+  left: 0;
+  position: absolute;
 }
 
 .parametric-footer-link-container {
@@ -1343,7 +1357,8 @@ a {
 }
 
 .parametric-footer > div {
-  width: 100%;
+  max-width: 1325px;
+  margin: 0 auto;
 }
 .parametric-footer img {
   width: 300px;
@@ -1382,13 +1397,13 @@ a {
 
 @media all and (max-width: 1200px) {
   .parametric-metadata-container {
-    position:
+    position: static;
     max-width: 720px;
     margin: 0 auto;
   }
 
   .parametric-metadata {
-    position:
+    position: static;
     display: flex;
     flex-direction: row;
     justify-content: space-around
@@ -1406,6 +1421,7 @@ a {
   .idyll-root {
     max-width: 100vw;
     padding: 0;
+    padding-top: 200px;
   }
 
   .desktop {
@@ -1543,6 +1559,7 @@ a {
   .idyll-root {
     max-width: 100vw;
     padding: 0;
+    padding-top: 200px;
   }
 
   .parametric-header-hed-text {
