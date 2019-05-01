@@ -117,7 +117,8 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 [caption]
   In 1933, Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter. While analyzing the pictures he took, Anderson noticed that a cosmic ray particle with the same characteristics of an electron entered the experiment. After entering from the bottom left of the picture, the particle is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate—the thick layer in the middle of the picture—so that its trajectory is further bent, always toward the same direction. The particle behaved exactly as an electron; only, if it were an ordinary electron with negative charge, the magnetic field would have bent it in the opposite direction! Thus, Anderson realized that he was facing a particle never seen before, an electron with positive charge, the anti-electron, and [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]he called it *positron*[/a].
   [br /][br /]
-  **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].[br/]
+  **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].
+  [br/]
   **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
   [br/][a href:"https://www.freepik.com/free-photos-vectors/arrow"]Arrow symbols by Freepik[/a].
 [/caption]
@@ -421,7 +422,7 @@ In a circular collider, two beams of accelerated particles smash into one anothe
     Detect a particle and measure its trajectory
   [/div]
   [div className:"electric-field-interactive-subhed"]
-    TKTK Subtitle for this interactive
+    By measuring the curve taken by the charged particle in the magnetic field we can infer its energy
   [/div]
       [IdyllApparatusComponent
         _url: "static/diagrams/detectorBFieldV1.json"
