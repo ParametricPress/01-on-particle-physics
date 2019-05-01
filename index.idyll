@@ -113,7 +113,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
 [/a]
 [caption]
-  In 1933 Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter. In the picture, a positron enters the experiment setup and its trajectory is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate and its trajectory is further bent toward the same direction. If it were an electron, the particle would have been bent toward the opposite direction. 
+  In 1933, Carl Anderson discovered the *positron*, an electron with positive charge. The discovery proved the existence of anti-matter. While analyzing the pictures he took, Anderson noticed that a cosmic ray particle with the same characteristics of an electron entered the experiment. After entering from the bottom left of the picture, the particle is bent by the magnetic field. Then, the particle is slowed down while passing through a lead plate—the thick layer in the middle of the picture—so that its trajectory is further bent, always toward the same direction. The particle behaved exactly as an electron; only, if it were an ordinary electron with negative charge, the magnetic field would have bent it in the opposite direction! Thus, Anderson realized that he was facing a particle never seen before, an electron with positive charge, the anti-electron, and [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]he called it *positron*[/a].
   [br /][br /]
   **Source**: [a href:"https://en.wikipedia.org/wiki/File:PositronDiscovery.jpg"]Wikipedia[/a].[br/]
   **References**: [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"]\[1\][/a] and [a href:"https://physics.aps.org/story/v17/st5"]\[2\][/a].
@@ -121,9 +121,11 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 
 [Aside]
 Anderson's original journal paper, *The Positive Electron*, in which he announces the discovery of the positron, is an interesting read! [a href:"https://journals.aps.org/pr/abstract/10.1103/PhysRev.43.491"] You can freely read it online[/a].
+
+Also, if you like, [a href:"https://home.cern/news/news/experiments/how-make-your-own-cloud-chamber"]you can also take photos of cosmic rays[/a]!
 [/Aside]
 
-In 1933, Carl Anderson took a photograph of a cosmic ray particle passing through a thin film of photographic emulsion. The particle behaved almost exactly like an electron, except for the way a magnetic field around the film bent its trajectory. If it were an electron, the magnet would have bent the path in the opposite direction.  Anderson had proof that this particle wasn't an electron. What he observed was a *positron*, the anti-electron, and the first proof of the existence of anti-matter.
+In 1933, while photographing cosmic rays with a [a href:"https://en.wikipedia.org/wiki/Cloud_chamber"]*Wilson chamber*[/a], Carl Anderson took a photograph of a particle passing through a thin film of photographic emulsion. The particle behaved almost exactly like an electron, except for the way a magnetic field around the film bent its trajectory. If it were an electron, the magnet would have bent the path in the opposite direction.  Anderson had proof that this particle wasn't an electron. What he observed was a *positron*, the anti-electron, and the first proof of the existence of anti-matter.
 
 ### Accelerating particles
 
