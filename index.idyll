@@ -109,6 +109,7 @@ Many particles have an *electric charge*. A charged particle behaves like the ne
 
 // TODO: with Photoshop, add label on the photo to indicate the track and the metal plate, for users to understand the image easier.
 [a name:"positron"/]
+// [a href:"static/images/positron.jpg"]
 [a href:"static/images/positron_annotated.png"]
   // [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron.jpg" /]
   [img style:`{maxWidth: "400px", margin: "0 auto"}` src:"static/images/positron_annotated_LR.png" /]
