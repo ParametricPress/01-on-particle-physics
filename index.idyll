@@ -173,7 +173,7 @@ The expression describes the velocity of a particle, [Equation]v[/Equation], giv
 [derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
 
 // TODO - make sure these timings make sense. The map goes from particle type --> voltage value --> seconds
-[var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 6}, proton: { 350: 20, 1000: 20, 50000: 20 } }` /]
+[var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 3}, proton: { 350: 20, 1000: 20, 50000: 25 } }` /]
 [derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
 [aside]
@@ -197,11 +197,11 @@ Also notice how much more energy is needed to push a proton, which has the same 
       Set a voltage (V)
       [MultiButton reset:time value:VoltTwo options:`[{ value: 350, label: "350" }, { value: 1000, label: "1000" }, { value: 50000, label: '50000'}]` /]
       [div className:"electric-field-interactive-metadata"]
-        Current time: [Display value:time /] s.[br/]
-        Electric field magnitude: [Display value:EFieldMag /] V/m.[br/]
-        // Current velocity - scaled: [Display value:vtScaled /] m/s.[br/]
-        Current velocity: [Display format:".2e" value:vt /] m/s.[br/]
         Particle mass: [Display value:mParticle format:".2e" /] Kg.
+        Electric field magnitude: [Display value:EFieldMag /] V/m.[br/]
+        // Current time: [Display value:time /] s.[br/]
+        // Current velocity - scaled: [Display value:vtScaled /] m/s.[br/]
+        // Current velocity: [Display format:".2e" value:vt /] m/s.[br/]
       [/div]
     [/div]
     [div style:`{flex: 2}` className:"electric-field-interactive-apparatus-container"]
@@ -224,7 +224,7 @@ Also notice how much more energy is needed to push a proton, which has the same 
         /]
       [div style:`{display: 'flex', flexDirection: 'row'}`]
         [Button className:"reset" onClick:`x1=0; time=0; vt=0; vtScaled=0;`] Reset [/Button]
-        [EaserToggle value:time targetValue:targetTime ] Accelerate! [/EaserToggle]
+        [EaserToggle value:time targetValue:targetTime time:5000 ] Accelerate! [/EaserToggle]
       [/div]
     [/div]
   [/div]
@@ -251,8 +251,8 @@ Means that a magnetic field can be used to steer the path of a charged particle.
 [var name:"my1" value:0.0 /]       // m
 [var name:"mvx1" value:0.2 /]      // m/s
 [var name:"mvy1" value:0.0 /]      // m/s
-[var name:"qB" value:1.0 /]      // m/s
-[var name:"mB" value:1.0 /]      // m/s
+[var name:"qB" value:1.0 /]      // C
+[var name:"mB" value:1.0 /]      // Kg
 [var name:"particleB" value:"particle" /]
 [derived name:"mParticleB" value:`particleMap[particleB]` /]
 [var name:"chargeB" value:`-1` /]
