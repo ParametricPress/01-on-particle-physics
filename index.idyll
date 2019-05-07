@@ -388,16 +388,16 @@ In a circular collider, two beams of accelerated particles smash into one anothe
 [/div]
 
 
-In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle comes, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors record the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle comes, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors record the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strength of the magnetic field, the energy of the particle.
 
-Modern particle physics axperiments can be very, very, very large. This is due to the amount of energy involved: modern accelerators smash particles at high energy. That produces very energetic particles, which move out of the collision point extremely fast, in all directions. In order to catch and measure them properly, many layers of detectors and magnets have to be placed around the collision point, and those have to be somehow spaced to reconstuct the particle trajectory with the needed accuracy. The result can be gigantic!
+Modern particle physics experiments can be *very* large, due to the amount of energy involved to smash particles together. When a collision occurs, many new particles are created which move outward from the collision point extremely fast in all directions. To catch and measure these particles properly, scientists use layers of detectors and magnets placed around the collision point, so that they can reconstruct the particle trajectory after the collision for analysis.
 
 [br/]
 
 [img fullWidth:true style:`{objectFit: 'cover', height: 700, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-   Particle physics experiments can be gigantic! To properly catch and measure high-energetic particles, many layers of different particle detectors have to be used. The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter,  46 meters (150 feet) length—same as the height of the Statue of Liberty!—, and about 100 millions data channels, it is one of the most complex and accurate machine to explore the secrets of the mechanisms which rule our universe. In the picture, taken during the experiment's construction, the big outer magnet of the ATLAS detector. **Did you notice the person at the bottom of the picture?**
+   Particle physics experiments can be gigantic! To properly catch and measure energetic particles, scientists use many layers of different particle detectors together. The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter, 46 meters (150 feet) length—the same as the height of the Statue of Liberty—, and nearly 100 million data channels, it is one of the most complex and accurate machines ever built. In the picture, taken during the experiment's construction, we can see the big, outer magnet of the ATLAS detector. **Did you notice the person at the bottom of the picture?**
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
@@ -407,7 +407,7 @@ Modern particle physics axperiments can be very, very, very large. This is due t
 A **nanosecond** is a billionth of a second, that is 0.000000001 seconds!
 [/Aside]
 
-In reality, many collisions occur and very many particles are produced. The LHC, for example, smashes beams every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced, from many underlying phenomena. The work of experimental particle physicists involves the design and development of bespoke hardware and software systems to effectively acquire and filter data from these collisions. With that data they can then identify and measure the characteristics of particles, and learn about the underlying mechanism which generated them.
+In reality, many collisions occur and generate particles. The LHC, for example, smashes particles every 25 nanoseconds, producing about 40 million collisions every second! In each collision, thousands of particles are produced stemming from many different underlying phenomena. The work of experimental particle physicists concerns the design and development of bespoke hardware and software systems to effectively acquire and filter data from these collisions. With this data, they can identify and measure characteristics of particles and ultimately learn about the underlying mechanisms which generate them.
 
 // [img fullWidth:true style:`{objectFit: 'cover', height: 600, width: '100%'}` src:"static/images/lhc_collision_atlas.png" /]
 // [br/]
@@ -536,7 +536,7 @@ Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the
 
 [img src:"static/images/lhc_magnets_coils.jpg" /]
 [div className:'parametric-caption']
-  To build the modern accelerators, the design and development of innovative technologies and materials are needed; those, very often, are then used for other applications out of phyics. For the LHC magnets in the picture, new superconductive materials have been conceived and built, which then have been used to develop [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]a new generation of medical MRI scanners[/a].
+  Building modern particle accelerators requires the design and development of innovative technologies and new materials. These are often used for other non-physics applications. For example, the LHC magnets in the picture above required new superconductive materials, which have gone on to develop [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]a new generation of medical MRI scanners[/a].
   [br /][br /]
   **Source**: [a href:"http://cdsweb.cern.ch/search?recid=39304"]CERN[/a].
 [/div]
