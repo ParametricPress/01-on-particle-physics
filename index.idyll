@@ -397,7 +397,7 @@ Modern particle physics experiments can be *very* large due to the amount of ene
 [img fullWidth:true style:`{objectFit: 'cover', height: 700, width: '100%'}` src:"static/images/atlas.jpg" /]
 
 [div className:'parametric-caption']
-   Particle physics experiments can be gigantic! To properly catch and measure energetic particles, scientists use many layers of different particle detectors together. The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter, 46 meters (150 feet) length—the same as the height of the Statue of Liberty—, and nearly 100 million data channels, it is one of the most complex and accurate machines ever built. In the picture, taken during the experiment's construction, we can see the big, outer magnet of the ATLAS detector. **Did you notice the person at the bottom of the picture?**
+   Particle physics experiments can be gigantic! To properly catch and measure energetic particles, scientists use many layers of different particle detectors together. The [a href:"https://atlas.cern/discover/about"]ATLAS Experiment[/a] on the CERN LHC is the largest experiment ever built. With its 25 meters (82 feet) diameter, 46 meters (150 feet) length—the same as the height of the Statue of Liberty—, and nearly 100 million data channels, it is one of the most complex and accurate machines ever built. In the picture, taken during the experiment's construction, we can see the big, outer magnet of the ATLAS detector. *Did you notice the person at the bottom of the picture?*
   [br /][br /]
   **Source**: [a href:"https://cds.cern.ch/record/910381"]ATLAS Experiment, CERN[/a].
 [/div]
