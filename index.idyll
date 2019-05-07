@@ -52,13 +52,9 @@ Different materials are made up of different atoms. How those atoms organize the
 
 Going deeper, we can see that even smaller elements compose protons and neutrons. These are called quarks. So far we cannot divide quarks or electrons into smaller elements. We currently assume that those are the basic building blocks of nature—the fundamental elements of all matter. The study of these extremely tiny objects and of the forces which bind them is **subnuclear physics**, also known as **particle physics**.
 
-// ```
-// small image for sidebar idea: show small graphic of fields of chemistry listed above with arrows pointing down as the scale gets smaller and smaller, ultimately ending at particle physics
-// ```
 
 ### The Fundamental Forces
 
-// Particles not only compose all matter, they are also responsible for how forces behave.
 
 One of the great achievements of physics is the identification of four fundamental forces that form the basis of all other forces and interactions we see in our universe. The basic forces are **gravity**, which prevents us from drifting up into the sky and binds planets and galaxies together; the **electromagnetic force**, which governs the flow of electricity through a cable, the magnetism pushing a compass' needle, and the light illuminating night; and the **weak and strong nuclear forces**, which act at the atomic and nuclear level. The weak nuclear force is responsible for radioactivity and roughly one-half of the warmth produced in Earth's core. The strong nuclear force binds atoms' nuclei together, giving matter a stable form—without it, we wouldn't be here right now!
 
@@ -316,8 +312,6 @@ In reality, this process is much more complicated. Different types of accelerati
   [/div]
 [/div]
 
-// Notice that only the electic field [Equation]E[/Equation] appears in the first formula, which means that the velocity [Equation]v[/Equation] only depends on the strength of the electric field, while only the magnetic field [Equation]B[/Equation] appears in the second equation. Therefore, we can use an electric field to accelerate a charged particle, and a magnetic field to bend its trajectory and steer it.
-
 Using these two principles, physicists started building *particle accelerators*. By using accelerating modules one after another, we can build linear accelerators where the energy that these accelerators can produce is governed by their length. By combining accelerating and bending modules, we can build circular accelerators, in which particles are injected and forced to move in a circular path. Each time a particle goes around it is accelerated. After a given amount of cycles the particles attains their maximum energy and can be used for experiments.
 
 
@@ -338,37 +332,10 @@ Physicists designed accelerators to study the basic characteristics of particles
 
 Electrons are produced and subjected to an electric field, causing them to fly towards a certain end of the tube. This end is covered by a layer of phosphorescent material that becomes luminescent when hit by electrons. The trajectory of the electrons is bent by a variable magnetic field, which forces electrons to hit the luminescent screen at different points. By modulating the intensity of the magnetic field, the electron beam paints an image on the screen.
 
-// ```
-// interactive visualization:
-// Build your own accelerator!
-// We use the earlier "accelerating" and "bending" modules to build two types of particle accelerators: a "linear" and a "circular" one. Users have to change the two field to accelerate the particle correctly.
-// ```
-
-// So how much energy can a particle traveling in an accelerator attain?
-
-// Particles in a linear accelerator gain energy by passing through a series of accelerating modules, each of them propelling the particle further. The limit of the amount of energy particles can obtain only depends on the number of the accelerating modules—the longer the accerleator, the more energy attained. That is why accelerators are so long and cost so much! On the other hand, circular accelerators only contain one accelerating module: they accelerate particles at high energy by pushing them through the electrical field many times. Every time a particle passes through the single accelerating module, it gets a kick which gives it a bit more kinetic energy. In principle, there is no limit to the number of times a particle can be pushed through the accelerating section of a circular collider. However, in practice after a certain point the energy leaks due to many different physical effects that are larger than the kick received by the electric field. At that point, the circular accelerator has attained its energy limit due to its construction and design.
-
-// TODO:
-// As a comparison, if we would build a linear accelerator to let particles accelerate at the the same energy of the circular LHC, one should build an accelerator ??? long.
-
-
-
-// TODO:
-//[Aside]
-// **A brief history of accelerators**
-// [div className:"comment"/]
-// A simple timeline with the history of particle accelerators, with the energy attained.
-// We should also show the size scale somehow: the first one could be carried in the
-// palm of a hand; the latest one is 27 Km long. It could be quite hard to show a sense
-// of scale with images. However, we could, for example, show the first one; which
-// shrinks when the next one comes in, to show how the latter is bigger compared to
-// the former one.
-// [/div]
-// [/Aside]
 
 
 ### Particle factories
-// and how they work
+
 
 [Aside]
   [Newsletter /]
@@ -383,12 +350,6 @@ To answer these questions, and others not yet asked, we need particles interacti
 In 1905, Albert Einstein proposed a theory about the equivalence of mass and energy. Contained in the well-known formula [Equation]E=mc^2[/Equation], his theory roughly states that an object has a certain amount of energy based on its mass, even when at rest. Conversely, if we create the exact amount of energy that corresponds to the mass of a specific particle, we can then create that particle and study it. Modern particle colliders are built for this: they accelerate particles up to the highest possible velocities and make them collide. The energy involved in the impact is used to create new particles which are caught by detectors and studied.
 
 
-// TODO:
-// Illustration: mass of particles discovered at colliders vs.
-// the energy of the colliders
-// ```
-
-
 The particles created in colliders are not to be considered artificial: they are naturally found under specific conditions in other places, like stars, or confined in microscopic objects, like the nuclei of atoms. Using particle colliders, we are simply creating the right conditions for them to be observed in a laboratory. Although today's particle accelerators are impressive, they don't compare to natural particle accelerators found in outer space. Cosmic rays from outside the Milky Way create much more energetic collisions in the Earth's upper atmosphere than our most powerful colliders.
 
 
@@ -397,12 +358,6 @@ The particles created in colliders are not to be considered artificial: they are
 // Once we create particles, how do we actually study them?
 
 In a circular collider, two beams of accelerated particles smash into one another at a collision point. From the energy of that collision, new particles arise, which physicists can catch and measure. By identifying and measuring these particles, physicists can infer how they were generated. For that, particle physics experiments use many layers of different types of detectors placed around the collision point, since different particles require different detectors (different particles act differently when traveling through matter!).
-
-
-// TODO:
-// Visualization:
-// Here we can show a simplified collision point, surrounded by layers of detectors, like in the modern particle physics experiments. In each collision, one kind of particle is produced (e.g., electron, photon, muon, …), which, while traveling out of the collision point, leaves a trail in the detector which is dedicated to that specific kind of particle. In this way, people see how particles are detected and how different they are in terms of detection. The "architecture" shown here will be used later, when telling about detectors in medical imaging.
-// ```
 
 
 [var name:"Droi" value:`{ x: [-3.0, 11.0], y: [-5.5, 7.5 ] }` /]
@@ -478,11 +433,10 @@ Particle Physics in Society
 [/h2]
 
 // ### Accelerators and detectors in our life
+
 Particle accelerators such as those at CERN and Fermilab are designed and built for cutting-edge scientific research, but there are many others which are used for very different, practical applications. Without noticing, you may have already interacted with particles accelerators and particle detectors. For example, if you have ever had a dental X-ray, or a PET scan, then you have experienced a compact version of a particle accelerator and detectors.
 
 There are about 30,000 particle accelerators in the world today, almost half of which are used in medicine in applications such as radiotherapy, X-ray imaging, and particle therapy. Some are used for other purposes, such as producing semiconductors. In fact, only 1% of all particle accelerators running today are used for fundamental research.
-
-// Different kinds of particle detectors are used outside particle physics, too. Semiconductor detectors, primarily designed to accurately measure, in particle physics experiments, the trajectory and the energy of particles, are now used for medical imaging. Moreover, some of the software applications developed for particle physics experiments are used today to study and calibrate cancer treatment with radiotherapy and particle beams.
 
 Many technologies we commonly use today are the results of research spin-off from particle physics. These byproducts were developed to build and run experiments or to support the activities of the particle physics community. Two impactful examples include medical scanners used in hospitals and the World Wide Web. Both are indirect products of fundamental research conducted by particle physicists while conducting their primary research.
 
@@ -506,7 +460,7 @@ X-rays (where the "X" stands for "unknown", originally named for its mysterious 
 In many languages, X-rays are called "Röntgen rays," named after the German scientist [a href:"https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"]Wilhelm Röntgen[/a] who, on November 8th 1895, produced and detected X-rays. In 1901, this won him the first Noble Prize in Physics.
 [/Aside]
 
-Röntgen realized that those rays were absorbed differently by different materials. By placing a photographic plate behind the object to test, he could observe the level of darkness in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka!" moment when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the subject.
+Röntgen realized that those rays (which have been later discovered to be photons of a certain energy) were absorbed differently by different materials. By placing a photographic plate behind the object to test, he could observe the level of darkness in the resulting image depending on the amount of energy that particles left in the object. Shortly after, Röntgen had a "Eureka!" moment when he realized the new "X"-rays could also pass through the human body, producing an image of what's inside. He then took the first X-ray image, using his wife's hand and her wedding ring as the subject.
 
 [br/]
 
@@ -517,9 +471,6 @@ Röntgen realized that those rays were absorbed differently by different materia
   **Source**: [a href:"https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"]Wikipedia[/a].
 [/div]
 
-// TODO: We can tell (and show) how x-rays imaging works: What "x-rays" are (photons of a specific wavelength) and how they produce an image of our body?
-
-
 
 
 ### PET scanners
@@ -529,22 +480,11 @@ Besides X-rays, there are many other medical imaging techniques that apply physi
 
 PET scanners use a radioactive isotope, called "tracer", which binds to specific tissues in the patient's body. The isotope then rapidly decays emitting positrons—positive electrons, [a href:"#positron"]as already discovered above[/a]. The positron travels a very short distance in the body before releasing its energy, and is eventually caught by an atom, where it meets an electron. When a positron, the anti-matter buddy of the electron, meets an electron, the two particles *annihilate*. That means that they "dissolve" during the interaction and a certain amount of energy is released, following Einstein's  mass-energy equivalence. The annihilation energy produces two photons of a given energy, which escape the patient's body in opposite directions.
 
-To catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the big
-ring patients see when they lay down for the PET exam—detect the two escaping
-photons, measuring the time of arrival and the direction. A piece of dedicated
-software reconstructs the trajectory and the point of origin within the patient's body.
+To catch the escaping photons, layers of particle detectors are placed around the patient—in the very same way particle detectors are placed around the collision point when studying the interaction between fundamental particles. The detectors around the patient—the big ring patients see when they lay down for the PET exam—detect the two escaping photons, measuring the time of arrival and the direction. A piece of dedicated software reconstructs the trajectory and the point of origin within the patient's body.
 
 The tracer collects in organs and tissues of higher chemical activity, often bound to certain disease.
 // Decay after decay, photons after photons, the software can reconstruct the structure and the status of the tissue or the organ under exam.
 The areas where the tracer accumulates are the origin of a higher number of photons and show up as bright spots on the images from the PET scan. Cancer cells, for instance, have a higher metabolic rate than normal cells and, because of this, they appear as bright spots on a PET scan, helping doctors check the presence or the status of a tumor.
-
-
-// ```
-// visualization idea: we could show a stylized patient in the PET scanner, the pair of
-// photons generated in the patient's body which escape and they travel towards the
-// detector ring, where a "spark" is generated, and a signal (a blob) travels along a
-// cable to a computer.
-// ```
 
 The radioactive isotopes used in PET scanners have to be produced in [a href:"https://en.wikipedia.org/wiki/Cyclotron"]cyclotrons[/a], small circular particle accelerators which combine an oscillating electric field and a static magnetic field that holds the particles to accelerate in a spiral path.
 As CERN scientist Yacine Kadi [a href:"https://indico.cern.ch/event/528094/contributions/2172915/"]explains in one of his lectures[/a], the accelerated particles are then driven to a specific target which, after irradiation, contains the desired radioisotope. The parameters like particle energy, beam intensity, target material, and time will determine the kind and the quantity of produced radioisotopes.
@@ -559,21 +499,6 @@ Tracers with a shorter half-life must be used within a short delay from their pr
 Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen specifically to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracers is based on the radioisotope fluorine-18, whose half-life is of 110 minutes, which allows for medium-long transports. Another one is rubidium-82, with a half-life of 1.27 minutes, which is usually produced very close to the PET facility.
 
 Given that the cost of operating a cyclotron, along with the equipment for the subsequent preparation of the radioactive tracer, are quite high, those are usually found only in large hospitals or in universities and research institutes which operate those facilities for different smaller hospitals simultaneously.
-
-// [Aside]
-// For over 50 years, the **ISOLDE** facility at CERN produces radioactive beams used for industry and life science, as well as for fundamental research. ISOLDE is run by an international collaboration of more than 100 institutes [a href:"http://isolde.web.cern.ch/"]from 15 member states[/a].
-// [/Aside]
-
-// Since a couple of years, one of those facilities operates at CERN: MEDICIS. It runs at the [a href:"http://isolde.web.cern.ch/"]ISOLDE[/a] CERN facility, and it was built to produce a wide range of medical radioisotopes. The facility produces innovative isotopes too, for the medical doctors to test new techniques and drugs to fight diseas like cancer. The produced isotopes are then delivered to research institutes and public hospitals.
-
-// As CERN’s Director for Accelerators and Technology, [a href:"https://ep-news.web.cern.ch/content/medicis-new-cern-facility-can-help-medical-research-cancer"]Frédérick Bordry[/a], said, "CERN-MEDICIS demonstrates again how CERN technologies can benefit society beyond their use for our fundamental research."
-
-//  TODO:
-// If you have time:
-// - viz of a cyclotron
-// - viz: we could explain the concept of "half-life" with two isotopes emitting particles; the two have different values of half-life, so a different number of particles in a given time is emitted.
-
-
 
 
 ### New frontiers of cancer therapy: hadron therapy
@@ -593,22 +518,9 @@ Protons, neutrons, and ions all belong to the same family of **hadrons**. Those 
 
 A new frontier in cancer therapy with particle beams is *hadron therapy*, which makes use of protons or heavier *ions*—that is, nuclei of heavier elements, like carbon. Because of the way *hadrons* interact with matter, they release the most significant part of their energy only at the end of their travel within a particular target; and the length of that path in the target depends on the initial beam energy. Thus, by fine-tuning the energy of the protons, we can make them hit almost only the tumor tissues, make them kill only the cancerous cells. Like a very precise "proton blade".
 
-// The technique is based on recent findings from particles physics, and the accelerators used to accelerate protons and other hadrons are derived from research on particle accelerators firstly conducted for the experiments. Lastly, the detectors to control the "proton blade" and the software used to carefully tune the beam energy, at the beginning were developed for applications in particle physics and the related fields.
-
-// TODO: viz - graph of the energy vs. path length. Maybe, animated...
 
 Even though hadron therapy is still under active development, it is already used in some advanced medical centers around the world—like the [a href:"https://fondazionecnao.it/en/"]Italian CNAO[/a] and the [a href:"https://www.psi.ch/en/protontherapy/center-for-proton-therapy-cpt"]Swiss PSI[/a] in Europe; and the [a href:"https://www.chicagoprotoncenter.com/"]Northwestern Medicine Chicago Proton Center[/a] in the U.S.—to treat nasty tumors in children or in areas which are difficult to operate on surgically.
 
-
-
-
-// ### Spinoffs and derived products
-
-// [div className:"comment"]not edited by fred, I don't think we need this general info below. the last few sentences with Marie Curie and Einstein could be kept[/div]
-
-// The hadron therapy presented above is a typical example of research spinoffs: practical applications developed from pure fundamental science. However, one does not have to expect practical applications from every piece of research. Not all discoveries made in fundamental sciences are readily applicable for practical applications. Plus, the development which brings that to an actual application can be lengthy. But every bit of knowledge will be used eventually.
-
-// As building blocks in a LEGO set, every piece of knowledge and research contributes to the foundation to what will come after them.
 
 
 
@@ -618,7 +530,6 @@ Unsurprisingly, particle colliders are complex structures that require the desig
 
 Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]new superconducting magnets[/a] had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, [a href:"https://home.cern/science/engineering/cryogenics-low-temperatures-high-performance"]innovative cryogenics were developed[/a]. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, [a href:"https://home.cern/science/engineering/vacuum-empty-interstellar-space"]new vacuum pumping techniques were developed[/a] to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
-// All of these innovations led to further developments and new industrial products, [a href:"https://kt.cern/"]eventually being used for applications other than fundamental research in particle physics[/a].
 
 [br/]
 
@@ -641,8 +552,6 @@ Building particle accelerators is a large collaborative undertaking. Years ago, 
 
 Whether you're commuting to home or to work, sipping a drink at your favorite coffee shop, you're reading this article on a screen. But these words are not stored on your device. When you open this article on your phone, tablet, or computer, in an instant a piece of software called the *browser* connects over the Internet to another machine sitting in a room somewhere around the world, called the *server*, and asks to download the article. The article is then passed from the server to your device, the *client*, and displayed on the screen to read. Clicking another link in this article will perform this process again, accessing other websites stored on other servers. This remarkably common yet amazing process is only possible due to a collection of technologies called the World Wide Web, or the WWW.
 
-// [div className:"comment"]not edited by fred, not needed, repetitive[/div]
-// Nowadays this is ordinary: we unlock our phones, open a browser to search a good restaurant in the area, check the latest news on social media, buy something on a website, or check our bank accounts. However, what is not visible to us users is the number of pieces of technology working together under the hood to achieve this. The data of our bank accounts are taken from a database, then encoded in a format called "HTML", ready to be transferred to your computer, together with some instructions about how to present the data and some images and icons to build the graphical interface you will use to interact with the page. Then, when you click a button on the page to do something else, a new request is send to the remote "server" machine to fetch new data and a new page is built. The same mechanism also applies to the online stores, where data are sent back and forth to show you the latest products, to accept your order, and to place payment for it.
 
 [Aside]
 CERN's LHC experiments are only made possible through the contribution of many countries and institutes.
@@ -653,8 +562,6 @@ These experiments are among the largest collaborative efforts ever attempted in 
 [/Aside]
 
 Before the Web could handle bank account balances, images, food orders, and all the other data we consume in our daily digital life, this mechanism was invented to handle particle physics data. At the end of the 1980s, a computer scientist at CERN, Tim Berners-Lee, was trying to find a solution to easily share information among the various institutes participating in the experiments.
-//  since historically, particle physics experiments require vast international collaboration.
-// Experiments are so big and complex that only a large collaboration among many institutes and countries can afford to build and run them, both in terms of people, knowledge, and funds.
 
 [a href:"https://web30.web.cern.ch/"]30 years ago[/a], in March 1989, Tim Berners-Lee presented to his supervisor, Mike Sendall, a proposal to develop a new "information management system," designed to share information about the activities within CERN. At the same time, a CERN manager, Robert Cailleau, was looking for solutions to let the future LHC experiments efficiently share information.
 
@@ -680,22 +587,11 @@ And thus, the WWW was born. The core software was released in the public domain,
 
 Particle physics helps us unveil the mysteries of the universe, and has let us discern the basic components of matter and the basic forces which govern the universe as we know it so far.
 Like other fundamental sciences, practical applications aren't the focus.
-// Instead, particle physics tries to answer open questions we have about the fundamental mechanisms that govern the universe we all live in.
 Still, the discoveries made by particle physicists, and technologies developed to enable their experiments, have transformed our lives forever.
-//  not a bit of that knowledge will be lost: every bit ogf knowledge is important to build the buildings of humanity's knowledge and legacy (??): as all rocks are needed to build the mountain, all pieces of knowledge are then used to build upon new knowledge and practical applications.
-//
-// Particle physics unveiled the 4 basic forces which rule everything we know about so far.
-//
-
-// [div className:"comment"]let's end on something big but not too cheesy :) -fred[/div]
-// [div className:"comment"]
-// Curiosity. And passion. Those are the two forces that pushes humanity to look for answers, to go beyond the known territory, to get new questions and new answers.
-// [/div]
-
 
 
 [AuthorBio]
-[b][a href:"https://twitter.com/ricmbianchi"]Riccardo Maria Bianchi[/a][/b], PhD, is a particle physicist at CERN, where he works on the ATLAS Experiment on the Large Hadron Collider (LHC). He specializes in searches for Supersymmetric particles, model-independent searches for new physics, interactive data visualization, parallel computing, and the design and development of scientific software. He is Research Fellow at the University of Pittsburgh, and co-author of "Applied Computational Physics" (Oxford).
+[b][a href:"https://twitter.com/ricmbianchi"]Riccardo Maria Bianchi[/a][/b], PhD, is a particle physicist at CERN, where he works on the ATLAS Experiment on the Large Hadron Collider (LHC). He specializes in searches for Supersymmetric particles, model-independent searches for new physics, interactive data visualization, parallel computing, and the design and development of scientific software. He is Research Fellow at the University of Pittsburgh, and co-author of "Applied Computational Physics" (Oxford, 2017).
 
 Edited by Fred Hohman and Matthew Conlen.
 [/AuthorBio]
