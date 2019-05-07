@@ -69,16 +69,16 @@ We know today that the last three forces listed are carried out by particles: th
 
 At the end of the 19[sup]th[/sup] century, J.J. Thomson discovered the first fundamental particle: the electron. The discovery of the electron marked the beginning of particle physics. At the beginning of the 20[sup]th[/sup] century scientists observed that particles were not only part of the structure of matter, but they were also produced by natural phenomena. Naturally produced particles were the focus of early experiments in particles physics, and many particles were discovered this way, for example the positron and the muon.
 
-Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment. One of the most well-nown is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to push the phosphor to glow in their glow-in-the-dark clock hands.  Different radioactive atoms emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
+Radioactive elements have unstable structures which cause them to spontaneously emit particles as byproducts of their internal readjustment. One of the most well-known is Uranium, a common fuel for nuclear power plants. Clock makers used to use Radium and Tritium to push the phosphor to glow in their glow-in-the-dark clock hands.  Different radioactive atoms emit different kinds of particles including electrons, photons, and alpha particles (two protons and two neutrons bound together). Radioactive elements are naturally present in small quantities in the soil, and were the object of study by particle physics pioneers such as Henri Becquerel and Marie Curie.
 
-Particles from the cosmos continuosly hit our planet and strike the atoms in the Earth's upper atmosphere, producing additional particles. Those particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The particles produced in the collisions travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to those particle showers.
+Particles from the cosmos continuously hit our planet and strike the atoms in the Earth's upper atmosphere, producing additional particles. Those particles are called *cosmic rays*. Among them, we find photons and electrons, but also muons—a sort of heavy electron—and positrons, the equivalent anti-matter of the electron. The particles produced in the collisions travel towards the planet's surface. Many of them get trapped in subsequent collisions, some reach the ground, and others continue traveling undisturbed. Cosmic rays are harmless to us: humanity has evolved in this environment and the human body is accustomed to those particle showers.
 
 
 ### Observing and studying particles
 
 Particles are the smallest known objects in the universe, and are intangible like light. So how is it that scientists can observe, study, and manipulate them? Particles can't really be seen, because seeing something involves sending a beam of visible light towards an object and observing light that bounces back. But particles are so small that no visible light bounces back, even when using the most powerful microscopes. We have to find other ways to "see" particles.
 
-All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously coliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immediately stop.
+All particles behave differently when passing through matter. Electrons and photons rapidly lose their energy by continuously colliding with other material atoms until they get trapped. Protons travel through matter almost unnoticed until they are close to the end of their journey, when they lose all their energy in a burst and immediately stop.
 
 [Aside]
 In Italian, *Gran Sasso* literally means "Big Rock"!
@@ -275,11 +275,11 @@ In reality, this process is much more complicated. Different types of accelerati
       [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:-1, label: "negative" }]` /]
       Set a speed (m/s)
       [MultiButton reset:timeB value:mvx1 options:`[{ value:0.2, label: "0.2" }, { value:1, label: "1" }, { value:3, label: "3" }]` /]
-      Set the magnetic "strenght" (T)
+      Set the magnetic strength (T)
       [MultiButton reset:timeB value:BField options:`[{ value: 0.1, label: "0.1" }, { value: 1, label: "1" }, { value: 5, label: '5'}]` /]
       [div className:"electric-field-interactive-metadata"]
         Current time: [Display value:timeB /] s.[br/]
-        Magnetic field "strenght": [Display value:BField /] T.[br/]
+        Magnetic field strength: [Display value:BField /] T.[br/]
         charge: [Display format:"d" value:chargeB /][br/]
         vx: [Display value:mvx1 /] m/s.[br/]
         Bending radius: [Display format:".2" value:mr /] m.
@@ -388,9 +388,9 @@ In a circular collider, two beams of accelerated particles smash into one anothe
 [/div]
 
 
-In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle comes, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors record the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strenght of the magnetic field, the energy of the particle.
+In the simplified visualization above, three layers of detectors are placed one after the other. A magnetic field permeates the space around them. When a charged particle comes, the magnetic field bends its trajectory, as seen above, and makes it traverse the three detectors at different position. The detectors record the passage of the particle and send the information to the computers which handle the experimental data. From those data, scientists can reconstruct the trajectory of the particle in the experiment and, by knowing the strength of the magnetic field, the energy of the particle.
 
-Modern particle physics axperiments can be very, very, very large. This is due to the amount of energy involved: modern accelerators smash particles at high energy. That produces very energetic particles, which move out of the collision point extremely fast, in all directions. In order to catch and measure them properly, many layers of detectors and magnets have to be placed around the collision point, and those have to be somehow spaced to reconstuct the particle trajectory with the needed accuracy. The result can be gigantic!
+Modern particle physics experiments can be very, very, very large. This is due to the amount of energy involved: modern accelerators smash particles at high energy. That produces very energetic particles, which move out of the collision point extremely fast, in all directions. In order to catch and measure them properly, many layers of detectors and magnets have to be placed around the collision point, and those have to be somehow spaced to reconstruct the particle trajectory with the needed accuracy. The result can be gigantic!
 
 [br/]
 
@@ -445,7 +445,7 @@ Many technologies we commonly use today are the results of research spin-off fro
 
 Particle physics and medicine have a long history, dating back to some of the first particle physics experiments every conducted: observing particles that interact with our bodies. Thousands of low energy particles hit our skin every second without us noticing. Our skin acts as a barrier and is strong enough to stop particles, ultimately protecting our internal organs. But more energetic particles can pierce through our bodies. This was observed by early experimenters who saw the effects of energetic particles traveling through their hands and bodies while setting up experimental apparatuses. This discovery spawned hundreds of new experiments within medicine, whose results are still used today for many diagnosis techniques, such as radiographies and CT scans.
 
-What these early pioneers did not know however, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse. If not properly controlled, energetic particles travelling through an organ can be very dangerous. But, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
+What these early pioneers did not know however, is that energetic particles release their energy during their path through our bodies, and produce different biological effects in the tissues and organs they traverse. If not properly controlled, energetic particles traveling through an organ can be very dangerous. But, if controlled and well-calibrated, these techniques can visualize sick organs or heal malignant tumors where traditional surgery cannot reach.
 
 Today, medical physics is an independent branch of research, which studies, quoting CERN physicist Marco Silari, "the application of physics techniques to the human health."
 
@@ -493,7 +493,7 @@ As CERN scientist Yacine Kadi [a href:"https://indico.cern.ch/event/528094/contr
 Decay after decay, samples of radioactive materials slowly "die", emitting fewer and fewer particles. How slow they die it depends on the material itself.
 The **half-life** is a parameter that indicates the time needed for half of the atoms of the radioactive material to decay, on average; that, in practice, indicates the duration of the radioactive material in time.
 
-Tracers with a shorter half-life must be used within a short delay from their production, therefore, they should be produced closed to the PET facility or to be  transported there as fast as possible. PET radio-isotopes can be transported to maximum 3-5 hours distance only, which confines their production within the hospitals neiborhood.
+Tracers with a shorter half-life must be used within a short delay from their production, therefore, they should be produced closed to the PET facility or to be  transported there as fast as possible. PET radio-isotopes can be transported to maximum 3-5 hours distance only, which confines their production within the hospitals neighborhood.
 [/Aside]
 
 Since the *half-life* of the produced radioactive tracers is quite short—short-lived tracers are chosen specifically to keep the radioactive dose absorbed by the patient as low as possible—, those have to be produced close to the PET scanner. One of the most used PET tracers is based on the radioisotope fluorine-18, whose half-life is of 110 minutes, which allows for medium-long transports. Another one is rubidium-82, with a half-life of 1.27 minutes, which is usually produced very close to the PET facility.
@@ -526,9 +526,9 @@ Even though hadron therapy is still under active development, it is already used
 
 ### Research spinoffs
 
-Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which leads to further developement and application for other fields.
+Unsurprisingly, particle colliders are complex structures that require the design and development of new technologies. Oftentimes, the materials and techniques developed for the experiments are created in collaboration with industry partners, which leads to further development and application for other fields.
 
-Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realisitic power consumption, [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]new superconducting magnets[/a] had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, [a href:"https://home.cern/science/engineering/cryogenics-low-temperatures-high-performance"]innovative cryogenics were developed[/a]. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, [a href:"https://home.cern/science/engineering/vacuum-empty-interstellar-space"]new vacuum pumping techniques were developed[/a] to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
+Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the accelerator need to be confined and bent using force exerted by magnets. Accelerator physicists designed the LHC to attain a high energy, therefore they needed powerful magnets. To keep the magnets reasonably sized and with realistic power consumption, [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]new superconducting magnets[/a] had to be invented. For these to work properly, they need to be cooled to a temperature of -271.25 ˚C (-456,25 ˚F), a temperature close to "absolute zero" and colder than outer space! To do this, [a href:"https://home.cern/science/engineering/cryogenics-low-temperatures-high-performance"]innovative cryogenics were developed[/a]. Moreover, to ensure that accelerated particles keep their energy without smashing into air molecules, [a href:"https://home.cern/science/engineering/vacuum-empty-interstellar-space"]new vacuum pumping techniques were developed[/a] to suck out most of the air from the accelerator pipe. In other words, the beams of particles travel in an ultra-high vacuum, once again, in a place as empty as outer space!
 
 
 [br/]
@@ -536,7 +536,7 @@ Let's look at an example in-depth, the LHC at CERN. Particles in the beam of the
 
 [img src:"static/images/lhc_magnets_coils.jpg" /]
 [div className:'parametric-caption']
-  To build the modern accelerators, the design and development of innovative technologies and materials are needed; those, very often, are then used for other applications out of phyics. For the LHC magnets in the picture, new superconductive materials have been conceived and built, which then have been used to develop [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]a new generation of medical MRI scanners[/a].
+  To build the modern accelerators, the design and development of innovative technologies and materials are needed; those, very often, are then used for other applications out of physics. For the LHC magnets in the picture, new superconductive materials have been conceived and built, which then have been used to develop [a href:"https://kt.cern/success-stories/lhc-magnets-high-field-mri-and-efficient-power-grids"]a new generation of medical MRI scanners[/a].
   [br /][br /]
   **Source**: [a href:"http://cdsweb.cern.ch/search?recid=39304"]CERN[/a].
 [/div]
