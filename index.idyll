@@ -172,8 +172,8 @@ The expression describes the velocity of a particle, [Equation]v[/Equation], giv
 [derived name:'DeltaU' value:`- (q * 100)` /] // J
 [derived name:'v2FinalMax' value:`Math.sqrt( (2 / mElectron) * (-DeltaU) )` /]
 
-// TODO - make sure these timings make sense. The map goes from particle type --> voltage value --> seconds
-[var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 3}, proton: { 350: 20, 1000: 20, 50000: 25 } }` /]
+// The map goes from particle type --> voltage value --> seconds
+[var name:"timeMap" value:`{ electron: { 350: 6, 1000: 6, 50000: 4}, proton: { 350: 20, 1000: 20, 50000: 25 } }` /]
 [derived name:"targetTime" value:`timeMap[particle][VoltTwo]` /]
 
 [aside]
@@ -183,6 +183,8 @@ That speed, while fast on its own, is still much slower than the speed of lightâ
 Also notice how much more energy is needed to push a proton, which has the same electric charge as an electron, but contains a much higher mass. You have to choose the highest voltage setting to make it move!
 [/aside]
 
+// TODO:
+// - show the velocity in progress and when a particle exits the electric field, show that velocity value as the maximum achieved with those settings. It requires some coding in Apparatus.
 [div className:"electric-field-interactive"]
   [div className:"electric-field-interactive-hed"]
     Accelerate a particle using an electric field
