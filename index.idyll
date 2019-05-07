@@ -243,8 +243,6 @@ Means that a magnetic field can be used to steer the path of a charged particle.
 // top: "rgba(54,103,172,1)"
 // bottom: "rgba(207,76,96,1)"
 
-// TODO: check time values for easer-toggle. Add time to it as you did with easer.
-
 [var name:"Broi" value:`{ x: [-3.0, 11.0], y: [-5.5, 4.5 ] }` /]
 [var name:"timeB" value:0.00 /]    // s
 [var name:"mr" value:1.00 /]       // m
@@ -255,14 +253,12 @@ Means that a magnetic field can be used to steer the path of a charged particle.
 [var name:"mvy1" value:0.0 /]      // m/s
 [var name:"qB" value:1.0 /]      // m/s
 [var name:"mB" value:1.0 /]      // m/s
-[var name:"particleB" value:"electron" /]
+[var name:"particleB" value:"particle" /]
 [derived name:"mParticleB" value:`particleMap[particleB]` /]
 [var name:"chargeB" value:`-1` /]
-// [var name:"timeBMap" value:`{ electron: { 0.1: 10, 1: 10, 5: 2}, proton: { 0.1: 25, 1: 25, 5: 18 } }` /]
-// [derived name:"targetTimeB" value:`timeBMap[particleB][BField]` /]
-[var name:"timeBMap" value:`{ electron: { 0.2: 40, 1: 10, 3: 10}, proton: { 0.2: 40, 1: 10, 3: 10 } }` /]
+[var name:"timeBMap" value:`{ particle: { 0.2: 40, 1: 20, 3: 10} }` /]
 [derived name:"targetTimeB" value:`timeBMap[particleB][mvx1]` /]
-// [derived name:"targetTimeBcoordX" value:`mvx1` /]
+
 
 [Aside]
 In reality, this process is much more complicated. Different types of accelerating modules are used to push different types of particles, and [a href:"https://lhc-machine-outreach.web.cern.ch/lhc-machine-outreach/components/magnets/types_of_magnets.htm"]many types of magnets[/a] (e.g., dipoles, quadrupoles, sextuples, and so on) are used to bend, squeeze, and focus beams of charged particles to maximize the their intensity (as seen in the accelerators used for medicine or industry applications) or the number of their collisions (as seen in the accelerators used for physics experiments).
@@ -270,15 +266,13 @@ In reality, this process is much more complicated. Different types of accelerati
 
 [div className:"electric-field-interactive"]
   [div className:"electric-field-interactive-hed"]
-    Bend a particle using a magnetic field
+    Steer a particle using a magnetic field
   [/div]
   // [div className:"electric-field-interactive-subhed"]
   //   TKTK Subtitle for this interactive
   // [/div]
   [div className:"interactive-flex-row"]
     [div style:`{flex: 1}`]
-      Choose a particle
-      [MultiButton reset:timeB value:particleB options:`[{ value: "electron", label: "electron" }, { value: "proton", label: "proton" }]` /]
       Set a charge
       [MultiButton reset:timeB value:chargeB options:`[{ value:1, label: "positive" }, { value:-1, label: "negative" }]` /]
       Set a speed (m/s)
@@ -290,8 +284,7 @@ In reality, this process is much more complicated. Different types of accelerati
         Magnetic field "strenght": [Display value:BField /] T.[br/]
         charge: [Display format:"d" value:chargeB /][br/]
         vx: [Display value:mvx1 /] m/s.[br/]
-        Bending radius: [Display format:".2" value:mr /] m.[br/]
-        Particle mass: [Display value:mParticleB format:".2e" /] Kg.
+        Bending radius: [Display format:".2" value:mr /] m.
       [/div]
     [/div]
     [div style:`{flex: 2}` className:"electric-field-interactive-apparatus-container"]
@@ -315,8 +308,7 @@ In reality, this process is much more complicated. Different types of accelerati
         /]
       [div style:`{display: 'flex', flexDirection: 'row'}`]
         [Button className:"reset" onClick:`mx1=-2.5; my1=0; timeB=0;`] Reset [/Button]
-        [EaserToggle value:timeB targetValue:targetTimeB ] Start! [/EaserToggle]
-        // [EaserToggle value:timeB targetValue:20 ] Start! [/EaserToggle]
+        [EaserToggle value:timeB targetValue:targetTimeB time:5000 ] Start! [/EaserToggle]
       [/div]
     [/div]
   [/div]
